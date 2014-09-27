@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 30 Oct 2011 21:26:41 +0000
+Source: atomicparsley
+Binary: atomicparsley
+Architecture: source
+Version: 0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy
+Distribution: wheezy
+Urgency: low
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description: 
+ atomicparsley - read, parse and set metadata of MPEG-4 and 3gp files
+Changes: 
+ atomicparsley (0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy) wheezy; urgency=low
+ .
+   * Pull new upstream snapshot
+Checksums-Sha1: 
+ 3ac2da3ca94de2ed49a3a6371310f27ecc362b38 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ b0a419dde1b46e105e2612b80a4a8ef429b3d39a 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ ae3e6b22caae07f299fca6fdc0bc98b6fb165d85 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+Checksums-Sha256: 
+ 2f8107310125a251b97d1f53d0bcd7854a3a85f5d7219ca4ff4460c68e9e0f24 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ 37dcf9e55e9f9d92cfa7885822872811060492d70d0ebc3be49a9c6ae8700d35 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ a359f4ee79a1ce54e6f0efd5653fd19fc0d9a64d15010d8000c509087f233d77 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+Files: 
+ b1fdb5ba9449ff51b6fdf3d845dd49c3 1325 video optional atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ 36a1ebde0a57dbf14eb9b5da84a8df4f 219511 video optional atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ b07f37c56e23e4b3a8c047acf88173d4 12308 video optional atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlEAAMYACgkQiwfE/w9b/f4J5gCfSmRT9eK5HywMMHSO0TYVxxPm
+4ZMAnjmHP+ELLDAIdL04YY+px21UDASp
+=peWc
+-----END PGP SIGNATURE-----

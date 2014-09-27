@@ -1,0 +1,158 @@
+Package: jonhedgerows-keyring
+Binary: jonhedgerows-keyring
+Version: 2010.01.04
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Build-Depends: debhelper (>= 7)
+Architecture: all
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: wheezy
+Files:
+ eb77238dbd41c221e43592ca999fe059 628 jonhedgerows-keyring_2010.01.04.dsc
+ 0a2f12f65fcbfb61a492dd0e92b877ec 6940 jonhedgerows-keyring_2010.01.04.tar.gz
+Homepage: http://packages.hedgerows.org.uk/
+Package-List: 
+ jonhedgerows-keyring deb misc optional
+Checksums-Sha1:
+ 0486843a3c6f5321ce9aef13d502f23524ef21ae 628 jonhedgerows-keyring_2010.01.04.dsc
+ 13767824f20a94ccdf2b2f3b48c8f959e27404af 6940 jonhedgerows-keyring_2010.01.04.tar.gz
+Checksums-Sha256:
+ 8af3ae80bdab9cc5afb8227a32b910e6520e526788dd72fe9fe48a8622f15372 628 jonhedgerows-keyring_2010.01.04.dsc
+ c9c737560bdd9cbbb354b85d7235ad2dbbbb5315ab2bdf43463aa84e6f15c1a2 6940 jonhedgerows-keyring_2010.01.04.tar.gz
+Checksums-Sha512:
+ a302d03d466f7453c0e121ed7adedaa7ddd5f6e2a0bce6cdade68b3b3dd0f10d8870386f0ade0a875d446c8a87d872ffc9479230b27286c64325a846122ce410 628 jonhedgerows-keyring_2010.01.04.dsc
+ 6cdf49d7c65663fa0c31baa7820ad2d64d4697d072a188a029e509e6fcc1cb280df8efa4284dd97622d0a43b11e634e8b89318f825e84cef6ae1da5937c5179a 6940 jonhedgerows-keyring_2010.01.04.tar.gz
+
+Package: rtmpdump
+Binary: rtmpdump, librtmp-dev
+Version: 2.4-n78-git3a1e20c-ppa8~wheezy
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Build-Depends: debhelper, cdbs, libssl-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 3.9.0
+Format: 1.0
+Directory: wheezy
+Files:
+ 5fe7b9e005c628ed08bf59eb4f01db63 985 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.dsc
+ aadaa2c0022be5cd33116af07a9a6148 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ e0e6ef89bc7b9fb074c6ce1a5f38d1e7 34299 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.diff.gz
+Homepage: http://rtmpdump.mplayerhq.hu/
+Package-List: 
+ librtmp-dev deb libdevel extra
+ rtmpdump deb web extra
+Checksums-Sha1:
+ 27beead24402a75ac2101e81f86e7716273f8f11 985 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.dsc
+ a976bd567859eab2e1ebfcb089f78917e6622870 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 7a5225e5b8cf9f4f9919eb8250c4b88dd126cb0a 34299 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.diff.gz
+Checksums-Sha256:
+ 7e1c37d5944c3df358c063f57c5da1a096377a64220652edefad0a6a2e95649c 985 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.dsc
+ b2c8f0b36d2cc830a8ffc142dbf409a66b0397d3bb14e659ffa2314bdd98c1c8 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 7f7d21f9ceee0f9f23c1259ffc847de228b8e20f029590a0b8a0a4628a178c8c 34299 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.diff.gz
+Checksums-Sha512:
+ 7e17b6193d7c6708314a3a8821973506f57ceeeef613c12f61f26afd362d7a35a14f93cf1fbb8fb9dd903ead376919ae7b53a43c6ad46c3afcd8b7a6fce6f7c0 985 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.dsc
+ e4ab9c9a650450f6b8a1e867a5223cf70bd9e780ba9024c4bc04abbbdca120dffd66a79e97beaff440a425be49d19d8a77cb7898e7239d8232d126039c2fdc97 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 9db8c842eb5f1b91d55b359541b677079409ca356fce1c5334f27f38a0ea7a516b9cd157758ba1d78b1b3acda70695f91c2e81e426eac87d642c8530298fc8e4 34299 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.diff.gz
+
+Package: atomicparsley
+Binary: atomicparsley
+Version: 0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Build-Depends: cdbs, autoconf, debhelper (>= 6), libz-dev, automake
+Architecture: any
+Standards-Version: 3.8.4
+Format: 3.0 (quilt)
+Directory: wheezy
+Files:
+ b1fdb5ba9449ff51b6fdf3d845dd49c3 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ 36a1ebde0a57dbf14eb9b5da84a8df4f 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ b07f37c56e23e4b3a8c047acf88173d4 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+Homepage: https://bitbucket.org/wez/atomicparsley/
+Package-List:
+ atomicparsley deb video optional
+Checksums-Sha1:
+ 3ac2da3ca94de2ed49a3a6371310f27ecc362b38 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ b0a419dde1b46e105e2612b80a4a8ef429b3d39a 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ ae3e6b22caae07f299fca6fdc0bc98b6fb165d85 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+Checksums-Sha256:
+ 2f8107310125a251b97d1f53d0bcd7854a3a85f5d7219ca4ff4460c68e9e0f24 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ 37dcf9e55e9f9d92cfa7885822872811060492d70d0ebc3be49a9c6ae8700d35 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ a359f4ee79a1ce54e6f0efd5653fd19fc0d9a64d15010d8000c509087f233d77 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+Checksums-Sha512:
+ 259778972677f61b2168ce75dde5d837c3c81428f4ebda315cde167e18d29289b6a46b7cb9c5589e03440b138296a711aa77816c5935e7c1352c093421910661 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ f2fc8a96198b72fb08aea9eff68a7099f4aa3a99e354065f7fc0640612f11823b5728d12fe41a69027325cc1b7ecb1752b4caf286ffe511a25418e00b67e2414 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ 7ae1a327db90079e07423493dc862d603b8948167155a3e5c1eea266cea34e35f5a84db9eed5e9c2c80802b8e7b6618dbc3e4ec8d3f247215dafd1c4a0a37643 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+
+Package: get-iplayer
+Binary: get-iplayer
+Version: 2.86-5-gf109d22-ppa18~wheezy
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Build-Depends: debhelper (>= 9), quilt
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Directory: wheezy
+Files:
+ 7703b27593092363b20487e19d7744e3 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
+ 65693d2c6906856966ac47cd7be163f3 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
+ c7aecaedddf24f1f27fed7b56bde7542 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+Homepage: http://git.infradead.org/get_iplayer.git
+Package-List:
+ get-iplayer deb video optional
+Checksums-Sha1:
+ d9264ef5fe34bb962943692ae47159d404d57987 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
+ 64339fcbd70b62a0e86ee02526832ace3ad09254 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
+ 96444499596117288676b045e613f9685530b188 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+Checksums-Sha256:
+ 7227ef70ff35da7e39934b6796394ef0bdcdd483111edf96186155a27df3f5ed 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
+ f56909a98b864734c703b181cc8ff9a717d1c52ba98941e3a0f6c67a982c2b0f 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
+ 0d218ead14810b263102f14e413d99443863235cab7b25607b3e9ea63bd7e6b5 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+Checksums-Sha512:
+ 1bda433ca60640ca4f3babdb3573225f3490c05a34d97f4c2bf47726704946f07ac495c414b855dfc9a623a6aa419b9852bacf861f0a43556cb39ace147ba93f 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
+ 5bf0cab169ff526caf6898eb92c182b8cb1715ac3185bc871eff1fe4528668c09063d698f0c4aea8cd38cfa86bddd44d3d74e574da36e6a5db24af9abfd9dd66 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
+ e66aa4165c011d9bd46ae9b1710522fc31c5c6caabe191599a555b4ef94c9ca9ba35bef446e0f39041e0748c00674cd6e451f705c1b45da57a26878d4fc127c9 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+
+Package: nginx
+Binary: nginx, nginx-doc, nginx-common, nginx-full, nginx-full-dbg, nginx-light, nginx-light-dbg, nginx-extras, nginx-extras-dbg, nginx-rtmp, nginx-rtmp-dbg, nginx-naxsi, nginx-naxsi-dbg, nginx-naxsi-ui
+Version: 1.2.1-2.2+wheezy2jon1
+Maintainer: Kartik Mistry <kartik@debian.org>
+Build-Depends: autotools-dev, debhelper (>= 7), dpkg-dev (>= 1.15.7), libexpat-dev, libgd2-noxpm-dev | libgd2-xpm-dev, libgeoip-dev, liblua5.1-dev, libmhash-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: wheezy
+Files:
+ 0fd323f218e9e4d4c37bdb7dfa8049f2 2298 nginx_1.2.1-2.2+wheezy2jon1.dsc
+ ceacae12d66d1f021bf3737a0269b6f4 718161 nginx_1.2.1.orig.tar.gz
+ b13fc7603150e30cc10b072e016df6ce 1867242 nginx_1.2.1-2.2+wheezy2jon1.debian.tar.gz
+Uploaders: Jose Parrella <bureado@debian.org>, Fabio Tranchitella <kobold@debian.org>, Michael Lustfield <michael@lustfield.net>, Dmitry E. Oboukhov <unera@debian.org>, Cyril Lavier <cyril.lavier@davromaniak.eu>, Christos Trochalakis <yatiohi@ideopolis.gr>
+Homepage: http://nginx.net
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summary
+Vcs-Git: git://anonscm.debian.org/collab-maint/nginx.git
+Package-List:
+ nginx deb httpd optional
+ nginx-common deb httpd optional
+ nginx-doc deb doc optional
+ nginx-extras deb httpd extra
+ nginx-extras-dbg deb debug extra
+ nginx-full deb httpd optional
+ nginx-full-dbg deb debug extra
+ nginx-light deb httpd extra
+ nginx-light-dbg deb debug extra
+ nginx-naxsi deb httpd extra
+ nginx-naxsi-dbg deb debug extra
+ nginx-naxsi-ui deb httpd extra
+ nginx-rtmp deb httpd extra
+ nginx-rtmp-dbg deb debug extra
+Checksums-Sha1:
+ de2c1150bb3e46cfc7f01737a9ecad89a5413917 2298 nginx_1.2.1-2.2+wheezy2jon1.dsc
+ 4fb69411f6c3ebb5818005955a085e891e77b2d8 718161 nginx_1.2.1.orig.tar.gz
+ 2b66d098fb5271b399a9839a83fcf920be826cbd 1867242 nginx_1.2.1-2.2+wheezy2jon1.debian.tar.gz
+Checksums-Sha256:
+ 6207da6eacde043c6ebe3ab300b5f1bddc76fff40e5d01239012cd3cbfc319b8 2298 nginx_1.2.1-2.2+wheezy2jon1.dsc
+ 994ad97cbf6f7045f95ea9d6d401aad1e95766671e402c48af85aba5235a2dd7 718161 nginx_1.2.1.orig.tar.gz
+ a7cc62033eb7d0dccd2e3f47424a0ed10ffb427d6e8fbafa68f903bd2506f135 1867242 nginx_1.2.1-2.2+wheezy2jon1.debian.tar.gz
+Checksums-Sha512:
+ fbe40bf7142b40e3b9138cd877a7b50fd4a975d272d16ae5129e93d814cd4447bb4132dd7e6143ec5ac024dba682d982506be8690cb98dbd0d9c8e07444a25b4 2298 nginx_1.2.1-2.2+wheezy2jon1.dsc
+ af1f0c06401ddf8410af7d4c393124d519982e9913f8e018fd5e293a836bb97134749f4f0eeab252693c7e6f1e3da710496310f7d391eea7b0bb9f79ba6e1f9e 718161 nginx_1.2.1.orig.tar.gz
+ dd0882a9ff216d49bf40d6812854ef92ce27e3f09de6bfa2463bd1d8ce95fa08f6519521d367b3fdaf8650e6e09fe0b8ee23bb5edf436ea96669261e5f10641a 1867242 nginx_1.2.1-2.2+wheezy2jon1.debian.tar.gz
+

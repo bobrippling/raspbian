@@ -1,0 +1,28 @@
+Origin: packages.hedgerows.org.uk
+Label: get-iplayer Raspbian Packages
+Suite: wheezy
+Codename: wheezy
+Date: Tue, 12 Aug 2014 18:58:39 UTC
+Architectures: all armhf
+Description: get_iplayer packages for the Raspberry Pi
+MD5Sum:
+ 1f4334bc2e77ae32d605bfc8fe248702           25249 Packages
+ 13eb17b54df41bc2a5bc5faecaf6074c            7286 Packages.gz
+ 5fc452ce32a28743d658ba332c48472d            7321 Packages.bz2
+ 524cb333e4ff6236e4c41fb1285cc30e            9824 Sources
+ 341c1fcd6eb80f4c29fc463ee0a4cb9c            3758 Sources.gz
+ 2a9de995b0e9c52639b4bf2c198a2286            3775 Sources.bz2
+SHA1:
+ cc32db7b4fbcf9305318e9a5ff821cea494c20da           25249 Packages
+ 42b274537c4e6cdfb379462439b06ffa62062a6f            7286 Packages.gz
+ b17808a6df0523282de0b37cb888e2e4e13547ea            7321 Packages.bz2
+ 3b4069c49a5ef84932fdf3cbc8e752649ee34ec4            9824 Sources
+ de591e74e2ac1d35d50bd0b671dd87c1e928633e            3758 Sources.gz
+ c2a31abab1733db1d0887f257ec0a8eb1145a5bc            3775 Sources.bz2
+SHA256:
+ 25ed4b182c3b84837fe583d06565c528f4e447025109e67e66f73f6af7ae4664           25249 Packages
+ 90394f1a609ec941b23ce91b1ba4a7534e46c70f656f2c13d47c8be6247d1ca2            7286 Packages.gz
+ 63869471947c1d301cfcdd3a8b0f27e5e710b20fa822d9c00225f7b733256619            7321 Packages.bz2
+ 461f757a0ec703e780cb50dc98159e53efa0a4bbf75cac03c93cf10b08a52a9c            9824 Sources
+ 57876760f655badfdcec59b0b14b7e82f704e207f5673b33e0ca02b0381bb24c            3758 Sources.gz
+ 1db64d1ad2cae68424620478a39759950d6e8b1c3c2a56160f4d45af8f7177a5            3775 Sources.bz2
