@@ -38,7 +38,8 @@ cat > $OUTPUT <<EOFheader
 
 EOFheader
 echo "<ul>" >> $OUTPUT
-for filepath in `find . -maxdepth 1 -mindepth 1 | grep wheezy | sort`; do
+# ignore everything except wheezy and wheezy.db
+for filepath in $(ls -a | grep -v .git | grep -v "^.$" | grep -v index.html | grep -v mini-dinstall | grep -v buildindexes.sh); do
   path=`basename "$filepath"`
   echo "  <li><a href=\"$path\">$path</a></li>" >> $OUTPUT
 done
@@ -95,7 +96,8 @@ cat > $OUTPUT <<EOFheader
 
 EOFheader
 echo "<ul>" >> $OUTPUT
-for filepath in `find . -maxdepth 1 -mindepth 1 | sort`; do
+#include everything except index.html
+for filepath in $(ls -a | grep -v .git | grep -v "^.$" | grep -v index.html); do
   path=`basename "$filepath"`
   echo "  <li><a href=\"$path\">$path</a></li>" >> $OUTPUT
 done
