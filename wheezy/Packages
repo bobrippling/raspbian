@@ -24,65 +24,23 @@ Description: toolkit for RTMP streams (development files)
  changes in the library.
 Homepage: http://rtmpdump.mplayerhq.hu/
 
-Package: nginx-extras
-Priority: extra
-Section: httpd
-Installed-Size: 1101
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: armhf
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), perl (>= 5.14.2-21+rpi2+deb7u1), perlapi-5.14.2, libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
-Conflicts: nginx-full, nginx-light, nginx-naxsi
-Filename: wheezy/nginx-extras_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 554756
-MD5sum: 2e07053207e6f5ae9ce825f60d87601e
-SHA1: 845ba69d352ff016cfb6a1b5bc3841941541047f
-SHA256: 26545b11e3ab07e5ba66c4e53efad2dfa667749f918bdc76225e304c10d1989d
-SHA512: 9efab55ad629848b5fdf2f99d1ac95bf928a9e98c21d6e8a8378afa0e1f3195e7db95f963a146fb0491712ae887043bd261821ec30cbacb881d1770e4765c51c
-Description: nginx web/proxy server (extended version)
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package provides a version of nginx with the standard modules, plus
- extra features and modules such as the Perl module, which allows the
- addition of Perl in configuration files.
- .
- STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
- Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
- Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
- Split Clients, SSI, Upstream, User ID, UWSGI.
- .
- OPTIONAL HTTP MODULES: Addition, Debug, Embedded Perl, FLV, GeoIP,
- Gzip Precompression, Image Filter, IPv6, MP4, Random Index, Real IP,
- Secure Link, SSL, Stub Status, Substitution, WebDAV, XSLT.
- .
- MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
- .
- THIRD PARTY MODULES: Auth PAM, Chunkin, DAV Ext, Echo, Embedded Lua,
- HttpHeadersMore, http push, Nginx Development Kit, Upload module,
- Upload Progress, Upstream Fair Queue.
-Homepage: http://nginx.net
-
 Package: nginx-naxsi
 Priority: extra
 Section: httpd
-Installed-Size: 604
+Installed-Size: 605
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: armhf
 Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
+Version: 1.2.1-2.2+wheezy3rtmp1
 Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.2.1-2.2+wheezy3rtmp1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-full, nginx-light
-Filename: wheezy/nginx-naxsi_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 328316
-MD5sum: 7f6ea13b3bd3f2292bb5ba56354e9570
-SHA1: 90e53cc6d97582d79aad37e4859f4e6ed2c3362f
-SHA256: 675a02d7cf635332c7c3cbd2a64f15fa5a35a0a415ff767604ebdfa53b981b0c
-SHA512: 258c40730a003d09abec69f9e1918de91e6e2da71cf9f727b2f408dc07119c394f7d2968ed3b55d0ecb73e7e076639fc650ef2d88ba884ac1800074dc9f8ff18
+Filename: wheezy/nginx-naxsi_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 328056
+MD5sum: d9d9458f454155826169ece7ef43e2a7
+SHA1: fd1904ecb2dbe92d026a77d8930fc6a98b03c34c
+SHA256: af2953e19a49fa482502b3612897dbc5af950b98ee67fe57772e83dd6587fe1e
+SHA512: 56b835808cc76ed52bfddfc76e06f64a9dc9bf2213b796026a1385516c628cbe78dca85acf21e365dfd84e38cbec4847c571939ac1e61e298e64e3919ecd4188
 Description: nginx web/proxy server (version with naxsi)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -104,19 +62,19 @@ Homepage: http://nginx.net
 Package: nginx-light-dbg
 Priority: extra
 Section: debug
-Installed-Size: 3944
+Installed-Size: 3947
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: armhf
 Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Depends: nginx-light (= 1.2.1-2.2+wheezy2jon1)
+Version: 1.2.1-2.2+wheezy3rtmp1
+Depends: nginx-light (= 1.2.1-2.2+wheezy3rtmp1)
 Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-naxsi-dbg
-Filename: wheezy/nginx-light-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 1925948
-MD5sum: c6f2b65564f2c1ab312442d6ff7cd3b3
-SHA1: e7e2dd1bdb9ea69ccde4640ccbc9f626c7a39ae7
-SHA256: 5543f00b2de5ffc8c375fdad412d0ccf672239a7d1ebaf16624934beeaa2f9a2
-SHA512: 2e30e27cc832faf117379b46009cb813c7d356b702a1192bba3918a1c199f0fe26e50f7d998ceaf906086b5411bf7943364d7bfa5fe19eb53c548fcb6edad11f
+Filename: wheezy/nginx-light-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 1926450
+MD5sum: a0ab525e57faf70806a6f5f838bcc320
+SHA1: bc269f80f0782f597689f2d475c9f62e65b72ce6
+SHA256: 626c59d95c9bd5e8f7d357d853f12728c8fcba039f2252a183ca5d0080c2c66b
+SHA512: 8c75bb15c5db66cf0c9b3425e3b9b5d94b1fe3f5f919e4965ee9608a99d5f7145067965dff6803687b5d6ed84fff79740b208be004c9b766407d262a3d662603
 Description: nginx web/proxy server (basic version) - debugging symbols
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -127,48 +85,61 @@ Description: nginx web/proxy server (basic version) - debugging symbols
  operation.
 Homepage: http://nginx.net
 
-Package: rtmpdump
+Package: nginx-light
 Priority: extra
-Section: web
-Installed-Size: 475
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Architecture: armhf
-Version: 2.4-n78-git3a1e20c-ppa8~wheezy
-Depends: libc6 (>= 2.13-28), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
-Filename: wheezy/rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy_armhf.deb
-Size: 248688
-MD5sum: 29e2450e239a1be4cabd5e51158a2566
-SHA1: e9a11a0bbead763e53b3ebbec5c9599d95f03d3e
-SHA256: b70ccdd6264f2f6bcfcc799351a7de5902005f56c242343767866abc022e3452
-SHA512: 4e182b40141ddb207c8e7151bc81229ff30f58d77052f1b460fb9d1d93a48ec351859d918dc7a3c337fe4399790da5c193d433b376e768b28a31974f92250e36
-Description: A small dumper for media content streamed over the RTMP protocol
- A small dumper for media content streamed over the RTMP protocol (like BBC's
- iPlayer high quality streams). Supplying an rtmp url will result in a dumped
- flv file, which can be played/transcoded using ffmpeg/mplayer, etc.
-Homepage: http://rtmpdump.mplayerhq.hu/
-
-Package: nginx-extras-dbg
-Priority: extra
-Section: debug
-Installed-Size: 8333
+Section: httpd
+Installed-Size: 538
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: armhf
 Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Depends: nginx-extras (= 1.2.1-2.2+wheezy2jon1)
-Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
-Filename: wheezy/nginx-extras-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 4096276
-MD5sum: 6f5b884ff82c13e4a3c09dad9f9b5751
-SHA1: 660ffc2f06b9eacd8a0efd9bbb9f6b5c372b0ead
-SHA256: 914218fdb2781514284757905c39a468aafc6d2018a79cee6ab623389bd9b2aa
-SHA512: 81ec277ef2b0c6b484fa5f9b7b93316847ec7a1bc6c1934bdb1bfe6d64bdc5c5a1d4ed0eae9a18d3302fef61827253b1a64428ec7794a458f05b07877a56e82b
+Version: 1.2.1-2.2+wheezy3rtmp1
+Provides: httpd, nginx
+Depends: nginx-common (= 1.2.1-2.2+wheezy3rtmp1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-full, nginx-naxsi
+Filename: wheezy/nginx-light_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 293890
+MD5sum: 0a524d0d73bd6c07eb9eacd21601ca6c
+SHA1: c04aa13712510d23e6977a9ea044ee7e3caa56a4
+SHA256: 1737e9ec6103b5a01a3d67626e4866f67a5e58b822623ca8b7e7cffa4a16d1f7
+SHA512: c4a21f790d2cc2f002a81e1fac207afc9f6f8a215a5994803420d2bfb7fe935a3e99c09abd50296bdec47f96dc90798dcc1051e7e3874dd34de4e7e8baa10b72
+Description: nginx web/proxy server (basic version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a very light version of nginx with only the
+ minimal set of features and modules.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Charset,
+ Empty GIF, FastCGI, Gzip, Headers, Index, Log, Map, Proxy, Rewrite, Upstream.
+ .
+ OPTIONAL HTTP MODULES: Gzip Precompression, IPv6, SSL, Stub Status.
+ .
+ THIRD PARTY MODULES: Echo.
+Homepage: http://nginx.net
+
+Package: nginx-rtmp-dbg
+Priority: extra
+Section: debug
+Installed-Size: 9642
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Depends: nginx-rtmp (= 1.2.1-2.2+wheezy3rtmp1)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: wheezy/nginx-rtmp-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 4685060
+MD5sum: eeac2d89f2f670d5ddcccab17a960f29
+SHA1: 752eb3cceb3791dbea7725a2cc00413694096e76
+SHA256: c312420ecd4c85b25d97077e88ca89ba966403f0bde2e091715f9cc19bcb7d07
+SHA512: a5b3e4237ab524b480a93822049498f98c3c23aeec65d3980b1219b29971f64304c69f83dcfce64db7d8eb5abe219c752543af705495ce798c8e7a4ab809c9bf
 Description: nginx web/proxy server (extended version) - debugging symbols
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
  .
- This package provides debugging symbols for nginx-extras, to assist in
+ This package provides debugging symbols for nginx-rtmp, to assist in
  debugging issues that you may find. It should not be required for normal
  operation.
 Homepage: http://nginx.net
@@ -201,86 +172,23 @@ Description: read, parse and set metadata of MPEG-4 and 3gp files
     derivative files
 Homepage: https://bitbucket.org/wez/atomicparsley/
 
-Package: nginx-full
-Priority: optional
-Section: httpd
-Installed-Size: 762
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: armhf
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
-Conflicts: nginx-extras, nginx-light, nginx-naxsi
-Filename: wheezy/nginx-full_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 399172
-MD5sum: b929ce2413d8fd1f410f4918639d88c7
-SHA1: 3f074d4f7b542acd13a635750c186b29a9811e0f
-SHA256: 9ef46a8d03579c187094d45e5d57c1c15d6fecb288cde92ea6c820f78deaeb47
-SHA512: 25148d0918fe4574da6296109f5f149014ba9ac26f792b25cfc93eee8fed95ab39217ab8c222850705ff972bc12febba7cfb6d5fbe0599c5007526cdb4250910
-Description: nginx web/proxy server (standard version)
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package provides a version of nginx with the complete set of
- standard modules included (but omitting some of those included in
- nginx-extra).
- .
- STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
- Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
- Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
- Split Clients, SSI, Upstream, User ID, UWSGI.
- .
- OPTIONAL HTTP MODULES: Addition, Debug, GeoIP, Gzip Precompression,
- HTTP Sub, Image Filter, IPv6, Real IP, SSL, Stub Status, Substitution,
- WebDAV, XSLT.
- .
- MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
- .
- THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, Upstream Fair Queue.
-Homepage: http://nginx.net
-
-Package: nginx
-Priority: optional
-Section: httpd
-Installed-Size: 87
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: all
-Version: 1.2.1-2.2+wheezy2jon1
-Depends: nginx-full | nginx-light
-Filename: wheezy/nginx_1.2.1-2.2+wheezy2jon1_all.deb
-Size: 61168
-MD5sum: cf3a4a1009539edd6c267c0507cb9b18
-SHA1: 9f8ec5c03d65fef9621bc3bb3069090de51be5c0
-SHA256: 48087da483c8b3a3fb67d29e00fc9cc213d964edb14a5048284f38e0645caf9d
-SHA512: 01040749a540e7b68abc773a04af475dc4620dec7186db012fea5ee285a3e689f0d9c7d7522836e63bc5383e4f2d3feeee55f9f230b155d9e625db3b5a751d24
-Description: small, powerful, scalable web/proxy server
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This is a dependency package to install either nginx-full (by default) or
-  nginx-light.
-Homepage: http://nginx.net
-
-Package: nginx-rtmp
+Package: nginx-extras
 Priority: extra
 Section: httpd
-Installed-Size: 1305
+Installed-Size: 1103
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: armhf
 Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
+Version: 1.2.1-2.2+wheezy3rtmp1
 Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), perl (>= 5.14.2-21+rpi2+deb7u1), perlapi-5.14.2, libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
-Conflicts: nginx-extras, nginx-full, nginx-light, nginx-naxsi
-Filename: wheezy/nginx-rtmp_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 655040
-MD5sum: 1b179120110595d6e7d1e67b329c22eb
-SHA1: 89d08711e286494665e022389cef37750914bfe5
-SHA256: 1e0d47d91ef3775b74cf8a72b4ae39fb2134ab66862da54dcec8ab7f42c078a4
-SHA512: 6c0663ae7b043ca011994d3eea043d7d87709a2daaedd03daffafacc93aac0216e9b6ff8da953c81b32df9bc29b9a4de42933ce804bf6633474b034c6334841b
+Depends: nginx-common (= 1.2.1-2.2+wheezy3rtmp1), perl (>= 5.14.2-21+rpi2+deb7u1), perlapi-5.14.2, libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-full, nginx-light, nginx-naxsi
+Filename: wheezy/nginx-extras_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 553874
+MD5sum: 700971c1a5f10ff6143dd46a19abcc20
+SHA1: bae7d9fcadd29afc5516261fbac0f3cecf4619ea
+SHA256: 881722b2510f36b009a7d88be50784ee4d417376beeee89260c1f005c9b96049
+SHA512: fa08da2ff52e12bbde00785276dd805a729d75632965c62e4ed73fcd0e31fa49750c3fbcad6622a073c0a4a4e46949a9328b7dbb81d6e951bcf232bb3cf9e365
 Description: nginx web/proxy server (extended version)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -304,9 +212,166 @@ Description: nginx web/proxy server (extended version)
  THIRD PARTY MODULES: Auth PAM, Chunkin, DAV Ext, Echo, Embedded Lua,
  HttpHeadersMore, http push, Nginx Development Kit, Upload module,
  Upload Progress, Upstream Fair Queue.
- .
- EXTRA EXTRA MODULES: rtmp.
 Homepage: http://nginx.net
+
+Package: nginx-naxsi-ui
+Priority: extra
+Section: httpd
+Installed-Size: 1153
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Provides: httpd, naxsi, nginx
+Depends: daemon, dbconfig-common, nginx-naxsi (>= 1.2.1-2.2+wheezy3rtmp1), python-mysqldb, python-twisted-web, debconf (>= 0.5) | debconf-2.0
+Recommends: mysql-server
+Conflicts: nginx-extras, nginx-full, nginx-light
+Filename: wheezy/nginx-naxsi-ui_1.2.1-2.2+wheezy3rtmp1_all.deb
+Size: 342940
+MD5sum: 48d41e3dc9762c811a097c58f2f26417
+SHA1: 150a75670f6a7a47c109c0dc1da887b8b9cb8e24
+SHA256: b66f04d3dd794c8710ff9defff3d9ae924ae849f6fd472c4a47b5e6e9529cc9c
+SHA512: a9ad0e9ab5ec35b82bad5825a20c82ce7a5a6f944e0afe660f88b0075fde7617ba8ad0fbdf6e2afd8cf624da13617cc801b40fe85fdeae990aa45e6d8f93959a
+Description: nginx web/proxy server - naxsi configuration front-end
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides the autolearning daemon and web user interface for
+ nginx's naxsi module.
+ .
+ It includes an interceptor (listening on TCP port 8080), which monitors
+ HTTP requests from naxsi, and an extractor (running on TCP port 8081),
+ which reads the database and prints reports about blocked requests.
+Homepage: http://nginx.net
+
+Package: nginx-common
+Priority: optional
+Section: httpd
+Installed-Size: 204
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Depends: lsb-base (>= 3.2-14)
+Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Filename: wheezy/nginx-common_1.2.1-2.2+wheezy3rtmp1_all.deb
+Size: 73528
+MD5sum: 746732598d4658c8f45a6a2197d9b959
+SHA1: 8d9f87340c4d39d370c75dd56f20c6279a0f982d
+SHA256: 7d5b2fd79df04e53fe403ad640bdc59374531623c9b115c6e54c2c3be1e01211
+SHA512: 44bd509c6116ecb23bfed9980b3fb01c19bc848910f2e9ec425e82a48fa3ce9f61aeec23947aa2fbe802d51c5e3b0689647163f1a9a45ac0d68f00b7d2842e65
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+Homepage: http://nginx.net
+
+Package: nginx-rtmp
+Priority: extra
+Section: httpd
+Installed-Size: 1311
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Provides: httpd, nginx
+Depends: nginx-common (= 1.2.1-2.2+wheezy3rtmp1), perl (>= 5.14.2-21+rpi2+deb7u1), perlapi-5.14.2, libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-full, nginx-light, nginx-naxsi
+Filename: wheezy/nginx-rtmp_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 656402
+MD5sum: d2125bf9ed1cb42922c868770f21f61f
+SHA1: 66d49c69df7824a088e43d23827b552ec2359a4b
+SHA256: 0e6705dba65d28fb1187da253b2939ed48925dd3af2e2860f1b0ba3ec74af891
+SHA512: efc6d6ae625aa3d8f9b00010585315ee966408bc5aa64b2cc7e55eb7e4146f6ee83cf728b548738713214faf1b4b152b495246ce4d66b998237737cca7a7eb6b
+Description: nginx web/proxy server (extended rtmp version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files, plus rtmp.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, Embedded Perl, FLV, GeoIP,
+ Gzip Precompression, Image Filter, IPv6, MP4, Random Index, Real IP,
+ Secure Link, SSL, Stub Status, Substitution, WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, Chunkin, DAV Ext, Echo, Embedded Lua,
+ HttpHeadersMore, http push, Nginx Development Kit, rtmp-module,
+ Upload module, Upload Progress, Upstream Fair Queue.
+Homepage: http://nginx.net
+
+Package: nginx-full
+Priority: optional
+Section: httpd
+Installed-Size: 763
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Provides: httpd, nginx
+Depends: nginx-common (= 1.2.1-2.2+wheezy3rtmp1), libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-light, nginx-naxsi
+Filename: wheezy/nginx-full_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 398660
+MD5sum: cf568d02d48d89535a73ee3a19b97ca9
+SHA1: 2610cfd831f5ce13553deb585a27d686746072de
+SHA256: 638db4f8405ead4835faa93e75c590937f345b00f453f456e07498a5d3b6ffec
+SHA512: f88d892120122ce8c58ec72c4e6d8d7152b703e579694551da579676a2cf1d1d4946fb2a78294806219a016b9a93256566fad0a44b19869cf7fada315b226fc5
+Description: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extra).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, GeoIP, Gzip Precompression,
+ HTTP Sub, Image Filter, IPv6, Real IP, SSL, Stub Status, Substitution,
+ WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, Upstream Fair Queue.
+Homepage: http://nginx.net
+
+Package: rtmpdump
+Priority: extra
+Section: web
+Installed-Size: 475
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Architecture: armhf
+Version: 2.4-n78-git3a1e20c-ppa8~wheezy
+Depends: libc6 (>= 2.13-28), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Filename: wheezy/rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy_armhf.deb
+Size: 248688
+MD5sum: 29e2450e239a1be4cabd5e51158a2566
+SHA1: e9a11a0bbead763e53b3ebbec5c9599d95f03d3e
+SHA256: b70ccdd6264f2f6bcfcc799351a7de5902005f56c242343767866abc022e3452
+SHA512: 4e182b40141ddb207c8e7151bc81229ff30f58d77052f1b460fb9d1d93a48ec351859d918dc7a3c337fe4399790da5c193d433b376e768b28a31974f92250e36
+Description: A small dumper for media content streamed over the RTMP protocol
+ A small dumper for media content streamed over the RTMP protocol (like BBC's
+ iPlayer high quality streams). Supplying an rtmp url will result in a dumped
+ flv file, which can be played/transcoded using ffmpeg/mplayer, etc.
+Homepage: http://rtmpdump.mplayerhq.hu/
 
 Package: get-iplayer
 Priority: optional
@@ -353,22 +418,96 @@ Description: GnuPG archive key for packages.hedgerows.org.uk
  contains the public key for those signatures.
 Homepage: http://packages.hedgerows.org.uk/
 
-Package: nginx-naxsi-dbg
+Package: nginx
+Priority: optional
+Section: httpd
+Installed-Size: 88
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Version: 1.2.1-2.2+wheezy3rtmp1
+Depends: nginx-full | nginx-light
+Filename: wheezy/nginx_1.2.1-2.2+wheezy3rtmp1_all.deb
+Size: 61450
+MD5sum: de8b0c2c41f13b20b607847fd0ff1fb7
+SHA1: 1552d460b595dd7badb9c31bbaeb0c3521519d13
+SHA256: d1f84e045887404a90b463acead6a91b1acacae2d5c61541ac77531bba01e748
+SHA512: 68fdbf6f78446d196ceb81dd11aa7e580a94883b70a08093b9e56ce2720171ab7e73f01e78413dd68d052af9806eb1f08af8f6e81ea8c057c37688736c39c06d
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-full (by default) or
+  nginx-light.
+Homepage: http://nginx.net
+
+Package: nginx-full-dbg
 Priority: extra
 Section: debug
-Installed-Size: 4169
+Installed-Size: 5711
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: armhf
 Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Depends: nginx-naxsi (= 1.2.1-2.2+wheezy2jon1)
+Version: 1.2.1-2.2+wheezy3rtmp1
+Depends: nginx-full (= 1.2.1-2.2+wheezy3rtmp1)
+Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: wheezy/nginx-full-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 2747892
+MD5sum: 5f1a2f402b416054c4a128d50e906287
+SHA1: 2eeb284eeb0e4f1a97e78e7bf269ccea3806170e
+SHA256: be3725e4a00eace1f265fae6dea9ce25e9bc35d267399795c1627d1a17a6a1e6
+SHA512: 93a0178fe7fa9f5bdea3d16933275b5e48ce351684cb10934182ff5af68ccb47af690d61a0981f0134e4c970db6b7bddb0362be9786d277b2d38faad8acdfd94
+Description: nginx web/proxy server (standard version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+Homepage: http://nginx.net
+
+Package: nginx-extras-dbg
+Priority: extra
+Section: debug
+Installed-Size: 8338
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Depends: nginx-extras (= 1.2.1-2.2+wheezy3rtmp1)
+Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: wheezy/nginx-extras-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 4098352
+MD5sum: 3c4253b514135dd19bef6e4130a842ec
+SHA1: 57b4062e276cc864d51a9888ccad00f27c60f921
+SHA256: 89ae6dcbf7654dfda9e85490de354ba138ecf968d33c7113bd5a58eab843f826
+SHA512: fa8473fbf93088e5e705c115e76e42fbf1c7fc7621457412bc27425d728eb75ac75d72e8d3ad65d6b0dbad95a5295a112908acd0e7e6c5c759a94560cd1d5c12
+Description: nginx web/proxy server (extended version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Homepage: http://nginx.net
+
+Package: nginx-naxsi-dbg
+Priority: extra
+Section: debug
+Installed-Size: 4172
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy3rtmp1
+Depends: nginx-naxsi (= 1.2.1-2.2+wheezy3rtmp1)
 Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg
-Filename: wheezy/nginx-naxsi-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 2027240
-MD5sum: 12c96357d8e04eac893b3046b62ac6b3
-SHA1: c3487a3e2934e475d916952a6d1ecd00eed74d74
-SHA256: c2d0790319e7357505521ced16f813e0c966073b61d0f95bbb9545bb92940234
-SHA512: 7a8224dc8b58f06cba9204eed492cf46ac2d6f875871c41ea0b0b8384ce704575abfb39f33e4c249e00f4e27331763777e702d793109b4497cecaf596d596c43
+Filename: wheezy/nginx-naxsi-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Size: 2027960
+MD5sum: 5920aa0f5904f51bf2b49514f9d4c535
+SHA1: 7acfb7a00894e7037c43169a35cd4dd527ef7ca9
+SHA256: e1d144ab52ee47e2ffef04d9bf835980e47f13c0fae6949eb5d729cf570b94c8
+SHA512: b99d8b93a4e92d1d31ad29cf4e0fa5fdcdf03c7f66b677d5012e929d225701b685c3a9ff6584d075f15a95d2bc3265157b94caf0e18dcb3f7802f2caa76577b1
 Description: nginx web/proxy server (version with naxsi) - debugging symbols
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -379,167 +518,26 @@ Description: nginx web/proxy server (version with naxsi) - debugging symbols
  operation.
 Homepage: http://nginx.net
 
-Package: nginx-full-dbg
-Priority: extra
-Section: debug
-Installed-Size: 5707
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: armhf
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Depends: nginx-full (= 1.2.1-2.2+wheezy2jon1)
-Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
-Filename: wheezy/nginx-full-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 2747092
-MD5sum: 7f7528932ad15c80715836c2475a5cae
-SHA1: 86c19125fc59080742fb7717205774a87b9dd6a3
-SHA256: 6ec6c5320086f74d16bcb2559838a5ade279f59c0dad99897f248fe41a1b869a
-SHA512: d6f2be0e8cf95a9716ca2b423bb3d915907f92ac9144b6bb1376458e14b4a72181f9ddc630ee3a6da44b22c9bfcb6891ff8cdf8577e1c2482364b303f25eec54
-Description: nginx web/proxy server (standard version) - debugging symbols
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package provides debugging symbols for nginx-full, to assist in debugging
- issues that you may find. It should not be required for normal operation.
-Homepage: http://nginx.net
-
-Package: nginx-naxsi-ui
-Priority: extra
-Section: httpd
-Installed-Size: 1152
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: all
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Provides: httpd, naxsi, nginx
-Depends: daemon, dbconfig-common, nginx-naxsi (>= 1.2.1-2.2+wheezy2jon1), python-mysqldb, python-twisted-web, debconf (>= 0.5) | debconf-2.0
-Recommends: mysql-server
-Conflicts: nginx-extras, nginx-full, nginx-light
-Filename: wheezy/nginx-naxsi-ui_1.2.1-2.2+wheezy2jon1_all.deb
-Size: 342654
-MD5sum: b7f3cc8fc56e9f486dec1264809239f9
-SHA1: a3a92d67b4f1d7d8a3ec02da511daaafd2a7885a
-SHA256: c254b024c0500911aef6c9814ac90a5e764d069e9a533f35c2dcbccd4ba6d420
-SHA512: 8ac9264db283e63f3080a9c9f3d0054f1b4ab11e259c13937e8aa59b6c8d2cba7d7299e8048a39394d46465956b0e22a2b7b814ca4daa47844f2c4b0ace78723
-Description: nginx web/proxy server - naxsi configuration front-end
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package provides the autolearning daemon and web user interface for
- nginx's naxsi module.
- .
- It includes an interceptor (listening on TCP port 8080), which monitors
- HTTP requests from naxsi, and an extractor (running on TCP port 8081),
- which reads the database and prints reports about blocked requests.
-Homepage: http://nginx.net
-
 Package: nginx-doc
 Priority: optional
 Section: doc
-Installed-Size: 110
+Installed-Size: 111
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
 Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
+Version: 1.2.1-2.2+wheezy3rtmp1
 Depends: lsb-base (>= 3.2-14)
-Filename: wheezy/nginx-doc_1.2.1-2.2+wheezy2jon1_all.deb
-Size: 74548
-MD5sum: a8dd077328f73afe8643a9b68c7b3edd
-SHA1: ed88ed09f97a7f7c5972e619aa86907b01d0f098
-SHA256: 0cb8257849b28419dc439fcb9e12c43e7c4bd48e3a1bd6d52e995e811ecfc783
-SHA512: aa569bd08fc2f50d3f65412109189f3767d73a4df7faee9df27157e46b7b34021e4c380b1b1c43d45482336e142b2e52cf3e444efb1a8aba32d50dd0e2be441b
+Filename: wheezy/nginx-doc_1.2.1-2.2+wheezy3rtmp1_all.deb
+Size: 74790
+MD5sum: bdd8d31c43bc04405f5e5fd9ceae0c75
+SHA1: 6bb0e6d642bad7821ed7c82864723565046c2820
+SHA256: cb81e9f849aa1300eb4c6f3d0285c9cfb16dfcf3f254255e10d6ae71db563806
+SHA512: 6f6f8e0bb9a668f14bf2fc0143672edf506513aa74e4fa1af56ce72416c581929a8ecb55a5ce2e4903ffc3adaa3e6bdd7e06bd87e05a6bb55973f31e866bdd1c
 Description: small, powerful, scalable web/proxy server - documentation
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
  .
  This package provides extra documentation to help unleash the power of Nginx.
-Homepage: http://nginx.net
-
-Package: nginx-rtmp-dbg
-Priority: extra
-Section: debug
-Installed-Size: 9630
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: armhf
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Depends: nginx-rtmp (= 1.2.1-2.2+wheezy2jon1)
-Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
-Filename: wheezy/nginx-rtmp-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 4680912
-MD5sum: 44163f380b96f1a687eeb5c833c5c3a7
-SHA1: 562f08770d9d90b61785df050ce744de8828067a
-SHA256: 4124447d6e13cde1ec92e8c899bbd08401162067b4593890cbdf1ad54604685d
-SHA512: 40d365311a79199eeb125a4902acfdfb7ff50c6d4f62f260869982abadb00eb630180cf12626cee93a60276d62f44601a400e08e4afe8c0ecbbff9b8a4996cc7
-Description: nginx web/proxy server (extended version) - debugging symbols
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package provides debugging symbols for nginx-rtmp, to assist in
- debugging issues that you may find. It should not be required for normal
- operation.
-Homepage: http://nginx.net
-
-Package: nginx-common
-Priority: optional
-Section: httpd
-Installed-Size: 203
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: all
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
-Depends: lsb-base (>= 3.2-14)
-Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
-Filename: wheezy/nginx-common_1.2.1-2.2+wheezy2jon1_all.deb
-Size: 73254
-MD5sum: 3c9c1e0dd7f67a0c0eac07b41e845c57
-SHA1: e2f2730de28c823c8c21264081cd54c9fc384d4f
-SHA256: 9d430f7d632cb56bde4fd16a2259f03b67e61148869c2f3cccbb55d940ea3159
-SHA512: 353e0f4d825b9cc1f949b780ebc5605c265142e057f7ca40494f06d3142206465c8ac750ff24d38f8a3cebec686435629c1b8cfd2a1ce970d6c8800fec542872
-Description: small, powerful, scalable web/proxy server - common files
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package contains base configuration files used by all versions of
- nginx.
-Homepage: http://nginx.net
-
-Package: nginx-light
-Priority: extra
-Section: httpd
-Installed-Size: 536
-Maintainer: Kartik Mistry <kartik@debian.org>
-Architecture: armhf
-Source: nginx
-Version: 1.2.1-2.2+wheezy2jon1
-Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
-Conflicts: nginx-extras, nginx-full, nginx-naxsi
-Filename: wheezy/nginx-light_1.2.1-2.2+wheezy2jon1_armhf.deb
-Size: 294160
-MD5sum: a67785a3460c620e8aec69bacb3279c7
-SHA1: eb4b5ade2446048d824a776f260df75a948e34fd
-SHA256: adb3a8c47c78d9a4df3fd001cfe5644a0e2a3a51425a54486ed1ad4750cdb8b1
-SHA512: eca27200e4204bc273975379b07a0111ddeb553144f053f6c36dccdbe339daf1cc411e2874c2107de1014eab8af4e254079cc4f82b1cf126e07175e99ad8f9c5
-Description: nginx web/proxy server (basic version)
- Nginx ("engine X") is a high-performance web and reverse proxy server
- created by Igor Sysoev. It can be used both as a standalone web server
- and as a proxy to reduce the load on back-end HTTP or mail servers.
- .
- This package provides a very light version of nginx with only the
- minimal set of features and modules.
- .
- STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Charset,
- Empty GIF, FastCGI, Gzip, Headers, Index, Log, Map, Proxy, Rewrite, Upstream.
- .
- OPTIONAL HTTP MODULES: Gzip Precompression, IPv6, SSL, Stub Status.
- .
- THIRD PARTY MODULES: Echo.
 Homepage: http://nginx.net
 

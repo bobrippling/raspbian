@@ -1,0 +1,94 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 01 Oct 2014 19:48:21 +0100
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui nginx-rtmp nginx-rtmp-dbg
+Architecture: source all armhf
+Version: 1.2.1-2.2+wheezy3rtmp1
+Distribution: wheezy
+Urgency: low
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+ nginx-rtmp - nginx web/proxy server (extended rtmp version)
+ nginx-rtmp-dbg - nginx web/proxy server (extended version) - debugging symbols
+Changes: 
+ nginx (1.2.1-2.2+wheezy3rtmp1) wheezy; urgency=low
+ .
+   * add nginx-rtmp version v1.1.5-8-g5fb4c99
+Checksums-Sha1: 
+ 9218b2e8fada9907559cb8e05808bb5884e42a2b 2302 nginx_1.2.1-2.2+wheezy3rtmp1.dsc
+ 4fb69411f6c3ebb5818005955a085e891e77b2d8 718161 nginx_1.2.1.orig.tar.gz
+ 0b5051884b22ec7a72b96a253602431d2b7eb355 1868192 nginx_1.2.1-2.2+wheezy3rtmp1.debian.tar.gz
+ 1552d460b595dd7badb9c31bbaeb0c3521519d13 61450 nginx_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 6bb0e6d642bad7821ed7c82864723565046c2820 74790 nginx-doc_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 8d9f87340c4d39d370c75dd56f20c6279a0f982d 73528 nginx-common_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 150a75670f6a7a47c109c0dc1da887b8b9cb8e24 342940 nginx-naxsi-ui_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 2610cfd831f5ce13553deb585a27d686746072de 398660 nginx-full_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 2eeb284eeb0e4f1a97e78e7bf269ccea3806170e 2747892 nginx-full-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ c04aa13712510d23e6977a9ea044ee7e3caa56a4 293890 nginx-light_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ bc269f80f0782f597689f2d475c9f62e65b72ce6 1926450 nginx-light-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ bae7d9fcadd29afc5516261fbac0f3cecf4619ea 553874 nginx-extras_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 57b4062e276cc864d51a9888ccad00f27c60f921 4098352 nginx-extras-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ fd1904ecb2dbe92d026a77d8930fc6a98b03c34c 328056 nginx-naxsi_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 7acfb7a00894e7037c43169a35cd4dd527ef7ca9 2027960 nginx-naxsi-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 66d49c69df7824a088e43d23827b552ec2359a4b 656402 nginx-rtmp_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 752eb3cceb3791dbea7725a2cc00413694096e76 4685060 nginx-rtmp-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Checksums-Sha256: 
+ 635b2020caf30c30b77b6e20d911b17547e2f97ff7f9997b02bbde5bce34a3b0 2302 nginx_1.2.1-2.2+wheezy3rtmp1.dsc
+ 994ad97cbf6f7045f95ea9d6d401aad1e95766671e402c48af85aba5235a2dd7 718161 nginx_1.2.1.orig.tar.gz
+ 08033cf91fdd6acd34b891a851634cf952fc96855b9d868faf008b126deb2b84 1868192 nginx_1.2.1-2.2+wheezy3rtmp1.debian.tar.gz
+ d1f84e045887404a90b463acead6a91b1acacae2d5c61541ac77531bba01e748 61450 nginx_1.2.1-2.2+wheezy3rtmp1_all.deb
+ cb81e9f849aa1300eb4c6f3d0285c9cfb16dfcf3f254255e10d6ae71db563806 74790 nginx-doc_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 7d5b2fd79df04e53fe403ad640bdc59374531623c9b115c6e54c2c3be1e01211 73528 nginx-common_1.2.1-2.2+wheezy3rtmp1_all.deb
+ b66f04d3dd794c8710ff9defff3d9ae924ae849f6fd472c4a47b5e6e9529cc9c 342940 nginx-naxsi-ui_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 638db4f8405ead4835faa93e75c590937f345b00f453f456e07498a5d3b6ffec 398660 nginx-full_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ be3725e4a00eace1f265fae6dea9ce25e9bc35d267399795c1627d1a17a6a1e6 2747892 nginx-full-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 1737e9ec6103b5a01a3d67626e4866f67a5e58b822623ca8b7e7cffa4a16d1f7 293890 nginx-light_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 626c59d95c9bd5e8f7d357d853f12728c8fcba039f2252a183ca5d0080c2c66b 1926450 nginx-light-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 881722b2510f36b009a7d88be50784ee4d417376beeee89260c1f005c9b96049 553874 nginx-extras_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 89ae6dcbf7654dfda9e85490de354ba138ecf968d33c7113bd5a58eab843f826 4098352 nginx-extras-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ af2953e19a49fa482502b3612897dbc5af950b98ee67fe57772e83dd6587fe1e 328056 nginx-naxsi_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ e1d144ab52ee47e2ffef04d9bf835980e47f13c0fae6949eb5d729cf570b94c8 2027960 nginx-naxsi-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 0e6705dba65d28fb1187da253b2939ed48925dd3af2e2860f1b0ba3ec74af891 656402 nginx-rtmp_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ c312420ecd4c85b25d97077e88ca89ba966403f0bde2e091715f9cc19bcb7d07 4685060 nginx-rtmp-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+Files: 
+ c889c3e2b401b15cf4beef95eb7ece56 2302 httpd optional nginx_1.2.1-2.2+wheezy3rtmp1.dsc
+ ceacae12d66d1f021bf3737a0269b6f4 718161 httpd optional nginx_1.2.1.orig.tar.gz
+ 0b10bfc68b936bcb561869d52ec452f2 1868192 httpd optional nginx_1.2.1-2.2+wheezy3rtmp1.debian.tar.gz
+ de8b0c2c41f13b20b607847fd0ff1fb7 61450 httpd optional nginx_1.2.1-2.2+wheezy3rtmp1_all.deb
+ bdd8d31c43bc04405f5e5fd9ceae0c75 74790 doc optional nginx-doc_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 746732598d4658c8f45a6a2197d9b959 73528 httpd optional nginx-common_1.2.1-2.2+wheezy3rtmp1_all.deb
+ 48d41e3dc9762c811a097c58f2f26417 342940 httpd extra nginx-naxsi-ui_1.2.1-2.2+wheezy3rtmp1_all.deb
+ cf568d02d48d89535a73ee3a19b97ca9 398660 httpd optional nginx-full_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 5f1a2f402b416054c4a128d50e906287 2747892 debug extra nginx-full-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 0a524d0d73bd6c07eb9eacd21601ca6c 293890 httpd extra nginx-light_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ a0ab525e57faf70806a6f5f838bcc320 1926450 debug extra nginx-light-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 700971c1a5f10ff6143dd46a19abcc20 553874 httpd extra nginx-extras_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 3c4253b514135dd19bef6e4130a842ec 4098352 debug extra nginx-extras-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ d9d9458f454155826169ece7ef43e2a7 328056 httpd extra nginx-naxsi_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ 5920aa0f5904f51bf2b49514f9d4c535 2027960 debug extra nginx-naxsi-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ d2125bf9ed1cb42922c868770f21f61f 656402 httpd extra nginx-rtmp_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+ eeac2d89f2f670d5ddcccab17a960f29 4685060 debug extra nginx-rtmp-dbg_1.2.1-2.2+wheezy3rtmp1_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlQsdpEACgkQiwfE/w9b/f6ZmwCff7Iiu/QJvjpceEFyVJwUfGAE
+Ko0An3gkq2TWQFkEhGszlNaAJntXl//E
+=LkPt
+-----END PGP SIGNATURE-----
