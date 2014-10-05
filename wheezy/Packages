@@ -1,3 +1,71 @@
+Package: nginx-extras
+Priority: extra
+Section: httpd
+Installed-Size: 1101
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Provides: httpd, nginx
+Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), perl (>= 5.14.2-21+rpi2+deb7u1), perlapi-5.14.2, libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-full, nginx-light, nginx-naxsi
+Filename: wheezy/nginx-extras_1.2.1-2.2+wheezy2jon1_armhf.deb
+Size: 554756
+MD5sum: 2e07053207e6f5ae9ce825f60d87601e
+SHA1: 845ba69d352ff016cfb6a1b5bc3841941541047f
+SHA256: 26545b11e3ab07e5ba66c4e53efad2dfa667749f918bdc76225e304c10d1989d
+SHA512: 9efab55ad629848b5fdf2f99d1ac95bf928a9e98c21d6e8a8378afa0e1f3195e7db95f963a146fb0491712ae887043bd261821ec30cbacb881d1770e4765c51c
+Description: nginx web/proxy server (extended version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, Embedded Perl, FLV, GeoIP,
+ Gzip Precompression, Image Filter, IPv6, MP4, Random Index, Real IP,
+ Secure Link, SSL, Stub Status, Substitution, WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, Chunkin, DAV Ext, Echo, Embedded Lua,
+ HttpHeadersMore, http push, Nginx Development Kit, Upload module,
+ Upload Progress, Upstream Fair Queue.
+Homepage: http://nginx.net
+
+Package: nginx-light-dbg
+Priority: extra
+Section: debug
+Installed-Size: 3944
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Depends: nginx-light (= 1.2.1-2.2+wheezy2jon1)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-naxsi-dbg
+Filename: wheezy/nginx-light-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
+Size: 1925948
+MD5sum: c6f2b65564f2c1ab312442d6ff7cd3b3
+SHA1: e7e2dd1bdb9ea69ccde4640ccbc9f626c7a39ae7
+SHA256: 5543f00b2de5ffc8c375fdad412d0ccf672239a7d1ebaf16624934beeaa2f9a2
+SHA512: 2e30e27cc832faf117379b46009cb813c7d356b702a1192bba3918a1c199f0fe26e50f7d998ceaf906086b5411bf7943364d7bfa5fe19eb53c548fcb6edad11f
+Description: nginx web/proxy server (basic version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-light, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Homepage: http://nginx.net
+
 Package: librtmp-dev
 Priority: extra
 Section: libdevel
@@ -83,6 +151,29 @@ Description: nginx web/proxy server (basic version) - debugging symbols
  This package provides debugging symbols for nginx-light, to assist in
  debugging issues that you may find. It should not be required for normal
  operation.
+Homepage: http://nginx.net
+
+Package: nginx-doc
+Priority: optional
+Section: doc
+Installed-Size: 110
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Depends: lsb-base (>= 3.2-14)
+Filename: wheezy/nginx-doc_1.2.1-2.2+wheezy2jon1_all.deb
+Size: 74548
+MD5sum: a8dd077328f73afe8643a9b68c7b3edd
+SHA1: ed88ed09f97a7f7c5972e619aa86907b01d0f098
+SHA256: 0cb8257849b28419dc439fcb9e12c43e7c4bd48e3a1bd6d52e995e811ecfc783
+SHA512: aa569bd08fc2f50d3f65412109189f3767d73a4df7faee9df27157e46b7b34021e4c380b1b1c43d45482336e142b2e52cf3e444efb1a8aba32d50dd0e2be441b
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
 Homepage: http://nginx.net
 
 Package: nginx-light
@@ -245,6 +336,58 @@ Description: nginx web/proxy server - naxsi configuration front-end
  which reads the database and prints reports about blocked requests.
 Homepage: http://nginx.net
 
+Package: get-iplayer
+Priority: optional
+Section: video
+Installed-Size: 650
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Architecture: all
+Version: 2.86-10-ge229d14-ppa19a~wheezy
+Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, rtmpdump (>= 2.4), atomicparsley (>= 0.9.4), libav-tools
+Suggests: mplayer
+Filename: wheezy/get-iplayer_2.86-10-ge229d14-ppa19a~wheezy_all.deb
+Size: 193576
+MD5sum: 4cf71a5f45a1a406e7d95505476ae600
+SHA1: 70e4d3d46b5e03237d8cf365b4c9ee2b56ccba4b
+SHA256: 8ec0270fb7cf7dcfaad8e49d71c7d505aa04e93ddd51a1a1433dcaaee3b6aa41
+SHA512: 785e676d31c79f82477fc5cd76817c0d7e3ff36e2684da1c584ed82610c47ff8936bf628b45024418801dcec5240d7204e3c39900d5898f40bd78f9709850cce
+Description: download/stream available BBC iPlayer TV and radio programmes
+ get_iplayer lists, searches and records BBC iPlayer TV/Radio, BBC Podcast
+ programmes. Other third-party plugins may be available.
+ .
+ get_iplayer has three modes: recording a complete programme for later
+ playback, streaming a programme directly to a playback application,
+ such as mplayer; and as a Personal Video Recorder (PVR), subscribing to
+ search terms and recording programmes automatically. It can also stream
+ or record live BBC iPlayer output.
+Homepage: http://git.infradead.org/get_iplayer.git
+
+Package: nginx-extras-dbg
+Priority: extra
+Section: debug
+Installed-Size: 8333
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Depends: nginx-extras (= 1.2.1-2.2+wheezy2jon1)
+Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: wheezy/nginx-extras-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
+Size: 4096276
+MD5sum: 6f5b884ff82c13e4a3c09dad9f9b5751
+SHA1: 660ffc2f06b9eacd8a0efd9bbb9f6b5c372b0ead
+SHA256: 914218fdb2781514284757905c39a468aafc6d2018a79cee6ab623389bd9b2aa
+SHA512: 81ec277ef2b0c6b484fa5f9b7b93316847ec7a1bc6c1934bdb1bfe6d64bdc5c5a1d4ed0eae9a18d3302fef61827253b1a64428ec7794a458f05b07877a56e82b
+Description: nginx web/proxy server (extended version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Homepage: http://nginx.net
+
 Package: nginx-common
 Priority: optional
 Section: httpd
@@ -373,32 +516,6 @@ Description: A small dumper for media content streamed over the RTMP protocol
  flv file, which can be played/transcoded using ffmpeg/mplayer, etc.
 Homepage: http://rtmpdump.mplayerhq.hu/
 
-Package: get-iplayer
-Priority: optional
-Section: video
-Installed-Size: 649
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Architecture: all
-Version: 2.86-5-gf109d22-ppa18~wheezy
-Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, rtmpdump (>= 2.4), atomicparsley (>= 0.9.4), libav-tools
-Suggests: mplayer
-Filename: wheezy/get-iplayer_2.86-5-gf109d22-ppa18~wheezy_all.deb
-Size: 193400
-MD5sum: 62c6baaca1266a021c5c38abca6f27b5
-SHA1: cc0e3e86e5161abdf9c3ac614a36bcad0227229f
-SHA256: 690a481efee292d93432a1e4851103563a742f33f94dd320427fa3a978ad23e1
-SHA512: 36ab8f76079ac7739bd0336afa482752246c2c193a64fb7be4f5fdc64063e11639cddafa7916278013f89786db2cda31bb47306186e80101a21cc992f659bd08
-Description: download/stream available BBC iPlayer TV and radio programmes
- get_iplayer lists, searches and records BBC iPlayer TV/Radio, BBC Podcast
- programmes. Other third-party plugins may be available.
- .
- get_iplayer has three modes: recording a complete programme for later
- playback, streaming a programme directly to a playback application,
- such as mplayer; and as a Personal Video Recorder (PVR), subscribing to
- search terms and recording programmes automatically. It can also stream
- or record live BBC iPlayer output.
-Homepage: http://git.infradead.org/get_iplayer.git
-
 Package: jonhedgerows-keyring
 Priority: optional
 Section: misc
@@ -490,6 +607,97 @@ Description: nginx web/proxy server (extended version) - debugging symbols
  This package provides debugging symbols for nginx-extras, to assist in
  debugging issues that you may find. It should not be required for normal
  operation.
+Homepage: http://nginx.net
+
+Package: nginx-common
+Priority: optional
+Section: httpd
+Installed-Size: 203
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Depends: lsb-base (>= 3.2-14)
+Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Filename: wheezy/nginx-common_1.2.1-2.2+wheezy2jon1_all.deb
+Size: 73254
+MD5sum: 3c9c1e0dd7f67a0c0eac07b41e845c57
+SHA1: e2f2730de28c823c8c21264081cd54c9fc384d4f
+SHA256: 9d430f7d632cb56bde4fd16a2259f03b67e61148869c2f3cccbb55d940ea3159
+SHA512: 353e0f4d825b9cc1f949b780ebc5605c265142e057f7ca40494f06d3142206465c8ac750ff24d38f8a3cebec686435629c1b8cfd2a1ce970d6c8800fec542872
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+Homepage: http://nginx.net
+
+Package: nginx-full
+Priority: optional
+Section: httpd
+Installed-Size: 762
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Provides: httpd, nginx
+Depends: nginx-common (= 1.2.1-2.2+wheezy2jon1), libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.4.0), libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Conflicts: nginx-extras, nginx-light, nginx-naxsi
+Filename: wheezy/nginx-full_1.2.1-2.2+wheezy2jon1_armhf.deb
+Size: 399172
+MD5sum: b929ce2413d8fd1f410f4918639d88c7
+SHA1: 3f074d4f7b542acd13a635750c186b29a9811e0f
+SHA256: 9ef46a8d03579c187094d45e5d57c1c15d6fecb288cde92ea6c820f78deaeb47
+SHA512: 25148d0918fe4574da6296109f5f149014ba9ac26f792b25cfc93eee8fed95ab39217ab8c222850705ff972bc12febba7cfb6d5fbe0599c5007526cdb4250910
+Description: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extra).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, GeoIP, Gzip Precompression,
+ HTTP Sub, Image Filter, IPv6, Real IP, SSL, Stub Status, Substitution,
+ WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, Upstream Fair Queue.
+Homepage: http://nginx.net
+
+Package: nginx-full-dbg
+Priority: extra
+Section: debug
+Installed-Size: 5707
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: armhf
+Source: nginx
+Version: 1.2.1-2.2+wheezy2jon1
+Depends: nginx-full (= 1.2.1-2.2+wheezy2jon1)
+Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: wheezy/nginx-full-dbg_1.2.1-2.2+wheezy2jon1_armhf.deb
+Size: 2747092
+MD5sum: 7f7528932ad15c80715836c2475a5cae
+SHA1: 86c19125fc59080742fb7717205774a87b9dd6a3
+SHA256: 6ec6c5320086f74d16bcb2559838a5ade279f59c0dad99897f248fe41a1b869a
+SHA512: d6f2be0e8cf95a9716ca2b423bb3d915907f92ac9144b6bb1376458e14b4a72181f9ddc630ee3a6da44b22c9bfcb6891ff8cdf8577e1c2482364b303f25eec54
+Description: nginx web/proxy server (standard version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
 Homepage: http://nginx.net
 
 Package: nginx-naxsi-dbg

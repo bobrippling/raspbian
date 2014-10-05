@@ -63,7 +63,7 @@ Checksums-Sha256:
 
 Package: get-iplayer
 Binary: get-iplayer
-Version: 2.86-5-gf109d22-ppa18~wheezy
+Version: 2.86-10-ge229d14-ppa19a~wheezy
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Build-Depends: debhelper (>= 9), quilt
 Architecture: all
@@ -71,20 +71,20 @@ Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Directory: wheezy
 Files:
- 7703b27593092363b20487e19d7744e3 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
- 65693d2c6906856966ac47cd7be163f3 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
- c7aecaedddf24f1f27fed7b56bde7542 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+ c73aa77892a4e1d61a532f70ed697dae 1233 get-iplayer_2.86-10-ge229d14-ppa19a~wheezy.dsc
+ 40055e98fa508c98fb28ce79c1a44a08 258414 get-iplayer_2.86-10-ge229d14.orig.tar.gz
+ 7454eb560b46e9fccc0c05b0b6902d94 83052 get-iplayer_2.86-10-ge229d14-ppa19a~wheezy.debian.tar.gz
 Homepage: http://git.infradead.org/get_iplayer.git
 Package-List: 
  get-iplayer deb video optional
 Checksums-Sha1:
- d9264ef5fe34bb962943692ae47159d404d57987 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
- 64339fcbd70b62a0e86ee02526832ace3ad09254 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
- 96444499596117288676b045e613f9685530b188 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+ b6a7984c768ae82d4c61f1025507ed4b10814cf4 1233 get-iplayer_2.86-10-ge229d14-ppa19a~wheezy.dsc
+ 47a260638144168c635a9580d0fb15ab32abb5d4 258414 get-iplayer_2.86-10-ge229d14.orig.tar.gz
+ 703031c552f1d3b7080c523ae25ceeefecafc2d1 83052 get-iplayer_2.86-10-ge229d14-ppa19a~wheezy.debian.tar.gz
 Checksums-Sha256:
- 7227ef70ff35da7e39934b6796394ef0bdcdd483111edf96186155a27df3f5ed 1222 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.dsc
- f56909a98b864734c703b181cc8ff9a717d1c52ba98941e3a0f6c67a982c2b0f 258684 get-iplayer_2.86-5-gf109d22.orig.tar.gz
- 0d218ead14810b263102f14e413d99443863235cab7b25607b3e9ea63bd7e6b5 83115 get-iplayer_2.86-5-gf109d22-ppa18~wheezy.debian.tar.gz
+ 77d009a1a2906b2a322c0ddd74c4e001e06f3588dda7941a32c52c2d9e5be80d 1233 get-iplayer_2.86-10-ge229d14-ppa19a~wheezy.dsc
+ 70fe1c44735a40aa9e696867e71a4bc433334097f9acbefe10f04723295e42fc 258414 get-iplayer_2.86-10-ge229d14.orig.tar.gz
+ 4e9b17d6cd8b2e2d315d4d39275a783758761c1a552eaab350c4eaf894ff5b2a 83052 get-iplayer_2.86-10-ge229d14-ppa19a~wheezy.debian.tar.gz
 
 Package: rtmpdump
 Binary: rtmpdump, librtmp-dev
