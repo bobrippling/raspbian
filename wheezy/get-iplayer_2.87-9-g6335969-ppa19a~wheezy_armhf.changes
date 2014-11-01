@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 01 Nov 2014 11:27:29 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 2.87-9-g6335969-ppa19a~wheezy
+Distribution: wheezy
+Urgency: low
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description: 
+ get-iplayer - download/stream available BBC iPlayer TV and radio programmes
+Changes: 
+ get-iplayer (2.87-9-g6335969-ppa19a~wheezy) wheezy; urgency=low
+ .
+   * New upstream snapshot, see README.git-log
+Checksums-Sha1: 
+ 07af0a3acf4554136460a75f93908040249ca66f 1226 get-iplayer_2.87-9-g6335969-ppa19a~wheezy.dsc
+ 9b504dc9083634df431ef03439bd087002f6a05d 264108 get-iplayer_2.87-9-g6335969.orig.tar.gz
+ e507605db14d4b02eb694d9b9c9e13c8ecadc09d 87398 get-iplayer_2.87-9-g6335969-ppa19a~wheezy.debian.tar.gz
+ 0f26de62e8291a7bd306248b93c3c1d5ef8da0d0 198822 get-iplayer_2.87-9-g6335969-ppa19a~wheezy_all.deb
+Checksums-Sha256: 
+ 79d0150646be5de435c59bbca3f0a8bfc9a547857a7003c14c7048189f03558c 1226 get-iplayer_2.87-9-g6335969-ppa19a~wheezy.dsc
+ 651bf96e50a81907e03111bb9cec471e336892b8d9e4b9aa467ba75ede79a553 264108 get-iplayer_2.87-9-g6335969.orig.tar.gz
+ 92ce1f1ff17830f41e82b59073076850ce70551f20c08943af5299f8f6523d83 87398 get-iplayer_2.87-9-g6335969-ppa19a~wheezy.debian.tar.gz
+ 11036460b1ddcc9822d7f414106d9e10800ca6fb7aabe6452ad790b1eab40034 198822 get-iplayer_2.87-9-g6335969-ppa19a~wheezy_all.deb
+Files: 
+ 1a2424ddab2e3edea9d46511b7117b2f 1226 video optional get-iplayer_2.87-9-g6335969-ppa19a~wheezy.dsc
+ 7cd682751d21d84717241d6f4ea119c7 264108 video optional get-iplayer_2.87-9-g6335969.orig.tar.gz
+ e2a29028d48fad111fe5460e753a1fc1 87398 video optional get-iplayer_2.87-9-g6335969-ppa19a~wheezy.debian.tar.gz
+ 40edb22933e47f39aa7c7f74fc240284 198822 video optional get-iplayer_2.87-9-g6335969-ppa19a~wheezy_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlRUw/oACgkQiwfE/w9b/f67BACcDXntJA79mEZbBoOy7cveK7eq
+OsEAnRgxt4ThwLHVTOiJRtjqsOfXx+LQ
+=qq1k
+-----END PGP SIGNATURE-----
