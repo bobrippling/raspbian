@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 01 Nov 2014 16:27:08 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 2.87-9-g6335969-ppa20p1~wheezy
+Distribution: wheezy
+Urgency: low
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description: 
+ get-iplayer - download/stream available BBC iPlayer TV and radio programmes
+Changes: 
+ get-iplayer (2.87-9-g6335969-ppa20p1~wheezy) wheezy; urgency=low
+ .
+   * New upstream snapshot, see README.git-log
+Checksums-Sha1: 
+ 1aee3f2b3563a9f61b0af49eb4f2230f30914554 1230 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.dsc
+ d81a17512771a1e8363ac15684629d4218203473 264432 get-iplayer_2.87-9-g6335969.orig.tar.gz
+ c51b9d7cd584c9eab9a99b6170f51dcf8c89d79d 88055 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.debian.tar.gz
+ 1593147a34f9a0cbdc2d8f9972c63b0e7b213320 198928 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy_all.deb
+Checksums-Sha256: 
+ cd5bd522531fe8f2d001b61c92829335abe5d2c9de403240f3ffc7c621fead34 1230 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.dsc
+ 7e117b44a9f69e2fcc795125557847fadbf373a5551c68e27eb7e920180555e9 264432 get-iplayer_2.87-9-g6335969.orig.tar.gz
+ aa4b907df1da598ebb24c78610552e2a7de0e810b8373ccf7a2f23b6b45fef4c 88055 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.debian.tar.gz
+ 26c138c182d39ccbcb62e1861fab8bf60fcf7ef37a7cf5aca51f21a621de4b18 198928 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy_all.deb
+Files: 
+ 0416c2768b723b57fe45e0f94ca46373 1230 video optional get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.dsc
+ cb7c27d5d7a2291fdf242d8c8dde01ab 264432 video optional get-iplayer_2.87-9-g6335969.orig.tar.gz
+ d0910a6795edc1749e3f17c52dbf54e6 88055 video optional get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.debian.tar.gz
+ 8336303bf3ec4b1882c0b0e5b1beed92 198928 video optional get-iplayer_2.87-9-g6335969-ppa20p1~wheezy_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlRVCk8ACgkQiwfE/w9b/f4tFACgjWoqrBztQNv4aZHMSEbEMKQO
+8PcAni+QvmM6q8KL91LKlBnvCzWnLucC
+=hY3Y
+-----END PGP SIGNATURE-----

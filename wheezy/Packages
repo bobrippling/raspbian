@@ -490,6 +490,32 @@ Description: A small dumper for media content streamed over the RTMP protocol
  flv file, which can be played/transcoded using ffmpeg/mplayer, etc.
 Homepage: http://rtmpdump.mplayerhq.hu/
 
+Package: get-iplayer
+Priority: optional
+Section: video
+Installed-Size: 671
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Architecture: all
+Version: 2.87-9-g6335969-ppa20p1~wheezy
+Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, rtmpdump (>= 2.4), atomicparsley (>= 0.9.4), libav-tools
+Suggests: mplayer
+Filename: wheezy/get-iplayer_2.87-9-g6335969-ppa20p1~wheezy_all.deb
+Size: 198928
+MD5sum: 8336303bf3ec4b1882c0b0e5b1beed92
+SHA1: 1593147a34f9a0cbdc2d8f9972c63b0e7b213320
+SHA256: 26c138c182d39ccbcb62e1861fab8bf60fcf7ef37a7cf5aca51f21a621de4b18
+SHA512: 13b4ccf7d60cde9faf87792dcc15418fe8eebb280a9d5e2eaa7fe8292e102eb28607341e892942f722fca28f628a54c80665e1c3d154eecd911fd6b6c34f070b
+Description: download/stream available BBC iPlayer TV and radio programmes
+ get_iplayer lists, searches and records BBC iPlayer TV/Radio, BBC Podcast
+ programmes. Other third-party plugins may be available.
+ .
+ get_iplayer has three modes: recording a complete programme for later
+ playback, streaming a programme directly to a playback application,
+ such as mplayer; and as a Personal Video Recorder (PVR), subscribing to
+ search terms and recording programmes automatically. It can also stream
+ or record live BBC iPlayer output.
+Homepage: http://git.infradead.org/get_iplayer.git
+
 Package: jonhedgerows-keyring
 Priority: optional
 Section: misc
@@ -582,32 +608,6 @@ Description: nginx web/proxy server (extended version) - debugging symbols
  debugging issues that you may find. It should not be required for normal
  operation.
 Homepage: http://nginx.net
-
-Package: get-iplayer
-Priority: optional
-Section: video
-Installed-Size: 671
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Architecture: all
-Version: 2.87-9-g6335969-ppa19a~wheezy
-Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, rtmpdump (>= 2.4), atomicparsley (>= 0.9.4), libav-tools
-Suggests: mplayer
-Filename: wheezy/get-iplayer_2.87-9-g6335969-ppa19a~wheezy_all.deb
-Size: 198822
-MD5sum: 40edb22933e47f39aa7c7f74fc240284
-SHA1: 0f26de62e8291a7bd306248b93c3c1d5ef8da0d0
-SHA256: 11036460b1ddcc9822d7f414106d9e10800ca6fb7aabe6452ad790b1eab40034
-SHA512: 6c7a556dda04221d269a7ee526f992d7bc7d69c2ef682931abe99caf0befc2d6f5b8c1faa03698c507856c5a3128ee941bebfa0d0a5e09590772363d966bda37
-Description: download/stream available BBC iPlayer TV and radio programmes
- get_iplayer lists, searches and records BBC iPlayer TV/Radio, BBC Podcast
- programmes. Other third-party plugins may be available.
- .
- get_iplayer has three modes: recording a complete programme for later
- playback, streaming a programme directly to a playback application,
- such as mplayer; and as a Personal Video Recorder (PVR), subscribing to
- search terms and recording programmes automatically. It can also stream
- or record live BBC iPlayer output.
-Homepage: http://git.infradead.org/get_iplayer.git
 
 Package: nginx-common
 Priority: optional
