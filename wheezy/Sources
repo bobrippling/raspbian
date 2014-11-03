@@ -39,6 +39,31 @@ Checksums-Sha256:
  994ad97cbf6f7045f95ea9d6d401aad1e95766671e402c48af85aba5235a2dd7 718161 nginx_1.2.1.orig.tar.gz
  08033cf91fdd6acd34b891a851634cf952fc96855b9d868faf008b126deb2b84 1868192 nginx_1.2.1-2.2+wheezy3rtmp1.debian.tar.gz
 
+Package: get-iplayer
+Binary: get-iplayer
+Version: 2.90-ppa20~wheezy
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Build-Depends: debhelper (>= 9), quilt
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Directory: wheezy
+Files:
+ eb172b2b1d083898a6ffe5574b03d9fc 1145 get-iplayer_2.90-ppa20~wheezy.dsc
+ a8da4b46d67af1f6cc43627d8460bc0a 264926 get-iplayer_2.90.orig.tar.gz
+ a9aa67c14049d09db92399e8a14be954 88187 get-iplayer_2.90-ppa20~wheezy.debian.tar.gz
+Homepage: http://git.infradead.org/get_iplayer.git
+Package-List: 
+ get-iplayer deb video optional
+Checksums-Sha1:
+ 4fc296d48fd11a9a4869c0f9b28c37574551414d 1145 get-iplayer_2.90-ppa20~wheezy.dsc
+ 819943d2d0c807f7ff01aaf37933ed7a06da0a86 264926 get-iplayer_2.90.orig.tar.gz
+ 8c3cc76309d4994b13af9b9b5c1673ff0303f9e7 88187 get-iplayer_2.90-ppa20~wheezy.debian.tar.gz
+Checksums-Sha256:
+ f7f35e12d6bd053b8c8ca5740e08c90938039fb2b53381e735640e9c21dd8cbe 1145 get-iplayer_2.90-ppa20~wheezy.dsc
+ 9b672a1c34f81dc9e17ceb2d134605a74b2e1c4f12b69782e373a3a93347092e 264926 get-iplayer_2.90.orig.tar.gz
+ 1f091375cb1dd1ae6c0f66b47e05910c2b69a0606913e970be3a682d42f5cd48 88187 get-iplayer_2.90-ppa20~wheezy.debian.tar.gz
+
 Package: jonhedgerows-keyring
 Binary: jonhedgerows-keyring
 Version: 2010.01.04
@@ -111,29 +136,4 @@ Checksums-Sha256:
  2f8107310125a251b97d1f53d0bcd7854a3a85f5d7219ca4ff4460c68e9e0f24 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
  37dcf9e55e9f9d92cfa7885822872811060492d70d0ebc3be49a9c6ae8700d35 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
  a359f4ee79a1ce54e6f0efd5653fd19fc0d9a64d15010d8000c509087f233d77 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
-
-Package: get-iplayer
-Binary: get-iplayer
-Version: 2.87-9-g6335969-ppa20p1~wheezy
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: debhelper (>= 9), quilt
-Architecture: all
-Standards-Version: 3.9.4
-Format: 3.0 (quilt)
-Directory: wheezy
-Files:
- 0416c2768b723b57fe45e0f94ca46373 1230 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.dsc
- cb7c27d5d7a2291fdf242d8c8dde01ab 264432 get-iplayer_2.87-9-g6335969.orig.tar.gz
- d0910a6795edc1749e3f17c52dbf54e6 88055 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.debian.tar.gz
-Homepage: http://git.infradead.org/get_iplayer.git
-Package-List: 
- get-iplayer deb video optional
-Checksums-Sha1:
- 1aee3f2b3563a9f61b0af49eb4f2230f30914554 1230 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.dsc
- d81a17512771a1e8363ac15684629d4218203473 264432 get-iplayer_2.87-9-g6335969.orig.tar.gz
- c51b9d7cd584c9eab9a99b6170f51dcf8c89d79d 88055 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.debian.tar.gz
-Checksums-Sha256:
- cd5bd522531fe8f2d001b61c92829335abe5d2c9de403240f3ffc7c621fead34 1230 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.dsc
- 7e117b44a9f69e2fcc795125557847fadbf373a5551c68e27eb7e920180555e9 264432 get-iplayer_2.87-9-g6335969.orig.tar.gz
- aa4b907df1da598ebb24c78610552e2a7de0e810b8373ccf7a2f23b6b45fef4c 88055 get-iplayer_2.87-9-g6335969-ppa20p1~wheezy.debian.tar.gz
 
