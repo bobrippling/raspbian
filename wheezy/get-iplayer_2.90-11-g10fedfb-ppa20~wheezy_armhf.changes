@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 08 Nov 2014 19:07:58 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 2.90-11-g10fedfb-ppa20~wheezy
+Distribution: wheezy
+Urgency: low
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description: 
+ get-iplayer - download/stream available BBC iPlayer TV and radio programmes
+Changes: 
+ get-iplayer (2.90-11-g10fedfb-ppa20~wheezy) wheezy; urgency=low
+ .
+   * New upstream snapshot, see README.git-log
+Checksums-Sha1: 
+ 0d68bfd19b0aedcd2aa4f67249c5a2bd385bbf9b 1229 get-iplayer_2.90-11-g10fedfb-ppa20~wheezy.dsc
+ 47c02da8449e7818279da18930b2485ef00251d5 267628 get-iplayer_2.90-11-g10fedfb.orig.tar.gz
+ 6104a2e1995fa079b30f0ce37c68759218a93a99 89061 get-iplayer_2.90-11-g10fedfb-ppa20~wheezy.debian.tar.gz
+ 9f2c7bba7d90d70522eadc9fc85b60fcd5be1852 201930 get-iplayer_2.90-11-g10fedfb-ppa20~wheezy_all.deb
+Checksums-Sha256: 
+ 9e55262a5ed1cbd636e238c5aa04abea9cacf10e6beee5caf84d0e55a4819811 1229 get-iplayer_2.90-11-g10fedfb-ppa20~wheezy.dsc
+ 4c65c0dbdb33d25b4f11e270a337d94d90396e261fb30c6d903e2f805a591b08 267628 get-iplayer_2.90-11-g10fedfb.orig.tar.gz
+ 9b7756946131b3bb5525ed47efe9c188eebfb363d39ec008cdd9dda8880aedec 89061 get-iplayer_2.90-11-g10fedfb-ppa20~wheezy.debian.tar.gz
+ c274970849bab7480a7bc8e47cd26d66ef4fa3de215ade18f75880bca2188aae 201930 get-iplayer_2.90-11-g10fedfb-ppa20~wheezy_all.deb
+Files: 
+ 042d2a609303a51b00aab27b1bb4121a 1229 video optional get-iplayer_2.90-11-g10fedfb-ppa20~wheezy.dsc
+ ac9869775f414588ca35af9e42c86232 267628 video optional get-iplayer_2.90-11-g10fedfb.orig.tar.gz
+ d28963425066396164c8f9bf59fae845 89061 video optional get-iplayer_2.90-11-g10fedfb-ppa20~wheezy.debian.tar.gz
+ 1e21842fdfc77bc7d62a51bc90cbea56 201930 video optional get-iplayer_2.90-11-g10fedfb-ppa20~wheezy_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlReao0ACgkQiwfE/w9b/f6JgACdGD4+5EfBdBxTlAWfWBGmgglk
+zroAn3mn94AcVs7pfluQeZ62RCkQvLX6
+=LKX7
+-----END PGP SIGNATURE-----
