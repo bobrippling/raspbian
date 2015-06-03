@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 03 Jun 2015 22:05:40 +0100
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 2.94-ppa23~wheezy
+Distribution: wheezy
+Urgency: low
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description: 
+ get-iplayer - download/stream available BBC iPlayer TV and radio programmes
+Changes: 
+ get-iplayer (2.94-ppa23~wheezy) wheezy; urgency=low
+ .
+   * New upstream snapshot, see README.git-log
+Checksums-Sha1: 
+ 5f5c68f8b5aaf9b0bedb57c1d30fee2ceeb75cd6 1148 get-iplayer_2.94-ppa23~wheezy.dsc
+ 2851170b2d7cf9495bd3192da9a07d7b6e99cd3a 278564 get-iplayer_2.94.orig.tar.gz
+ b6a108301638a94df6cf4d6b1445c91227b8c6bd 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
+ 567665a8d194403778725ad5559174143c0f14f2 212680 get-iplayer_2.94-ppa23~wheezy_all.deb
+Checksums-Sha256: 
+ 6dcb209192e425f0473c7fc585171ba64bafe75404ed4e5a2429b7b7309c993a 1148 get-iplayer_2.94-ppa23~wheezy.dsc
+ 6229331429878e9875a25126d53bbf53d17dbb6d36097ec5ea2e3e9c94a0a984 278564 get-iplayer_2.94.orig.tar.gz
+ 7fc887ffadee933d3271c60ad0717a331863a6d6ee910b35a62d1db09938f69f 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
+ ff34f45a5eef0a941607f3700f868557a9332dfc84977816baad942c88195f54 212680 get-iplayer_2.94-ppa23~wheezy_all.deb
+Files: 
+ 9c387ef225e2da8637fa79a7f94f9bdc 1148 video optional get-iplayer_2.94-ppa23~wheezy.dsc
+ ce0cb11c3122b0ba8b437547d1ebfa46 278564 video optional get-iplayer_2.94.orig.tar.gz
+ 8ffac0750ab6b0f55d2caa6d82208bb7 101069 video optional get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
+ a45acb8519f0b5a8b420b5499e4e7c4f 212680 video optional get-iplayer_2.94-ppa23~wheezy_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iEYEARECAAYFAlVvbHwACgkQiwfE/w9b/f547ACePQe39/f7LfLboJtEDqA37f9M
+fx0AnAqbjUwOXdjOWhNGXBQNnrzW8NWu
+=Ia4Q
+-----END PGP SIGNATURE-----

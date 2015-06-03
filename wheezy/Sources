@@ -114,26 +114,26 @@ Checksums-Sha256:
 
 Package: get-iplayer
 Binary: get-iplayer
-Version: 2.92-ppa22~wheezy
+Version: 2.94-ppa23~wheezy
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Build-Depends: debhelper (>= 9), quilt
 Architecture: all
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Format: 3.0 (quilt)
 Directory: wheezy
 Files:
- 8d399812f2bd6ef05274962e8641e96c 1145 get-iplayer_2.92-ppa22~wheezy.dsc
- 90e1ac669404702b70343444c612e2de 277379 get-iplayer_2.92.orig.tar.gz
- 5413c69bb10892c74a1f16f683da5284 99872 get-iplayer_2.92-ppa22~wheezy.debian.tar.gz
+ 9c387ef225e2da8637fa79a7f94f9bdc 1148 get-iplayer_2.94-ppa23~wheezy.dsc
+ ce0cb11c3122b0ba8b437547d1ebfa46 278564 get-iplayer_2.94.orig.tar.gz
+ 8ffac0750ab6b0f55d2caa6d82208bb7 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
 Homepage: http://git.infradead.org/get_iplayer.git
 Package-List: 
  get-iplayer deb video optional
 Checksums-Sha1:
- 7e0ba62a2ed09b6f6f9aed88f248f69f095a1a94 1145 get-iplayer_2.92-ppa22~wheezy.dsc
- 1230bbd5570558be31b31c6a79954079b4d237ee 277379 get-iplayer_2.92.orig.tar.gz
- 655015579eb03813e1b07fa2f5d5b994e608d54e 99872 get-iplayer_2.92-ppa22~wheezy.debian.tar.gz
+ 5f5c68f8b5aaf9b0bedb57c1d30fee2ceeb75cd6 1148 get-iplayer_2.94-ppa23~wheezy.dsc
+ 2851170b2d7cf9495bd3192da9a07d7b6e99cd3a 278564 get-iplayer_2.94.orig.tar.gz
+ b6a108301638a94df6cf4d6b1445c91227b8c6bd 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
 Checksums-Sha256:
- 53b4aed454d4c6d65d0080f53e6e97ab51d79a335a57ea13b11df74f62d533e5 1145 get-iplayer_2.92-ppa22~wheezy.dsc
- 66daef98432c62758c0e189544098f739112d104fb4d8edfbf6eaca9e33accfe 277379 get-iplayer_2.92.orig.tar.gz
- 1f63a9421871c8ca700103784a086406dae1adbf831a62ddb00a8ae00100b3f2 99872 get-iplayer_2.92-ppa22~wheezy.debian.tar.gz
+ 6dcb209192e425f0473c7fc585171ba64bafe75404ed4e5a2429b7b7309c993a 1148 get-iplayer_2.94-ppa23~wheezy.dsc
+ 6229331429878e9875a25126d53bbf53d17dbb6d36097ec5ea2e3e9c94a0a984 278564 get-iplayer_2.94.orig.tar.gz
+ 7fc887ffadee933d3271c60ad0717a331863a6d6ee910b35a62d1db09938f69f 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
 
