@@ -19,6 +19,9 @@ Checksums-Sha1:
 Checksums-Sha256:
  8af3ae80bdab9cc5afb8227a32b910e6520e526788dd72fe9fe48a8622f15372 628 jonhedgerows-keyring_2010.01.04.dsc
  c9c737560bdd9cbbb354b85d7235ad2dbbbb5315ab2bdf43463aa84e6f15c1a2 6940 jonhedgerows-keyring_2010.01.04.tar.gz
+Checksums-Sha512:
+ a302d03d466f7453c0e121ed7adedaa7ddd5f6e2a0bce6cdade68b3b3dd0f10d8870386f0ade0a875d446c8a87d872ffc9479230b27286c64325a846122ce410 628 jonhedgerows-keyring_2010.01.04.dsc
+ 6cdf49d7c65663fa0c31baa7820ad2d64d4697d072a188a029e509e6fcc1cb280df8efa4284dd97622d0a43b11e634e8b89318f825e84cef6ae1da5937c5179a 6940 jonhedgerows-keyring_2010.01.04.tar.gz
 
 Package: rtmpdump
 Binary: rtmpdump, librtmp-dev
@@ -45,6 +48,10 @@ Checksums-Sha256:
  7e1c37d5944c3df358c063f57c5da1a096377a64220652edefad0a6a2e95649c 985 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.dsc
  b2c8f0b36d2cc830a8ffc142dbf409a66b0397d3bb14e659ffa2314bdd98c1c8 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
  7f7d21f9ceee0f9f23c1259ffc847de228b8e20f029590a0b8a0a4628a178c8c 34299 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.diff.gz
+Checksums-Sha512:
+ 7e17b6193d7c6708314a3a8821973506f57ceeeef613c12f61f26afd362d7a35a14f93cf1fbb8fb9dd903ead376919ae7b53a43c6ad46c3afcd8b7a6fce6f7c0 985 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.dsc
+ e4ab9c9a650450f6b8a1e867a5223cf70bd9e780ba9024c4bc04abbbdca120dffd66a79e97beaff440a425be49d19d8a77cb7898e7239d8232d126039c2fdc97 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 9db8c842eb5f1b91d55b359541b677079409ca356fce1c5334f27f38a0ea7a516b9cd157758ba1d78b1b3acda70695f91c2e81e426eac87d642c8530298fc8e4 34299 rtmpdump_2.4-n78-git3a1e20c-ppa8~wheezy.diff.gz
 
 Package: atomicparsley
 Binary: atomicparsley
@@ -60,7 +67,7 @@ Files:
  36a1ebde0a57dbf14eb9b5da84a8df4f 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
  b07f37c56e23e4b3a8c047acf88173d4 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
 Homepage: https://bitbucket.org/wez/atomicparsley/
-Package-List: 
+Package-List:
  atomicparsley deb video optional
 Checksums-Sha1:
  3ac2da3ca94de2ed49a3a6371310f27ecc362b38 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
@@ -70,10 +77,14 @@ Checksums-Sha256:
  2f8107310125a251b97d1f53d0bcd7854a3a85f5d7219ca4ff4460c68e9e0f24 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
  37dcf9e55e9f9d92cfa7885822872811060492d70d0ebc3be49a9c6ae8700d35 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
  a359f4ee79a1ce54e6f0efd5653fd19fc0d9a64d15010d8000c509087f233d77 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
+Checksums-Sha512:
+ 259778972677f61b2168ce75dde5d837c3c81428f4ebda315cde167e18d29289b6a46b7cb9c5589e03440b138296a711aa77816c5935e7c1352c093421910661 1325 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.dsc
+ f2fc8a96198b72fb08aea9eff68a7099f4aa3a99e354065f7fc0640612f11823b5728d12fe41a69027325cc1b7ecb1752b4caf286ffe511a25418e00b67e2414 219511 atomicparsley_0.9.4-hg91.472d5fe6fb04.orig.tar.gz
+ 7ae1a327db90079e07423493dc862d603b8948167155a3e5c1eea266cea34e35f5a84db9eed5e9c2c80802b8e7b6618dbc3e4ec8d3f247215dafd1c4a0a37643 12308 atomicparsley_0.9.4-hg91.472d5fe6fb04-0ppa2~wheezy.debian.tar.gz
 
 Package: get-iplayer
 Binary: get-iplayer
-Version: 2.94-ppa23~wheezy
+Version: 2.95-ppa23p7~wheezy
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Build-Depends: debhelper (>= 9), quilt
 Architecture: all
@@ -81,18 +92,22 @@ Standards-Version: 3.9.5
 Format: 3.0 (quilt)
 Directory: wheezy
 Files:
- 9c387ef225e2da8637fa79a7f94f9bdc 1148 get-iplayer_2.94-ppa23~wheezy.dsc
- ce0cb11c3122b0ba8b437547d1ebfa46 278564 get-iplayer_2.94.orig.tar.gz
- 8ffac0750ab6b0f55d2caa6d82208bb7 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
+ d45d19d9fbd09744385e4c7f68bcdb7f 1144 get-iplayer_2.95-ppa23p7~wheezy.dsc
+ a99aa8aee1120a55f843c231e0af6c62 171293 get-iplayer_2.95.orig.tar.gz
+ a28b918f07581365d2bbb5c8314061ed 102664 get-iplayer_2.95-ppa23p7~wheezy.debian.tar.xz
 Homepage: http://git.infradead.org/get_iplayer.git
-Package-List: 
- get-iplayer deb video optional
+Package-List:
+ get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 5f5c68f8b5aaf9b0bedb57c1d30fee2ceeb75cd6 1148 get-iplayer_2.94-ppa23~wheezy.dsc
- 2851170b2d7cf9495bd3192da9a07d7b6e99cd3a 278564 get-iplayer_2.94.orig.tar.gz
- b6a108301638a94df6cf4d6b1445c91227b8c6bd 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
+ d36fe07bcaebf7f95669152c80517f5685dc2da5 1144 get-iplayer_2.95-ppa23p7~wheezy.dsc
+ 55ca75c230aa0f53a63750de1dfd3741b4a92f01 171293 get-iplayer_2.95.orig.tar.gz
+ 050dacbbb15714b1d5b12809ae9641597700b7e0 102664 get-iplayer_2.95-ppa23p7~wheezy.debian.tar.xz
 Checksums-Sha256:
- 6dcb209192e425f0473c7fc585171ba64bafe75404ed4e5a2429b7b7309c993a 1148 get-iplayer_2.94-ppa23~wheezy.dsc
- 6229331429878e9875a25126d53bbf53d17dbb6d36097ec5ea2e3e9c94a0a984 278564 get-iplayer_2.94.orig.tar.gz
- 7fc887ffadee933d3271c60ad0717a331863a6d6ee910b35a62d1db09938f69f 101069 get-iplayer_2.94-ppa23~wheezy.debian.tar.gz
+ 8224a3965c57f3dd831fe6e1ea68e55b0d76f361f7db5cf8dfd807e2a4f172a8 1144 get-iplayer_2.95-ppa23p7~wheezy.dsc
+ 196bdbe34d779cd31d1f6296a27e3e6af4d187c7d28cad4a24d8932f80811db7 171293 get-iplayer_2.95.orig.tar.gz
+ aed1715686d5542a334471137de0427ab355a2361b30538af98892755b3adf52 102664 get-iplayer_2.95-ppa23p7~wheezy.debian.tar.xz
+Checksums-Sha512:
+ e430fca201683765c0165d7a2ad9bbfa5cc49bd937b2a78fe01349ad2b0dd7abf48d12ce72e77c90e0bfdeb2aeeca8803a4f488e687f72f224ef825f95010704 1144 get-iplayer_2.95-ppa23p7~wheezy.dsc
+ f84787fa8889af7953679b2317ee82f730b54c1f9d3b6acadb109a017fd8ccce55db18773bc1dd42446d98cd08624c39e28f7f7dcfacd947130f2c5c27e9c060 171293 get-iplayer_2.95.orig.tar.gz
+ 22f7b7c077a967caa754cc58bcee91f28ca31deaf95a9b1edde331a6c2da6e639d8e48b7c9cef895c49902b361380446b011b113f6923b4cde390c101292a460 102664 get-iplayer_2.95-ppa23p7~wheezy.debian.tar.xz
 
