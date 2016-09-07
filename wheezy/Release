@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: wheezy
 Codename: wheezy
-Date: Fri, 15 Jul 2016 23:10:31 UTC
+Date: Wed, 07 Sep 2016 22:25:39 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
- 9f6d32ac85a4bd32bd62b6b21cbdce0f            5536 Packages
- 64ed7035f03afb77f1c9028bb4c842a6            2527 Packages.gz
- 3d67b6f79e6cb1596a7111c37d6282af            2640 Packages.bz2
- 66ccfc91a4387d9555f44d5f684e87c4            6865 Sources
- 779f8e3f27cb8bee5d482d9308e46db7            2648 Sources.gz
- 22bdb49b55cadfeec912abfc1635d953            2695 Sources.bz2
+ a35022d3959101a613cb4fee725499f5            5896 Packages
+ 944357d52b344444ac5c6626c66cbad1            2683 Packages.gz
+ d253984b73f588c69db9c6f11a01119b            2803 Packages.bz2
+ 7922e39910781b11b1e0cbba95dbc6b0            6847 Sources
+ 581089e844a9ace501d0881ae9291e98            2646 Sources.gz
+ e73f570813aac7f2e4bb20df183a87b5            2698 Sources.bz2
 SHA1:
- 8542fdbadbcabc5ee86a152bea85a9381e775bd6            5536 Packages
- 86d3baea0e4db2e9266657a6931802986fc52875            2527 Packages.gz
- 12e4985d629eb02babc590d13fd107e4be1b7dfb            2640 Packages.bz2
- bdf048f6f9e2b5a72dc2132e09c90b5c3f7e2098            6865 Sources
- ac4016ac0785e3cc4e4f3f6df04c8d4c56f36da3            2648 Sources.gz
- 5681c612fce66bc79f4ed6d71a4122dae8f1e65b            2695 Sources.bz2
+ 244c6ab1132de462dffa06fa11dc8d610ef702b0            5896 Packages
+ aad8b5c2a1af7330d49619aca521c55e33db48a2            2683 Packages.gz
+ f6c19020a675454abd05031d15c0da56a61ad4d6            2803 Packages.bz2
+ b4bfbf9ad695289378d9abddfb9392d8aa1617fc            6847 Sources
+ eefb0fd82c5211e0a3f77680a35df40214c7c5f2            2646 Sources.gz
+ b5511e715d708fd53778defc9916100f4aec681b            2698 Sources.bz2
 SHA256:
- e7999f7ba328cdb906b9ee790b7da1812a336abb58568908219dc43589859dd7            5536 Packages
- b0afe5b176b2f9824677ef7fbdf8d75374b04ae903b12d44a03100e74c193f1d            2527 Packages.gz
- 0919f80716db39811076fef65775f33c5f6e51df0868a2e501b71afd381fc1b5            2640 Packages.bz2
- 4ddef4ddad89ccc9b99e17ab1302cf5743ec9ed4eac6a9f32b595ef93d9f3bae            6865 Sources
- 306dbb152267a6716c08e0e0c965605300e4b16863245af9206afb8962bb85f8            2648 Sources.gz
- 2dfcf4713827c4d31baf3924c1d58d8a133284bd476f7013ada0ba2c8c1fa0a4            2695 Sources.bz2
+ 1762c13479f0ce54ffd1bbca359bed4e05e48a3db30dfe37ce33bd9b4c78a822            5896 Packages
+ d5a7e472464b8f36840d28600c0614d4aab1029e23b14168804400c378fa9c54            2683 Packages.gz
+ a20bcdc232e81cbb72896b350caa5bad66c0bf503c15a9b0b60eea540038a660            2803 Packages.bz2
+ bd4d637fab3842abe7a43d193a08b1e9cfa11b7cf29eb9e3ecef9918672b5e40            6847 Sources
+ 4f657e8f8221a9a3afcc6d75e273efc01cefdb117bbcfefe7a70df0063051182            2646 Sources.gz
+ 9638918add953b065c24a76a8a4bdedaa07d5f92f5368b008c165bb456d0c60b            2698 Sources.bz2

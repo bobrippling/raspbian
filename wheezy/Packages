@@ -55,27 +55,32 @@ Homepage: https://bitbucket.org/wez/atomicparsley/
 Package: get-iplayer
 Priority: optional
 Section: video
-Installed-Size: 678
+Installed-Size: 683
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Architecture: all
-Version: 2.95-ppa23p7~wheezy
-Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, atomicparsley (>= 0.9.4), libav-tools
-Suggests: mplayer, rtmpdump (>= 2.4)
-Filename: wheezy/get-iplayer_2.95-ppa23p7~wheezy_all.deb
-Size: 154588
-MD5sum: d332600e37575ef19a227790a64daff4
-SHA1: a15adad6644803943c291cb0cf5a9e0581f6a70e
-SHA256: ff2c496b2071cc9dbce9edb6efaa25c74287ab6645e438eef97cbf7c97d7acc4
-SHA512: 60eabd56207c35f15c6c46480076911edec61814499922ea85f9f8b79970a73528fa5f5f1bd5a184c8f745f5a7ae34097a012f13cff75245a241e113f04c8931
-Description: download/stream available BBC iPlayer TV and radio programmes
- get_iplayer lists, searches and records BBC iPlayer TV/Radio, BBC Podcast
- programmes.
+Version: 2.96-ppa26~wheezy
+Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libxml-libxml-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, atomicparsley (>= 0.9.4), libav-tools
+Suggests: rtmpdump (>= 2.4)
+Filename: wheezy/get-iplayer_2.96-ppa26~wheezy_all.deb
+Size: 156422
+MD5sum: 83a6034fbfbe3ec300841e87351dd586
+SHA1: cfc80475f78412a57cb57ead51c3d8c71e625d87
+SHA256: 764ca4f208de7ed387b5a95fbebee1d50d529a97ed8b4e1a6f34458c3e6720f9
+SHA512: 12b548922632b594cbe077508b1cbd46fe77aae6d6ff7840cb97dc773fec1b2a8f8ed5220a04b13b1a75822541b37cb772d404e7c6eb168810eddba24fdad8b0
+Description: download TV and radio programmes from BBC iPlayer
+ get_iplayer indexes, searches and records BBC iPlayer TV and radio programmes.
  .
- get_iplayer has three modes: recording a complete programme for later
- playback, streaming a programme directly to a playback application,
- such as mplayer; and as a Personal Video Recorder (PVR), subscribing to
- search terms and recording programmes automatically. It can also stream
- or record live BBC iPlayer output.
+ Features
+ Downloads TV and radio programmes from BBC iPlayer
+ Allows multiple programmes to be downloaded using a single command
+ Indexing of most available iPlayer catch-up programmes (not iPlayer Exclusive, Red Button or BBC Three)
+ Caching of index (default 4h)
+ Regex search on programme name
+ Regex search on programme description and episode title
+ Filter search results by channel
+ PVR capability (may be used with cron or Task Scheduler)
+ HTTP proxy support
+ NOTE: get_iplayer can only search programmes broadcast on BBC linear services within the previous 30 days, even if some are available for more than 30 days on the iPlayer web site. Other programmes must be downloaded directly.
 Homepage: http://git.infradead.org/get_iplayer.git
 
 Package: rtmpdump

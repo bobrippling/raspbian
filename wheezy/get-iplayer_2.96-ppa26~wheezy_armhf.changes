@@ -1,0 +1,102 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 07 Sep 2016 23:19:07 +0100
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 2.96-ppa26~wheezy
+Distribution: wheezy
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - download TV and radio programmes from BBC iPlayer
+Changes:
+ get-iplayer (2.96-ppa26~wheezy) wheezy; urgency=medium
+ .
+   * New upstream snapshot
+   * a2700c0: Release 2.96 [dinkypumpkin]
+   * 289cb04: fixed makefile [dinkypumpkin]
+   * 4498524: use stricter regex for radio modes backcompat
+     [dinkypumpkin]
+   * 1fef371: help text edits for modes [dinkypumpkin]
+   * 5f85c44: Added tv25fps mode [dinkypumpkin]
+   * 6872189: Restored hlsaac modes to support bloody programme clips
+     [dinkypumpkin]
+   * afbd83d: Use combined hvf and hls modes as default for TV programmes
+     [dinkypumpkin]
+   * aeb81ac: Restored hls modes to support bloody programme clips
+     [dinkypumpkin]
+   * 401a9f3: Restored tagging to Makefile [dinkypumpkin]
+   * 13beb18: Tweaked messages for segment errors [dinkypumpkin]
+   * 2846e6f: Revert "Added --allow-gaps option (HLS and DASH only)"
+     [dinkypumpkin]
+   * 24537c2: Web PVR: restored dimming for history entries without
+     associated files [dinkypumpkin]
+   * feb1157: corrected default mode shortcuts [dinkypumpkin]
+   * a3faa80: Don't break if user insists on avconv [dinkypumpkin]
+   * ed0fca8: Re-remove preference for avconv if detected [dinkypumpkin]
+   * 01d955b: Fixed error message when attempting to stream DASH
+     [dinkypumpkin]
+   * 78e253d: Remove hls recording modes for TV programmes [dinkypumpkin]
+   * d157d45: help text edit [dinkypumpkin]
+   * eeaaefa: Restore previous preference for avconv if detected
+     [dinkypumpkin]
+   * 6918515: fixed typo [dinkypumpkin]
+   * e1ecbda: Added --allow-gaps option (HLS and DASH only)
+     [dinkypumpkin]
+   * 2f24537: Prevent remux of hvf with avconv, always prefer ffmpeg if
+     available [dinkypumpkin]
+   * dc45145: Better error handling if streamer cannot be instantiated
+     [dinkypumpkin]
+   * 9a1e38c: Added "haf" prefix to mode sort [dinkypumpkin]
+   * b025347: Make hvf default recording modes for TV [dinkypumpkin]
+   * 8be6681: Fixed "hvfbest" mode shortcut [dinkypumpkin]
+   * 8290ba6: Remove now-unnecessary fudge for hvf audiodescribed
+     programmes [dinkypumpkin]
+   * 2788a13: help text changes [dinkypumpkin]
+   * 48150e5: Prioritise DASH over HLS in default radio modes
+     [dinkypumpkin]
+   * 2ac4716: Revert to "flashaac" as prefix for flash radio modes
+     [dinkypumpkin]
+   * 15c440c: Expanded mode shortcut quality levels [dinkypumpkin]
+   * cbafcf3: Use "haf" prefix for radio HLS streams [dinkypumpkin]
+   * 1564276: "Segment not found" is now an error and aborts download
+     unless... [dinkypumpkin]
+   * 782f04a: Fixed delayed download progress display in Web PVR Manager
+     [dinkypumpkin]
+   * 9986f11: Fixed "cannot fork" error in Windows Web PVR Manager (with
+     caveats) [dinkypumpkin]
+   * 992d670: Relaxed schedule parsing to accommodate some future
+     programme listings [dinkypumpkin]
+   * 6b48739: Merge branch 'master' into develop [dinkypumpkin]
+   * c98e51c: Added 320k and 96k HLS streams for radio programmes
+     [dinkypumpkin]
+   * dff0f79: Fixed incorrect file extension in missing ffmpeg warning
+     for radio programmes [dinkypumpkin]
+   * f2f3922: bump dev version [dinkypumpkin]
+Checksums-Sha1:
+ 11047b06f8c9e1d6c9c9f7cabd10e746bf2ab2fe 1136 get-iplayer_2.96-ppa26~wheezy.dsc
+ 4df3b5b090d74726ea90eb07b5697d2c0f58ae04 172305 get-iplayer_2.96.orig.tar.gz
+ 78c2e6f7c9bcc121fc0aa014712649e63b43051d 106148 get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ cfc80475f78412a57cb57ead51c3d8c71e625d87 156422 get-iplayer_2.96-ppa26~wheezy_all.deb
+Checksums-Sha256:
+ 2fc6cd0f367db9695570e700a78e018ec34590c8cb7c3c0d2bc41350e64ab127 1136 get-iplayer_2.96-ppa26~wheezy.dsc
+ fa562b0f3874397d7e092a59de7b604523338b8ae56fa9b9a350405425496232 172305 get-iplayer_2.96.orig.tar.gz
+ c6203ee351cc099138310071be9b00b1ee026db7a5421e4de27f3a2a200d50e9 106148 get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ 764ca4f208de7ed387b5a95fbebee1d50d529a97ed8b4e1a6f34458c3e6720f9 156422 get-iplayer_2.96-ppa26~wheezy_all.deb
+Files:
+ 9d8aac428505a3b62219d40cd7e2f3da 1136 video optional get-iplayer_2.96-ppa26~wheezy.dsc
+ 6ffebd289dab451fb4eaed695436d334 172305 video optional get-iplayer_2.96.orig.tar.gz
+ 7fe3bbc045ea1f532dddbb78f99ab768 106148 video optional get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ 83a6034fbfbe3ec300841e87351dd586 156422 video optional get-iplayer_2.96-ppa26~wheezy_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlfQk5AACgkQiwfE/w9b/f4BEACfcxKmJnzTOF8+JbhoQJN4SCOs
+TR4AoLd91e8iDScOk6JWQp4VGHwhD2Bi
+=MfgM
+-----END PGP SIGNATURE-----
