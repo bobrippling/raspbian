@@ -52,37 +52,6 @@ Description: read, parse and set metadata of MPEG-4 and 3gp files
     derivative files
 Homepage: https://bitbucket.org/wez/atomicparsley/
 
-Package: get-iplayer
-Priority: optional
-Section: video
-Installed-Size: 683
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Architecture: all
-Version: 2.96-ppa26~wheezy
-Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libxml-libxml-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, atomicparsley (>= 0.9.4), libav-tools
-Suggests: rtmpdump (>= 2.4)
-Filename: wheezy/get-iplayer_2.96-ppa26~wheezy_all.deb
-Size: 156422
-MD5sum: 83a6034fbfbe3ec300841e87351dd586
-SHA1: cfc80475f78412a57cb57ead51c3d8c71e625d87
-SHA256: 764ca4f208de7ed387b5a95fbebee1d50d529a97ed8b4e1a6f34458c3e6720f9
-SHA512: 12b548922632b594cbe077508b1cbd46fe77aae6d6ff7840cb97dc773fec1b2a8f8ed5220a04b13b1a75822541b37cb772d404e7c6eb168810eddba24fdad8b0
-Description: download TV and radio programmes from BBC iPlayer
- get_iplayer indexes, searches and records BBC iPlayer TV and radio programmes.
- .
- Features
- Downloads TV and radio programmes from BBC iPlayer
- Allows multiple programmes to be downloaded using a single command
- Indexing of most available iPlayer catch-up programmes (not iPlayer Exclusive, Red Button or BBC Three)
- Caching of index (default 4h)
- Regex search on programme name
- Regex search on programme description and episode title
- Filter search results by channel
- PVR capability (may be used with cron or Task Scheduler)
- HTTP proxy support
- NOTE: get_iplayer can only search programmes broadcast on BBC linear services within the previous 30 days, even if some are available for more than 30 days on the iPlayer web site. Other programmes must be downloaded directly.
-Homepage: http://git.infradead.org/get_iplayer.git
-
 Package: rtmpdump
 Priority: extra
 Section: web
@@ -121,4 +90,35 @@ Description: GnuPG archive key for packages.hedgerows.org.uk
  Packages at packages.hedgerows.org.uk are digitally signed.  This package
  contains the public key for those signatures.
 Homepage: http://packages.hedgerows.org.uk/
+
+Package: get-iplayer
+Priority: optional
+Section: video
+Installed-Size: 684
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Architecture: all
+Version: 2.97-ppa26~wheezy
+Depends: libwww-perl, perl, libmp3-info-perl, libmp3-tag-perl, libxml-simple-perl, libxml-libxml-perl, libnet-smtp-ssl-perl, libauthen-sasl-perl, libnet-smtp-tls-butmaintained-perl, atomicparsley (>= 0.9.4), libav-tools
+Suggests: rtmpdump (>= 2.4)
+Filename: wheezy/get-iplayer_2.97-ppa26~wheezy_all.deb
+Size: 156822
+MD5sum: 780ba4a2f11d5d7300fcac82f6c216d7
+SHA1: bc1cc0191620fd878caebcb17c21d3a8d1be60d3
+SHA256: 016ac370f455f5d4925d73690bc390d25291635018b0d4e9750a2f161bc1c91f
+SHA512: 6807c53bf1c52613db4a2c51f72afdead910a9a009259afceee901e236a12771b44c961b6ce7d78a3e76929fe097d86e2dd1a30df0d2a74cb3d473f256ea5acc
+Description: download TV and radio programmes from BBC iPlayer
+ get_iplayer indexes, searches and records BBC iPlayer TV and radio programmes.
+ .
+ Features
+ Downloads TV and radio programmes from BBC iPlayer
+ Allows multiple programmes to be downloaded using a single command
+ Indexing of most available iPlayer catch-up programmes (not iPlayer Exclusive, Red Button or BBC Three)
+ Caching of index (default 4h)
+ Regex search on programme name
+ Regex search on programme description and episode title
+ Filter search results by channel
+ PVR capability (may be used with cron or Task Scheduler)
+ HTTP proxy support
+ NOTE: get_iplayer can only search programmes broadcast on BBC linear services within the previous 30 days, even if some are available for more than 30 days on the iPlayer web site. Other programmes must be downloaded directly.
+Homepage: http://git.infradead.org/get_iplayer.git
 

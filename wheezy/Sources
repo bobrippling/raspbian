@@ -84,7 +84,7 @@ Checksums-Sha512:
 
 Package: get-iplayer
 Binary: get-iplayer
-Version: 2.96-ppa26~wheezy
+Version: 2.97-ppa26~wheezy
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Build-Depends: debhelper (>= 9), quilt
 Architecture: all
@@ -92,22 +92,22 @@ Standards-Version: 3.9.5
 Format: 3.0 (quilt)
 Directory: wheezy
 Files:
- 9d8aac428505a3b62219d40cd7e2f3da 1136 get-iplayer_2.96-ppa26~wheezy.dsc
- 6ffebd289dab451fb4eaed695436d334 172305 get-iplayer_2.96.orig.tar.gz
- 7fe3bbc045ea1f532dddbb78f99ab768 106148 get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ c0ec07e9b3d17c0f9aa19fd4e8e35d18 1136 get-iplayer_2.97-ppa26~wheezy.dsc
+ d799932117d17ce0cc6731c52f0bcfb4 172390 get-iplayer_2.97.orig.tar.gz
+ 5ec83bdb32155f934a31a59aee114381 107324 get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
 Homepage: http://git.infradead.org/get_iplayer.git
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 11047b06f8c9e1d6c9c9f7cabd10e746bf2ab2fe 1136 get-iplayer_2.96-ppa26~wheezy.dsc
- 4df3b5b090d74726ea90eb07b5697d2c0f58ae04 172305 get-iplayer_2.96.orig.tar.gz
- 78c2e6f7c9bcc121fc0aa014712649e63b43051d 106148 get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ 742f6dd41c59412eeab808da07b8370f9589a4e0 1136 get-iplayer_2.97-ppa26~wheezy.dsc
+ bfc7b5750f36c63c50142e8ecec6c573c6968a03 172390 get-iplayer_2.97.orig.tar.gz
+ af172907266cc36e306526e8a39cdc97a5c7530a 107324 get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
 Checksums-Sha256:
- 2fc6cd0f367db9695570e700a78e018ec34590c8cb7c3c0d2bc41350e64ab127 1136 get-iplayer_2.96-ppa26~wheezy.dsc
- fa562b0f3874397d7e092a59de7b604523338b8ae56fa9b9a350405425496232 172305 get-iplayer_2.96.orig.tar.gz
- c6203ee351cc099138310071be9b00b1ee026db7a5421e4de27f3a2a200d50e9 106148 get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ b9c6aa068f6346bad8bf61fbdd7de25fa144415a0795470839bddfde76dc2b1b 1136 get-iplayer_2.97-ppa26~wheezy.dsc
+ 78188c0242a45c6c3c70fe33b0f7fd479e93fa0c73220b03a2f9c578b22b13d3 172390 get-iplayer_2.97.orig.tar.gz
+ d6ff6d38f4b287ce35d66cd98496a12910099c494713a38cdc382f53809083d5 107324 get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
 Checksums-Sha512:
- 1d9a32a6139e7a0f2407c2c5226e92ea8b9d08a797bf4ac06e58e18929cf811292d10a947073373a4c7b5d21fc640179b4ce37e89ccc9e7edcf07f4fdc5d75da 1136 get-iplayer_2.96-ppa26~wheezy.dsc
- 4b5d9a02afffed0efba4c3bcd8a11b6dd20ad3a8eb17f263c06cbfb1d38977d53c36f0762d6fa9646b96bff5f3802a33d619f58ee1ff9d8555d5fd304691419b 172305 get-iplayer_2.96.orig.tar.gz
- 0dc19431178de2d6f7a161df0ad32cbff62d5242a5fc98c8cac5d10792c811552a6ba1c5703b88a382fd8c8677c44a45f017481aed9bbbc4247d7440202cb444 106148 get-iplayer_2.96-ppa26~wheezy.debian.tar.xz
+ 6e31012ed57ea21133feedd6732ff37a13320241010d2444cb3ddd2ee13e0932d091653243762acceb688ebfaf290e4354ab1bc88e38f0d08d4b17957f7027e6 1136 get-iplayer_2.97-ppa26~wheezy.dsc
+ ad0306487606c88284d94601a4db83b23d4105432cbf4ab87bef466a0b273bb958bcb41df9a5e7e32423e67d562a97ac0b288c7fe5b67e3ebea62f68a3422c33 172390 get-iplayer_2.97.orig.tar.gz
+ 28161d8cfff4bd2ae51f0096f916d1ccdf29de89505a07892d60e9a3e726f073fbfa9fa3d0287ecdb6a930946afc9950975ae234bc094097a3851aa4a7293236 107324 get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
 
