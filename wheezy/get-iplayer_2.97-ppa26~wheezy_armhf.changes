@@ -1,0 +1,122 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 07 Oct 2016 21:05:18 +0100
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 2.97-ppa26~wheezy
+Distribution: wheezy
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - download TV and radio programmes from BBC iPlayer
+Changes:
+ get-iplayer (2.97-ppa26~wheezy) wheezy; urgency=medium
+ .
+   * New upstream snapshot
+   * 31d0103: Release 2.97 [dinkypumpkin]
+   * ce6ec50: Revert "Support --pid and --pid-recursive from pvr searches
+     created with --pvr-add" [dinkypumpkin]
+   * 8287a61: Revert "Implemented --command-tv and --command-radio
+     options" [dinkypumpkin]
+   * 8cf518f: Web PVR: ensure consistent display of boolean radio groups
+     [dinkypumpkin]
+   * 6d2765c: Web PVR: work around changes in Chrome 53, Opera 40 and
+     Firefox 49 [dinkypumpkin]
+   * 8b5459b: Remove images left behind by AtomicParsley [dinkypumpkin]
+   * c9fc039: Filter redundant AD streams [dinkypumpkin]
+   * 9183610: Add ffmpeg -loglevel and -stats options separately
+     [dinkypumpkin]
+   * ee16652: Implemented --command-tv and --command-radio options
+     [dinkypumpkin]
+   * 78d8b8c: Support --pid and --pid-recursive from pvr searches created
+     with --pvr-add [dinkypumpkin]
+   * 309e776: Re-include "hlsvhigh" into the default tvmodes...
+     [Vangelis66]
+   * 1b2dd6d: bump dev version [dinkypumpkin]
+   * a2700c0: Release 2.96 [dinkypumpkin]
+   * 289cb04: fixed makefile [dinkypumpkin]
+   * 4498524: use stricter regex for radio modes backcompat
+     [dinkypumpkin]
+   * 1fef371: help text edits for modes [dinkypumpkin]
+   * 5f85c44: Added tv25fps mode [dinkypumpkin]
+   * 6872189: Restored hlsaac modes to support bloody programme clips
+     [dinkypumpkin]
+   * afbd83d: Use combined hvf and hls modes as default for TV programmes
+     [dinkypumpkin]
+   * aeb81ac: Restored hls modes to support bloody programme clips
+     [dinkypumpkin]
+   * 401a9f3: Restored tagging to Makefile [dinkypumpkin]
+   * 13beb18: Tweaked messages for segment errors [dinkypumpkin]
+   * 2846e6f: Revert "Added --allow-gaps option (HLS and DASH only)"
+     [dinkypumpkin]
+   * 24537c2: Web PVR: restored dimming for history entries without
+     associated files [dinkypumpkin]
+   * feb1157: corrected default mode shortcuts [dinkypumpkin]
+   * a3faa80: Don't break if user insists on avconv [dinkypumpkin]
+   * ed0fca8: Re-remove preference for avconv if detected [dinkypumpkin]
+   * 01d955b: Fixed error message when attempting to stream DASH
+     [dinkypumpkin]
+   * 78e253d: Remove hls recording modes for TV programmes [dinkypumpkin]
+   * d157d45: help text edit [dinkypumpkin]
+   * eeaaefa: Restore previous preference for avconv if detected
+     [dinkypumpkin]
+   * 6918515: fixed typo [dinkypumpkin]
+   * e1ecbda: Added --allow-gaps option (HLS and DASH only)
+     [dinkypumpkin]
+   * 2f24537: Prevent remux of hvf with avconv, always prefer ffmpeg if
+     available [dinkypumpkin]
+   * dc45145: Better error handling if streamer cannot be instantiated
+     [dinkypumpkin]
+   * 9a1e38c: Added "haf" prefix to mode sort [dinkypumpkin]
+   * b025347: Make hvf default recording modes for TV [dinkypumpkin]
+   * 8be6681: Fixed "hvfbest" mode shortcut [dinkypumpkin]
+   * 8290ba6: Remove now-unnecessary fudge for hvf audiodescribed
+     programmes [dinkypumpkin]
+   * 2788a13: help text changes [dinkypumpkin]
+   * 48150e5: Prioritise DASH over HLS in default radio modes
+     [dinkypumpkin]
+   * 2ac4716: Revert to "flashaac" as prefix for flash radio modes
+     [dinkypumpkin]
+   * 15c440c: Expanded mode shortcut quality levels [dinkypumpkin]
+   * cbafcf3: Use "haf" prefix for radio HLS streams [dinkypumpkin]
+   * 1564276: "Segment not found" is now an error and aborts download
+     unless... [dinkypumpkin]
+   * 782f04a: Fixed delayed download progress display in Web PVR Manager
+     [dinkypumpkin]
+   * 9986f11: Fixed "cannot fork" error in Windows Web PVR Manager (with
+     caveats) [dinkypumpkin]
+   * 992d670: Relaxed schedule parsing to accommodate some future
+     programme listings [dinkypumpkin]
+   * 6b48739: Merge branch 'master' into develop [dinkypumpkin]
+   * c98e51c: Added 320k and 96k HLS streams for radio programmes
+     [dinkypumpkin]
+   * dff0f79: Fixed incorrect file extension in missing ffmpeg warning
+     for radio programmes [dinkypumpkin]
+   * f2f3922: bump dev version [dinkypumpkin]
+Checksums-Sha1:
+ 742f6dd41c59412eeab808da07b8370f9589a4e0 1136 get-iplayer_2.97-ppa26~wheezy.dsc
+ bfc7b5750f36c63c50142e8ecec6c573c6968a03 172390 get-iplayer_2.97.orig.tar.gz
+ af172907266cc36e306526e8a39cdc97a5c7530a 107324 get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
+ bc1cc0191620fd878caebcb17c21d3a8d1be60d3 156822 get-iplayer_2.97-ppa26~wheezy_all.deb
+Checksums-Sha256:
+ b9c6aa068f6346bad8bf61fbdd7de25fa144415a0795470839bddfde76dc2b1b 1136 get-iplayer_2.97-ppa26~wheezy.dsc
+ 78188c0242a45c6c3c70fe33b0f7fd479e93fa0c73220b03a2f9c578b22b13d3 172390 get-iplayer_2.97.orig.tar.gz
+ d6ff6d38f4b287ce35d66cd98496a12910099c494713a38cdc382f53809083d5 107324 get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
+ 016ac370f455f5d4925d73690bc390d25291635018b0d4e9750a2f161bc1c91f 156822 get-iplayer_2.97-ppa26~wheezy_all.deb
+Files:
+ c0ec07e9b3d17c0f9aa19fd4e8e35d18 1136 video optional get-iplayer_2.97-ppa26~wheezy.dsc
+ d799932117d17ce0cc6731c52f0bcfb4 172390 video optional get-iplayer_2.97.orig.tar.gz
+ 5ec83bdb32155f934a31a59aee114381 107324 video optional get-iplayer_2.97-ppa26~wheezy.debian.tar.xz
+ 780ba4a2f11d5d7300fcac82f6c216d7 156822 video optional get-iplayer_2.97-ppa26~wheezy_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlf4AXkACgkQiwfE/w9b/f6o8gCgkHjZ7S2iVZlu0ASKQGcJOePz
+tzcAn3cTpr7euUWM/sgNOHeuqeYr9gD0
+=1cGg
+-----END PGP SIGNATURE-----
