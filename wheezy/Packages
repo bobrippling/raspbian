@@ -72,25 +72,6 @@ Description: A small dumper for media content streamed over the RTMP protocol
  flv file, which can be played/transcoded using ffmpeg/mplayer, etc.
 Homepage: http://rtmpdump.mplayerhq.hu/
 
-Package: jonhedgerows-keyring
-Priority: optional
-Section: misc
-Installed-Size: 37
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Architecture: all
-Version: 2010.01.04
-Depends: gnupg
-Filename: wheezy/jonhedgerows-keyring_2010.01.04_all.deb
-Size: 7466
-MD5sum: 43a475d4f0e02a3edafe276a6f1ceb8d
-SHA1: 0119c0a1cedbb46f31c25af484dc85181f05d127
-SHA256: 6d87e6048c8532a41a5fb798a840d2aa3e9683a4bc93b23f7a604cadd042209d
-SHA512: f9971f7c6a33caad76472d4d0d6c604f3377737109e896a888b5379dcce344ea54179621b4d2412c679dea6dde9c7eee5043080ff6b91b2e51e1a87700ce25c6
-Description: GnuPG archive key for packages.hedgerows.org.uk
- Packages at packages.hedgerows.org.uk are digitally signed.  This package
- contains the public key for those signatures.
-Homepage: http://packages.hedgerows.org.uk/
-
 Package: get-iplayer
 Priority: optional
 Section: video

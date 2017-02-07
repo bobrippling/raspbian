@@ -27,31 +27,6 @@ Checksums-Sha512:
  bd487f466611a49df98d108fe8c7577f6baec47b9f017fb851c1b35ea483a6863d5f8ad2f77d924caf605e2167e7bc98ba7ad3d1c13037d11b25fc7d13029bf5 141711 get-iplayer_2.98.orig.tar.gz
  51b1180b5b29c278f4f2f6790b88683e868d62db91d7653bc10a44574a6d09317f52aac44d5658f054e9edc1b6e7f141d86a159a9ea90d209daafb6c94edc20d 115908 get-iplayer_2.98-ppa27~wheezy.debian.tar.xz
 
-Package: jonhedgerows-keyring
-Binary: jonhedgerows-keyring
-Version: 2010.01.04
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: debhelper (>= 7)
-Architecture: all
-Standards-Version: 3.8.1
-Format: 1.0
-Directory: wheezy
-Files:
- eb77238dbd41c221e43592ca999fe059 628 jonhedgerows-keyring_2010.01.04.dsc
- 0a2f12f65fcbfb61a492dd0e92b877ec 6940 jonhedgerows-keyring_2010.01.04.tar.gz
-Homepage: http://packages.hedgerows.org.uk/
-Package-List: 
- jonhedgerows-keyring deb misc optional
-Checksums-Sha1:
- 0486843a3c6f5321ce9aef13d502f23524ef21ae 628 jonhedgerows-keyring_2010.01.04.dsc
- 13767824f20a94ccdf2b2f3b48c8f959e27404af 6940 jonhedgerows-keyring_2010.01.04.tar.gz
-Checksums-Sha256:
- 8af3ae80bdab9cc5afb8227a32b910e6520e526788dd72fe9fe48a8622f15372 628 jonhedgerows-keyring_2010.01.04.dsc
- c9c737560bdd9cbbb354b85d7235ad2dbbbb5315ab2bdf43463aa84e6f15c1a2 6940 jonhedgerows-keyring_2010.01.04.tar.gz
-Checksums-Sha512:
- a302d03d466f7453c0e121ed7adedaa7ddd5f6e2a0bce6cdade68b3b3dd0f10d8870386f0ade0a875d446c8a87d872ffc9479230b27286c64325a846122ce410 628 jonhedgerows-keyring_2010.01.04.dsc
- 6cdf49d7c65663fa0c31baa7820ad2d64d4697d072a188a029e509e6fcc1cb280df8efa4284dd97622d0a43b11e634e8b89318f825e84cef6ae1da5937c5179a 6940 jonhedgerows-keyring_2010.01.04.tar.gz
-
 Package: rtmpdump
 Binary: rtmpdump, librtmp-dev
 Version: 2.4-n78-git3a1e20c-ppa8~wheezy
