@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: wheezy
 Codename: wheezy
-Date: Tue, 07 Feb 2017 22:34:26 UTC
+Date: Tue, 07 Feb 2017 22:45:33 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
  047fad854b2bf5f3589b1ff060aabaa5            6557 Packages
- 0f6b54a7db37a474dc8194530de70c91            2963 Packages.gz
+ 6636844f0f9ebfa0f0a894566abab9a0            2963 Packages.gz
  c392ed93bc34d251b689581b66450390            3062 Packages.bz2
  4b985d159a0b0efc00055abbdb0247bb            6849 Sources
- 66188d862787c39f5f9891e6015c23f9            2649 Sources.gz
+ 03e9d6ae632e6ea9c3ae1225d93f9d4b            2649 Sources.gz
  cd40fdd56c5d0a1830448ad5d882c92b            2702 Sources.bz2
 SHA1:
  df0eb6aee8106582fc30ddc53f40b87c350988b7            6557 Packages
- 8b74df95e26d459f35ebe61ad1ef7f9aba6259c4            2963 Packages.gz
+ ad22918e08655284551b4d8cbbf81d72db30aec8            2963 Packages.gz
  24791d98e3827daaf2d20f22f92463e697b63da6            3062 Packages.bz2
  b12373cbacf3a507bf5b5ba6f99a75d587ea9749            6849 Sources
- 30d1c3f7cafa740de55545e65aa94064c838e3b7            2649 Sources.gz
+ 29ff9b9a4143793a2225351cd3acbf7118dc1392            2649 Sources.gz
  3804d79f75bb22fd54ae7a687bb04bf09898a149            2702 Sources.bz2
 SHA256:
  5d7194413b0564cf5d81238c8a28faf993fdedb46a89804746a998aefb51f87e            6557 Packages
- e58bc1cc30e74b11a5d5a0a2099be6990100554cc0a07b24f9292c06fa249548            2963 Packages.gz
+ bbd77f9375f855704346c29ce33e5ac4c2b4f2c8f44e7e3c5297d01829cb48d4            2963 Packages.gz
  8ff02758c29461ce003ad6ddc0ed72be0c2afdbc3d377a6c2fbf427ba881e610            3062 Packages.bz2
  5873adbc068faaafcef18a38fa1ad3359da758d632e21c9b21a441e131fa8920            6849 Sources
- 2e978b392afda752e2f69d1b12d984cd4c4b913cae369be1ea2c4089492bcd77            2649 Sources.gz
+ c2d6fde2a2c00131511df4df193c5ec543ed59129bb908e8ee7f38b4d184c877            2649 Sources.gz
  0e4606e99e7cfce39e6f96820fe929ed68f58bd47aeb9dce60135dc445421912            2702 Sources.bz2

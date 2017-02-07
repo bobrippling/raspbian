@@ -1,0 +1,28 @@
+Origin: packages.hedgerows.org.uk
+Label: Raspbian Packages
+Suite: stable
+Codename: stable
+Date: Tue, 07 Feb 2017 22:45:33 UTC
+Architectures: all armhf
+Description: Additional software packages for the Raspberry Pi
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e               0 Packages
+ 501e5c9effb45b1f45c76b2e3475848c              33 Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3              14 Packages.bz2
+ d41d8cd98f00b204e9800998ecf8427e               0 Sources
+ 5b10acb7d55d92299f54644f6eeaf913              32 Sources.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3              14 Sources.bz2
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709               0 Packages
+ 3fd0b2d0f9985c134e866f8210fea948129c7e9e              33 Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2              14 Packages.bz2
+ da39a3ee5e6b4b0d3255bfef95601890afd80709               0 Sources
+ 5265a2587d0bd98e06e304ab94f0e1fd45a6ed66              32 Sources.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2              14 Sources.bz2
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855               0 Packages
+ 9e1ca6ed6587c3a34942ff2fea017b160e21e3ab6d3df86ae5c62622178864c6              33 Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058              14 Packages.bz2
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855               0 Sources
+ a698d59af3fb6e5062cca6b32da748e5ac72eed1b7b6d976da702dfc7c460777              32 Sources.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058              14 Sources.bz2
