@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 19 Feb 2017 21:40:58 +0000
+Source: atomicparsley
+Binary: atomicparsley
+Architecture: source armhf
+Version: 0.9.6-hg109.9183fff907bf-0ppa4~jessie
+Distribution: jessie
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ atomicparsley - read, parse and set metadata of MPEG-4 and 3gp files
+Changes:
+ atomicparsley (0.9.6-hg109.9183fff907bf-0ppa4~jessie) jessie; urgency=medium
+ .
+   * backport to raspbian jessie
+Checksums-Sha1:
+ 81aa947b8f9c45cfa630ca889fae8691d3b8bdc6 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ 9a73251c4508cadd16b26585a5a79a7025160186 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+ c14bf712935e178aa78a5a160f6fa28fc263af37 95622 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie_armhf.deb
+Checksums-Sha256:
+ 56e23aaa1cb6387c93d4e859b67ecfaadff47320b367e7dac768b93687406be9 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ 89a6f24de392a8bb11b4a088182d20347db319f0c7f1450a82fa7b85e59fa50a 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+ 7a7e30656e99fa9c2396e8af44aca64c3d3b6bd490c9e6b7478eaf63c34a3502 95622 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie_armhf.deb
+Files:
+ 270e403e6284798d7a5196b5f0e0e1af 1324 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ 3d28e50167332aa5eb4b76e0d01c1201 12592 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+ 0eaf6cb21964a89de3fead45c52487a2 95622 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAliqE7QACgkQiwfE/w9b/f7Z/gCeLDyND14oFgo7exVXNK7N/XN7
+BUMAoK1R3mdHERYxOYHKeihKjq/3wO76
+=nVhc
+-----END PGP SIGNATURE-----

@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: stable
 Codename: stable
-Date: Tue, 07 Feb 2017 22:54:36 UTC
+Date: Sun, 19 Feb 2017 22:16:38 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e               0 Packages
- d98f46b4fde49699ec516ca975ce03f3              33 Packages.gz
+ 960901c3d5f5c85941bf6141d8c6a446              33 Packages.gz
  4059d198768f9f8dc9372dc1c54bc3c3              14 Packages.bz2
  d41d8cd98f00b204e9800998ecf8427e               0 Sources
- cf72b3c1a7c381705a0b9fe38e2c0758              32 Sources.gz
+ ff6a08ab2a3de03777be6afcef08f748              32 Sources.gz
  4059d198768f9f8dc9372dc1c54bc3c3              14 Sources.bz2
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709               0 Packages
- ebd41deafab4a6d3cd35d90700c497a080ce2eb3              33 Packages.gz
+ fc540d14f350983add9ef6f4f9e8b8a837667d54              33 Packages.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2              14 Packages.bz2
  da39a3ee5e6b4b0d3255bfef95601890afd80709               0 Sources
- d656f1cd25a1dc1ec74b58978d9d94798f3af551              32 Sources.gz
+ e379f27a2574b08a8273a70ad3e0fb753eb18c37              32 Sources.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2              14 Sources.bz2
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855               0 Packages
- 47caf7395b0ace96190d98ec46f59e628552b6afd1899d811cb0809fa2c3635c              33 Packages.gz
+ e696e6b1800cc8badb516805e20eecbd63433fb4deac125fdb88ea2fc5f55842              33 Packages.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058              14 Packages.bz2
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855               0 Sources
- c5a4ad9048b427ad3a1d9907398908374ee11b4485abca22392c16b47466016a              32 Sources.gz
+ 0a6bbfb87a1fe4f269539d6245f29c6dac3b03e702b9ecac5d88c06a4b101706              32 Sources.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058              14 Sources.bz2

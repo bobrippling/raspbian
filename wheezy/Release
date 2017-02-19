@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: wheezy
 Codename: wheezy
-Date: Tue, 07 Feb 2017 22:54:36 UTC
+Date: Sun, 19 Feb 2017 22:16:39 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
  31e4edf52cc7404032ffe8b08abc6987            5782 Packages
- 99be245255e5f32fd36806a48dd98393            2650 Packages.gz
+ 560ba2dc6c9d7d970ee0ab54fac52693            2650 Packages.gz
  973b5e4e33e41463a55a919d081ce782            2756 Packages.bz2
  392e4915035fd3ecd3a664c5510773b4            5580 Sources
- e8526bb4b9f01467217da0defebe880e            2210 Sources.gz
+ fd565383af2c54b2c60d3c4e2040bbd6            2210 Sources.gz
  30479fc160f954c35dd7426804791a42            2301 Sources.bz2
 SHA1:
  5c7106ca98fc47b20744d76159dcc2536c7afd5d            5782 Packages
- 96ff824f18fba99d7227317c339e990f289b5319            2650 Packages.gz
+ c8763f8dba43dd54587ab802c12508814c8b5c6f            2650 Packages.gz
  b0265896c5cabf056a4eadc498d050cbab08ea8b            2756 Packages.bz2
  11de9be41a8e3eb192c8919b50eb80c06fbc585d            5580 Sources
- e1f16c5561b59ea6ed2d32acb69900aebd890ae1            2210 Sources.gz
+ 454d7884213f6c6760c9f361227c40b21d165c97            2210 Sources.gz
  48791ee19376f7b2ddb4780580e0c5ceffc6b3e2            2301 Sources.bz2
 SHA256:
  5a84e217c57968e1ade19bf66700e1448938c1a0cafa7112c7e8050bf3fcbfd0            5782 Packages
- 8eeef9051f45102a248311f7430265abf63421282f8225e9c120c46f150ab9a2            2650 Packages.gz
+ 5de305159cae6c6452a0729375791e2d122c371bc5fb86105c9ca69d3d4898d6            2650 Packages.gz
  38046660eef931f6a1ba1d0bf325f52822abe12f3b3c3118c6626a1a2c94b61e            2756 Packages.bz2
  10a4d568397d9b7ae0fa051ce0876485aa4ff80c5fc699c0c8f775e6c996185c            5580 Sources
- 23f0fbcb2f46641117532c713b4000f17f32d94d99d5be0199517df475c1edd2            2210 Sources.gz
+ 0d525d1518c0595c77f90a9d7d91a102bad71e4c3dc3818a6b0f01fd0f8cc645            2210 Sources.gz
  9ff994dad6de51676306ffa562f5e2170b7351e7ef4ba4e203e0027a95eb0fc4            2301 Sources.bz2

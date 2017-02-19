@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 18 Jan 2013 09:28:46 +0000
+Source: rtmpdump
+Binary: rtmpdump librtmp-dev
+Architecture: source armhf
+Version: 2.4-n78-git3a1e20c-ppa8~jessie
+Distribution: jessie
+Urgency: low
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ librtmp-dev - toolkit for RTMP streams (development files)
+ rtmpdump   - A small dumper for media content streamed over the RTMP protocol
+Changes:
+ rtmpdump (2.4-n78-git3a1e20c-ppa8~jessie) jessie; urgency=low
+ .
+   * new upstream snapshot, see changelog.git
+   * add buffer size patch to change buffers from 64x1024 to 64x4096
+Checksums-Sha1:
+ 724aa954e10f840a65850bb4fc8f9af895f65f35 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ a976bd567859eab2e1ebfcb089f78917e6622870 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 0a0d056adfbdad76836cc1d52727c458cda9480e 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+ 7ba70c9b41c99522856bb3bcad0a283b22976d22 99814 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie_armhf.deb
+ 49886568da4eca954d64682dda3328b5ae7cb885 61316 librtmp-dev_2.4-n78-git3a1e20c-ppa8~jessie_armhf.deb
+Checksums-Sha256:
+ bc48ef7108d7d75b4a240617cc3d647ee7b1e7b05bc5af07658bd8845fea5c86 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ b2c8f0b36d2cc830a8ffc142dbf409a66b0397d3bb14e659ffa2314bdd98c1c8 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 4c8b0fd92917a504801bee195580eb239d67cd469073104b934899142dce2055 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+ c0f937e8da0b8f1b8143d3bf60cadbf567e16f448cdb8e64264cad4bb9731be3 99814 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie_armhf.deb
+ 781370ba2091db9c23cbc23cf5c2c6834d8bdf3a934214e58d0275083ed11f63 61316 librtmp-dev_2.4-n78-git3a1e20c-ppa8~jessie_armhf.deb
+Files:
+ 19446166177c08784d7facf2b1000e52 1228 web extra rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ aadaa2c0022be5cd33116af07a9a6148 146101 web extra rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ d327732900a3d92bd82303a2e129ce48 34435 web extra rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+ 4594e92e60eb88355e4e899dc191e6f6 99814 web extra rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie_armhf.deb
+ 92f6de41e82f952b2334c7e714642bd6 61316 libdevel extra librtmp-dev_2.4-n78-git3a1e20c-ppa8~jessie_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlipnmAACgkQiwfE/w9b/f46QQCgtIcUZV1EtzaFHB0rtQpPD38Z
+soEAniYXZT1W4JSCL+TPwnPaCsf6kR6C
+=2pZC
+-----END PGP SIGNATURE-----

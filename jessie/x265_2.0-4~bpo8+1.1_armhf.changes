@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 17 Feb 2017 13:22:55 +0000
+Source: x265
+Binary: x265 libx265-dev libx265-87 libx265-doc
+Architecture: source armhf all
+Version: 2.0-4~bpo8+1.1
+Distribution: jessie
+Urgency: medium
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ libx265-87 - H.265/HEVC video stream encoder (shared library)
+ libx265-dev - H.265/HEVC video stream encoder (development files)
+ libx265-doc - H.265/HEVC video stream encoder (documentation)
+ x265       - H.265/HEVC video stream encoder
+Changes:
+ x265 (2.0-4~bpo8+1.1) jessie; urgency=medium
+ .
+   * Non-maintainer upload.
+   * incomplete documentation due to build error in dh_sphinxdoc
+Checksums-Sha1:
+ 9d5758c35b0db01687c154c83cbaa6dea8f9c1ce 1613 x265_2.0-4~bpo8+1.1.dsc
+ 1ce7dca8692267168d4d23fe676ff7c281b90938 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ 8f294b49b7ec03a9837249b565fddd6922d4419c 37322 x265_2.0-4~bpo8+1.1_armhf.deb
+ d0b60e3e772a0e6265b14025d93c569c480777bb 333464 libx265-dev_2.0-4~bpo8+1.1_armhf.deb
+ 4103af20bdf8c801a5e310b179e10fb02103b757 451526 libx265-87_2.0-4~bpo8+1.1_armhf.deb
+ 346c98f212a52e7d66c6f805daba408fa194c6aa 206994 libx265-doc_2.0-4~bpo8+1.1_all.deb
+Checksums-Sha256:
+ 992f5361b808f61945ee28972502825cd96f2b4432c67aa8d06449299e8bfd8d 1613 x265_2.0-4~bpo8+1.1.dsc
+ 2043071fedd3aa864418165d89aa507ed83286d70f940e293788ff3caa30ebaf 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ d44e4da582451aa9eabec716682460945c97c6fefd8dc14fe443f1f77d342ccc 37322 x265_2.0-4~bpo8+1.1_armhf.deb
+ 066a8f85976646132d68d147517bdb1d54eec3ede755b6d5d69c9ea949f27ae4 333464 libx265-dev_2.0-4~bpo8+1.1_armhf.deb
+ 9bb1f23274e2369739ba8d309a40b0a18fe74de2596a5a3156bef1f2e82c901c 451526 libx265-87_2.0-4~bpo8+1.1_armhf.deb
+ ba72c4271cae3ba58a04b46df385d573faec0ac7ecf65080f7ce24ba5abf4790 206994 libx265-doc_2.0-4~bpo8+1.1_all.deb
+Files:
+ c391473124b0947a8431bdfdcd64100e 1613 video optional x265_2.0-4~bpo8+1.1.dsc
+ 82b7d7817bc47986dfb5d80dd7f9afb1 10900 video optional x265_2.0-4~bpo8+1.1.debian.tar.xz
+ fe073ccd7cde5920dd5e50a5a55abfd2 37322 video optional x265_2.0-4~bpo8+1.1_armhf.deb
+ 3e04d5089adb4b7f328afe35d9e06c72 333464 libdevel optional libx265-dev_2.0-4~bpo8+1.1_armhf.deb
+ 6bde40317b79410dd077d078705a8a93 451526 libs optional libx265-87_2.0-4~bpo8+1.1_armhf.deb
+ bc2ef4ff9a4bd28d6620bac699ac44f0 206994 doc optional libx265-doc_2.0-4~bpo8+1.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlinW08ACgkQiwfE/w9b/f4ilQCeMq88uSwJt3nD47O0rBAEWnwt
+0CAAn3KFgL8LvvzKkMMTKIW7I1SLw/jr
+=mbua
+-----END PGP SIGNATURE-----
