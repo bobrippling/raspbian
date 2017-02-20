@@ -57,10 +57,10 @@ cat >> $OUTPUT <<"EOFfooter"
 </html>
 EOFfooter
 
+for subdir in $(find . -maxdepth 1 -type d | grep "./" | cut -f2 -d/ | grep -v .git | grep -v mini-dinstall) ; do
+cd $subdir
 
-cd wheezy
-
-TITLE=wheezy
+TITLE=$subdir
 
 cat > $OUTPUT <<EOFheader
 <!DOCTYPE html>
@@ -115,4 +115,6 @@ cat >> $OUTPUT <<"EOFfooter"
 </html>
 EOFfooter
 
+cd ..
+done
 
