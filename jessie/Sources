@@ -1,32 +1,3 @@
-Package: get-iplayer
-Binary: get-iplayer
-Version: 2.99-ppa28b~jessie
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: debhelper (>= 9), quilt
-Architecture: all
-Standards-Version: 3.9.5
-Format: 3.0 (quilt)
-Directory: jessie
-Files:
- 38b8ea0c732210c1e96d5cae3c067e29 1142 get-iplayer_2.99-ppa28b~jessie.dsc
- d8af7a4307a78ec4d707a28618f78889 141803 get-iplayer_2.99.orig.tar.gz
- 6e414c0b24d2efb92a52889c80963d90 116888 get-iplayer_2.99-ppa28b~jessie.debian.tar.xz
-Homepage: https://github.com/get-iplayer/get_iplayer
-Package-List:
- get-iplayer deb video optional arch=all
-Checksums-Sha1:
- eacabab8e35a170d4e43c0e0e08816124bceee14 1142 get-iplayer_2.99-ppa28b~jessie.dsc
- 55bfa562ee986c6a2911400d8c28720a67ef258e 141803 get-iplayer_2.99.orig.tar.gz
- 5b8f8dd56e2486ae0aa287b6928482d01005d2ca 116888 get-iplayer_2.99-ppa28b~jessie.debian.tar.xz
-Checksums-Sha256:
- dc9953c355e826da89a590585c3d92b69c1ede7d9606d25655287e9ffd6d94fd 1142 get-iplayer_2.99-ppa28b~jessie.dsc
- 25bcab7bdfbf06551397ca1e9c61b644590b8f6c0cc9026bf7bd8da7ad64f503 141803 get-iplayer_2.99.orig.tar.gz
- 5ee033d533f50e8a6d876fda6f49f19dde8d77ae5b4e77827ecc35c1fd3bce52 116888 get-iplayer_2.99-ppa28b~jessie.debian.tar.xz
-Checksums-Sha512:
- 54deb7165678aa14bb74d4632754b15bd7888f59b82263cf7fdbf4e03ec244d15c0bfa1235cc9fb5e74bd7323d9b0afe5329cb683866ecbf2574cf6bab6987e7 1142 get-iplayer_2.99-ppa28b~jessie.dsc
- 46625d60d41b3218255dca114b314ac4aa60b52b2b9b4a926327043293de755e982d2f8b63dd11a54033e0542097460e7970f622fff5551b6495139db09e2e2d 141803 get-iplayer_2.99.orig.tar.gz
- a8410410ddb77095394e51a7c28c3024fe31831c24e627eca74994be5b9f4ac4c82fe41ee3b81fdc8013be0830c6432cf5b5283b55f661a72c0c8625450c151e 116888 get-iplayer_2.99-ppa28b~jessie.debian.tar.xz
-
 Package: ffmpeg
 Binary: ffmpeg, ffmpeg-doc, libavcodec57, libavcodec-extra57, libavcodec-extra, libavcodec-dev, libavdevice57, libavdevice-dev, libavfilter6, libavfilter-extra6, libavfilter-extra, libavfilter-dev, libavformat57, libavformat-dev, libavresample3, libavresample-dev, libavutil55, libavutil-dev, libpostproc54, libpostproc-dev, libswresample2, libswresample-dev, libswscale4, libswscale-dev, libav-tools
 Version: 7:3.2.2-1~bpo8+1.1
@@ -180,4 +151,33 @@ Checksums-Sha512:
  628acbcad545382037963e0fbb0789d25d7f0bd1cff68c83117c6a0b795afb723cb78b2e18f012a9793d8fb3f2f890cac67cb50f6a874511343a76ca07521e09 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
  52fcad020813bba76a86e35f40fb50a268a4d406bc245b2bf6f7fcc3ec65d4ac694f13684ce3963bd96578ff0bf841867726bb997a9d4a932733d7a8ee99286f 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
  6264b451d4f702212958fcb25df7f84f092f55ff5f41b9fc2177bbbf28e514615737542355e9b4483a2173fc987ff0479fb1adad80fe924a0162e245581b26fd 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+
+Package: get-iplayer
+Binary: get-iplayer
+Version: 3.00-ppa30~jessie
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Build-Depends: debhelper (>= 9), quilt
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Directory: jessie
+Files:
+ 90dc89db6c06c0e996366ec60b1f762f 1138 get-iplayer_3.00-ppa30~jessie.dsc
+ b87eab6850e32b37dd1ec471fb7a20e2 139601 get-iplayer_3.00.orig.tar.gz
+ 6dbd8e9b8d840aff6f83bba20faa1641 119492 get-iplayer_3.00-ppa30~jessie.debian.tar.xz
+Homepage: https://github.com/get-iplayer/get_iplayer
+Package-List:
+ get-iplayer deb video optional arch=all
+Checksums-Sha1:
+ 6aa06b130dc3d3beac96c5bbc9394e3c902d44d2 1138 get-iplayer_3.00-ppa30~jessie.dsc
+ 00453eb03f9e00cf6ae1ba968e398445a6df39db 139601 get-iplayer_3.00.orig.tar.gz
+ dbc37c1822d7d6fcfce2914a2bfa3f2aa285695d 119492 get-iplayer_3.00-ppa30~jessie.debian.tar.xz
+Checksums-Sha256:
+ dea3acb0d9bfd5bfd9b7844687fc6d0215d89886ae288ede226e8ae9cab91a98 1138 get-iplayer_3.00-ppa30~jessie.dsc
+ 2b5ae63d5ce631946c52f9ff6240eb2762a963e2dd7b96ec191a797dc750f9cf 139601 get-iplayer_3.00.orig.tar.gz
+ 665c8b540c4163bd390d3cbd4fbc71879225217a7a0e10a4b21ade28b61982c8 119492 get-iplayer_3.00-ppa30~jessie.debian.tar.xz
+Checksums-Sha512:
+ 590eda0fb1215f759a62fa3d40b5f77e0a1dbaa879abca89e17818af92939f1f057222829a9baa12f2fe631c9f19416fffc90f2221515cd984786d9931d117c4 1138 get-iplayer_3.00-ppa30~jessie.dsc
+ b7d65ef039e630de5a9a1afd4b24fe786fea376121e2eb34714d6ac93c70052bb145d1c27e7929a1751d9b83ee616b0716c59e5aa03369ee5ba10382990ffe68 139601 get-iplayer_3.00.orig.tar.gz
+ c7d38f2554a0d82d25975baa7353cca33dd839215d5123b2c5a517f8d5ffbd1f6c7488b03ea1599cee12af687460d384c2c45c9724e8e22c4d0b2bd0c3aba5b7 119492 get-iplayer_3.00-ppa30~jessie.debian.tar.xz
 
