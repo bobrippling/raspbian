@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: jessie
 Codename: jessie
-Date: Mon, 01 May 2017 19:05:52 UTC
+Date: Sun, 07 May 2017 08:11:26 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
- fe7d022f3c2f56dbedc09cb051a1a664           50045 Packages
- 0ada1f28958bb74e5a5e4068e41e2b78           12650 Packages.gz
- 750474839c136567f131433b50eb3614           12097 Packages.bz2
- d2c44a787cc1bc975296148116109af7           12529 Sources
- e0c26cfab28c11f41a95646ad515a357            4619 Sources.gz
- d4bd74034b477a918136ebd448aa5e8c            4650 Sources.bz2
+ 4f021c095f0a918a874b69e93cf93d07           50047 Packages
+ 2f3b90a12abe39bf68d52ebf41724456           12636 Packages.gz
+ 760553d18463ee8afe96de6c82c8c803           12108 Packages.bz2
+ b596491bccd02099cabf9d4681ab0284           12538 Sources
+ 281ea4b4c97a1877bf2137b080f0bf46            4626 Sources.gz
+ 57c155bc89910120604bb851bc066b72            4639 Sources.bz2
 SHA1:
- 9d185a32d5d184c06b4f4a576f454868d5c100a4           50045 Packages
- f22249ab1dbd9783d7ffcc431dde1fb5b61cf1c3           12650 Packages.gz
- c4fce00f231fe033cb00aff7b74e7673d4fb9057           12097 Packages.bz2
- d96c2da291b64360abe2a35a3fa19bf750e33292           12529 Sources
- 4718624d41a0425805d37909353972330476a31a            4619 Sources.gz
- f6024e2b5825b777cbb7e4864d7775aa3b1fa2e2            4650 Sources.bz2
+ 843c555a5e14d4fa5adc3b0c2eaa9a7ab58d5ad6           50047 Packages
+ 9bb77485eae92d1b21f29d690ae0744538797e29           12636 Packages.gz
+ 101ee0912363fa619ab4016db27a3d26f6e2ac03           12108 Packages.bz2
+ 432ec45018a6ab8fb33a1b0f0a7eadaacfe737b4           12538 Sources
+ aeb5962b833b70668ef67ccfc642323f59cb2d1d            4626 Sources.gz
+ adc63ae63c648b22c0ec06e535ce6a8effa18945            4639 Sources.bz2
 SHA256:
- d6074e18a3ed5bbd6f4d8da102569a217fcd43e6a5d303972a53ec0c1b070ad7           50045 Packages
- 82281632f4dbc4b64db0600b70d88c14709b59159e64199b3feb078a851d8c42           12650 Packages.gz
- 4bf97e505235fcd30f01aee932fcea4880873af56208e4ceb30d0ad61eb6024e           12097 Packages.bz2
- b9f17fa5de3aff7a2eb0e34062e42426563a6a2e14168718d74f4e17d7e78673           12529 Sources
- 534d84f266cdce7b9f5aec19bb422f2639bee72477ddc41f295814ee83b37b40            4619 Sources.gz
- 66db43582064aab5c95339f27a07d5afca98dc1d1d390d4325cf9954287e80b6            4650 Sources.bz2
+ f251c070ee4ac7e20bebfb71c142263c2d56706af3eee5093e7bf6e593961b43           50047 Packages
+ b94783adbfa18dd7d762675a001963e1774f710e66af95315acb7e3164fdc38f           12636 Packages.gz
+ b8c5d9fb93a7e17302877a9a8cd991e9246b23f49a0a13c072a710f23e78928b           12108 Packages.bz2
+ 20582e584179e2f5851b63678f431eb6f8caccdf1a928f5558b95a358a06bc01           12538 Sources
+ e81704c6d109ee05bdc0c01fd4f03dae6c4e0d55c066232d150a290daff7b454            4626 Sources.gz
+ 5e24279d9989bd2c7440bc375ea45fcb182ae4e6f5be45d2ec280fcc4821e0ec            4639 Sources.bz2

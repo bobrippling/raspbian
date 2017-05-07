@@ -1,0 +1,70 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 07 May 2017 09:07:22 +0100
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.01-ppa30a~jessie
+Distribution: jessie
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.01-ppa30a~jessie) jessie; urgency=medium
+ .
+   * New upstream snapshot
+   * 0ce919c: Release 3.01 [dinkypumpkin]
+   * 815a4d0: recursive recording fixes [dinkypumpkin]
+   * 42906d3: restore previous cache update logic [dinkypumpkin]
+   * 3c37f26: remove --cache-init [dinkypumpkin]
+   * eaf7801: added --ffmpeg-verbose [dinkypumpkin]
+   * e5fd5cc: call them file segments [dinkypumpkin]
+   * 1f215ce: Web PVR: change default cache refresh interval to 4 hours
+     (from 1 hour) [dinkypumpkin]
+   * cac2a6d: Revert "Web PVR: modify cache refresh page for changes in
+     programme indexing" [dinkypumpkin]
+   * f33bd9d: ensure old versions of XML::LibXML work in cache updates
+     [dinkypumpkin]
+   * 52089f1: added --cache-rebuild [dinkypumpkin]
+   * b48d40d: prevent overwrite of cached availability dates by repeat
+     listings [dinkypumpkin]
+   * 8791806: fixed "Undefined namespace prefix" error in subtitles
+     conversion [dinkypumpkin]
+   * d2cfe0b: remove reference to deleted option [dinkypumpkin]
+   * bc1337a: Merge commit 'b07be04fd48bf6169870b3fccc46c98085940a18'
+     into develop [dinkypumpkin]
+   * ed7f700: Merge branch 'abudden-feature/limitlength' into develop
+     [dinkypumpkin]
+   * 5345db4: Merge branch 'praxilian-feature/untypo' into develop
+     [dinkypumpkin]
+   * 4fc9dad: Added advanced option to allow filenames to be limited to
+     an arbitrary length [A. S. Budden]
+   * b07be04: Update README.md [dinkypumpkin]
+   * 1397f8e: Fix typos and inconsistencies [Ian Praxil]
+Checksums-Sha1:
+ 2ef70fae036390d60458f496a56b0e71376dcbf4 1142 get-iplayer_3.01-ppa30a~jessie.dsc
+ 17e530d2cb8112fd4ead86c042c1849653ae6f71 139816 get-iplayer_3.01.orig.tar.gz
+ 1afaaa12d4531211a792b606d65e3753348fc549 120728 get-iplayer_3.01-ppa30a~jessie.debian.tar.xz
+ 8e7a821e2657927af11ca13c2d5e1be42edeccee 135296 get-iplayer_3.01-ppa30a~jessie_all.deb
+Checksums-Sha256:
+ 8bd870ea1ee52e73912b86998d6024daceff4da813ea53b1e5a7141dc8a52df9 1142 get-iplayer_3.01-ppa30a~jessie.dsc
+ 4ab159de60b6bbb3ff817747b07c820a49793b604e522b7164f23dd87949cf9e 139816 get-iplayer_3.01.orig.tar.gz
+ a39d423636fe0b7a6098b7b20468daccd1da532fc17d602fc8e364974ec03564 120728 get-iplayer_3.01-ppa30a~jessie.debian.tar.xz
+ 42d6984018fff6bce17baf7d339617e809e55c9c30f63bddceb2992c61b74b43 135296 get-iplayer_3.01-ppa30a~jessie_all.deb
+Files:
+ e4b1d594ec1ed0ec811182766c30b238 1142 video optional get-iplayer_3.01-ppa30a~jessie.dsc
+ cb553644636b588f26d02f259ffd055e 139816 video optional get-iplayer_3.01.orig.tar.gz
+ 3637b82c1a7aac1ce277b9c53d932b64 120728 video optional get-iplayer_3.01-ppa30a~jessie.debian.tar.xz
+ 17efa0a639561608bc450e724242adf4 135296 video optional get-iplayer_3.01-ppa30a~jessie_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iEYEARECAAYFAlkO1okACgkQiwfE/w9b/f4upQCgmXrHT4ypOYCWVK5dR9si3xTg
++PUAnib8T4nOEsdWEh07G9GSmmet/tg8
+=7KBM
+-----END PGP SIGNATURE-----
