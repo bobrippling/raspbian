@@ -1,0 +1,97 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 10 Sep 2017 11:54:14 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.02-1-ge2c5943-ppa30cx2xge425c3b~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.02-1-ge2c5943-ppa30cx2xge425c3b~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+   * e2c5943: updated readme [dinkypumpkin]
+   * 6dab3c8: Release 3.02 [dinkypumpkin]
+   * d1345fa: stop download attempts for current programme on remux
+     failure [dinkypumpkin]
+   * dee8a03: tidied up some logging output [dinkypumpkin]
+   * 4e71b76: thumbnail recipe changes [dinkypumpkin]
+   * 0711c8c: Added support for World Service PIDs starting with "w"
+     [dinkypumpkin]
+   * c112166: Restore previous preference for episode image as thumbnail
+     [dinkypumpkin]
+   * a56f38f: Added --ffmpeg-loglevel [dinkypumpkin]
+   * 626a6eb: added --include-https [dinkypumpkin]
+   * 3f8fb93: no longer need to manipulate proxy env vars [dinkypumpkin]
+   * 51e803c: no more need for named pipe [dinkypumpkin]
+   * d41266b: adjustments to HLS stream data [dinkypumpkin]
+   * fe0ef8b: adjust to recover 128k audio for DASH TV programmes
+     [dinkypumpkin]
+   * 719afcd: Added --throttle option [dinkypumpkin]
+   * 5bc4bc2: make TV licence and HTML::Parser warnings contextual
+     [dinkypumpkin]
+   * a529ae2: fixed missing channel values in cache for Radio 1
+     [dinkypumpkin]
+   * a64e32c: updated "segment not available" warning [dinkypumpkin]
+   * 554bb64: streamlining of --pid download [dinkypumpkin]
+   * c804129: removed deprecated --noscrapeversions and --thumbsizecache
+     options [dinkypumpkin]
+   * 307513b: reclassify some recording options as output options
+     [dinkypumpkin]
+   * 88ca8ab: Make --metadata value optional [dinkypumpkin]
+   * 941dfca: avoid global destruction warnings in Perl <5.14
+     [dinkypumpkin]
+   * 7531996: soft load XML::LibXML::XPathContext [dinkypumpkin]
+   * 84595b3: convert DASH manifest parsing to XML::LibXML [dinkypumpkin]
+   * d6aedbd: tidy white space [dinkypumpkin]
+   * 8488406: tidy recursive page number display [dinkypumpkin]
+   * 918110a: removed deprecated --subsfmt option [dinkypumpkin]
+   * 31c1be2: removed obsolete channel lists [dinkypumpkin]
+   * 632108e: removed some obsolete comments [dinkypumpkin]
+   * af5f317: removed aod code [dinkypumpkin]
+   * 5c9cf5c: removed --ybbcy switching and code related to dead XML data
+     sources [dinkypumpkin]
+   * 4ba09a8: updated purge prompt [dinkypumpkin]
+   * dc68d0e: restore warning about buggy HTML::Parser [dinkypumpkin]
+   * d1e0980: removed obsolete help text [dinkypumpkin]
+   * 2fe78e9: corrected --exclude-supplier help text [dinkypumpkin]
+   * 5f908a6: avoid runaway loop if HLS playlist parser encounters
+     invalid attributes [dinkypumpkin]
+   * 5735819: correct spelling mistakes (#333) [Edward Betts]
+Checksums-Sha1:
+ 7f0c15a8b65a5d0c1db43246c0af2fd91893ed97 1572 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ 7763d30596f80379b786dfa39f388fc3682327d7 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ dd815d645158bfef6a419c5489d6a6dde7e48d31 123512 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+ d543184cc3f1560145b566fec7a105d0b18fc5fc 130476 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_all.deb
+ 75d99f08d5994232e187371db026aaa4ed6e4a54 5327 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_armhf.buildinfo
+Checksums-Sha256:
+ 6c59d7db34190344996b47a3ec1384a3f839779745119f6bc8497c7055091644 1572 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ a933d55c0100ee9d5ecf94b95b35b523f722f2f9fd1159584850044ef00d6168 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ c24be843d95343d74b5ddd6bb6939610d923937ff483e45bf3004a042eecbbdc 123512 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+ 8bda40b82d13a631ff90dc53e2ebc4cbcc47bc1da30925fcb85946cc07657c2d 130476 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_all.deb
+ 27e8310c94def53443c38a17ca037072f30fdd04e16bb6ae084e83c2b564ccb5 5327 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_armhf.buildinfo
+Files:
+ 487b20237a238e8cccce91bd714cac9b 1572 video optional get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ b926c9dcb7ce00c3b3bc7ee7d4ef8e8b 132516 video optional get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ f6b839e5ce35c6a903bd06083efb7ba5 123512 video optional get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+ d17dddb1a7445ce9b83db71f3d844709 130476 video optional get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_all.deb
+ cb01515f3bffbef1e6534c7726c7967f 5327 video optional get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlm1KX4ACgkQAxXLbBOS
+QzMhXgf/Y3fhL/tocfcQaRMV9Uzd3ITtvitiNajFx4beFGx8Ugo9nENEz1YuUtQw
+j2adCKLGFHqgD+b6NFrg5FaucjVz5iWxBZ58QARCDEtkC86mcEa9+NVtmzQF2lr2
+5gKtEe0oDo7Sj08dpGOI6yDI9aD+gdlzJeEOVQMIRslOD8dRuJduXZmJ/1JcQj75
+D/ljFJ2aWAEIM81IUn1OK4SaVDjY/OeOMwg2nipffRunSW5tR9dSVSfK2G9kjZsE
+61FS7msHBVE8Ww01WebwoPNkeQkcq3nQm5xlMh2V1W1RaEhAn/6PMn5XnzODE0NK
+fXlinkzN584oQBa7WP3gv1LsFiIohg==
+=I1qh
+-----END PGP SIGNATURE-----

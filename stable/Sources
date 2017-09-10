@@ -1,0 +1,58 @@
+Package: get-iplayer
+Format: 3.0 (quilt)
+Binary: get-iplayer
+Architecture: all
+Version: 3.02-1-ge2c5943-ppa30cx2xge425c3b~stable
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), quilt
+Homepage: https://github.com/get-iplayer/get_iplayer
+Directory: stable
+Package-List:
+ get-iplayer deb video optional arch=all
+Files:
+ 487b20237a238e8cccce91bd714cac9b 1572 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ b926c9dcb7ce00c3b3bc7ee7d4ef8e8b 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ f6b839e5ce35c6a903bd06083efb7ba5 123512 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+Checksums-Sha1:
+ 7f0c15a8b65a5d0c1db43246c0af2fd91893ed97 1572 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ 7763d30596f80379b786dfa39f388fc3682327d7 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ dd815d645158bfef6a419c5489d6a6dde7e48d31 123512 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+Checksums-Sha256:
+ 6c59d7db34190344996b47a3ec1384a3f839779745119f6bc8497c7055091644 1572 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ a933d55c0100ee9d5ecf94b95b35b523f722f2f9fd1159584850044ef00d6168 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ c24be843d95343d74b5ddd6bb6939610d923937ff483e45bf3004a042eecbbdc 123512 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+Checksums-Sha512:
+ cad7698e2f4188bd2fe6feaab10153ed16fa8db32875e8908dfb9b43a16812b020e4d961e4e58ac8d34caae77fb410a32aa48264e9eb75fabe9b07c0d4568269 1572 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.dsc
+ a2b9994f24a3d7ec494c3b2b0e4cfa866f6cbf2daf6ad0f4042490fb2e6c15bb8c297c6abc6e232fb397e649b7d35b7bed225caf61354adc1c9e5caf577494f5 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ dc12cb271615442efc809db7da1ac1cf26fc1d6bf07bf96e8163f8d699e531c1d5303470810d401f53174e5247d7efb30b1c0b30ece8b58d6fecdbe014aef75d 123512 get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable.debian.tar.xz
+
+Package: atomicparsley
+Format: 3.0 (quilt)
+Binary: atomicparsley
+Architecture: any
+Version: 0.9.6-hg109.9183fff907bf-0ppa4
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Standards-Version: 3.8.4
+Build-Depends: cdbs, autoconf, automake1.11, debhelper (>= 6), libz-dev
+Homepage: https://bitbucket.org/wez/atomicparsley/
+Directory: stable
+Package-List:
+ atomicparsley deb video optional arch=any
+Files:
+ fb1e9377d88981530bd2e16925830b1e 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ d664e8203f79fb72b6eb575d09a4dd99 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 9c13e22994963264b4c743bec6cd391b 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+Checksums-Sha1:
+ 00104e7f298b759ff26790275104818df9601b5c 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ 4c8f88508c5f6c6525b6da06b7167732c8c9b7e4 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 88c24560ead678722f7da62759920495e93ef99d 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+Checksums-Sha256:
+ 7fd9990691db837d3c53dece0f91fd192330b1efdd82b9df1d702b0140b679f1 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ e38f5a0f36523b873c1eabe03f078dfe9041cea680351acb3b9f8be20b6f689a 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 25df39e37a3d0f4214206164611062706d4495f2b485eea98de7eecddffb5851 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+Checksums-Sha512:
+ 1ec2276ab41d7bd53c02f47579856940fbafba8304e27c5ceaa5bb66c79df45008bb8cd3b6640d176a02d9b514c2adb6f83ab3652ba6a86f3fc2cac82e5b7cee 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ 52fcad020813bba76a86e35f40fb50a268a4d406bc245b2bf6f7fcc3ec65d4ac694f13684ce3963bd96578ff0bf841867726bb997a9d4a932733d7a8ee99286f 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ a90adb5209de44b2626a8d540970f43aecf3898c96261214b80aa64c222cd64198c33b1b268377643c04e56a1b853e1bd4cd4c174032ae675eb717d577e86fa3 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+

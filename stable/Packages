@@ -1,0 +1,87 @@
+Package: atomicparsley-dbgsym
+Architecture: armhf
+Version: 0.9.6-hg109.9183fff907bf-0ppa4
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: atomicparsley
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Installed-Size: 249
+Depends: atomicparsley (= 0.9.6-hg109.9183fff907bf-0ppa4)
+Filename: stable/atomicparsley-dbgsym_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+Size: 218994
+MD5sum: 51abccb8c0a74de57dd5db6056f4f292
+SHA1: c7b8f2840622010dbfd3da7930d3d2cce7bd5167
+SHA256: edd5c234e4c5ac265afabb308599a7ea9b64f1c5ba438e57c700e88b7b8a06d4
+SHA512: c5d5197f4260ba3370ebf97292d3cb478be1ee064aa1f3981ed8ea3b4181044040d920a1151ec70cf4a92c1150afad9d756f2281b14c1228b6495c4dc7eb463d
+Homepage: https://bitbucket.org/wez/atomicparsley/
+Description: Debug symbols for atomicparsley
+Build-Ids: 3dc44aadc6eb4e233d47dc27eec8bbf7e9fbe134
+
+Package: get-iplayer
+Architecture: all
+Version: 3.02-1-ge2c5943-ppa30cx2xge425c3b~stable
+Priority: optional
+Section: video
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Installed-Size: 493
+Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, atomicparsley (>= 0.9.4), ffmpeg
+Filename: stable/get-iplayer_3.02-1-ge2c5943-ppa30cx2xge425c3b~stable_all.deb
+Size: 130476
+MD5sum: d17dddb1a7445ce9b83db71f3d844709
+SHA1: d543184cc3f1560145b566fec7a105d0b18fc5fc
+SHA256: 8bda40b82d13a631ff90dc53e2ebc4cbcc47bc1da30925fcb85946cc07657c2d
+SHA512: 82dc4036b77a15d8ce1beb5ff0085e9677ba9a9c4cc39875164eb7c9ebbdd8ac2d209e5d3dce32d7a709459d4ff4b951a72f5c133f3f0c76e2698dc520aec224
+Homepage: https://github.com/get-iplayer/get_iplayer
+Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
+ .
+ Features
+ + Downloads TV and radio programmes from BBC iPlayer
+ + Allows multiple programmes to be downloaded using a single command
+ + Indexing of most available iPlayer catch-up programmes (not BBC Three,
+   Red Button or iPlayer Exclusive)
+ + Caching of index with automatic updating (default 4h)
+ + Regex search on programme name
+ + Regex search on programme description and episode title
+ + Filter search results by channel
+ + Direct download via programme ID or URL
+ + PVR capability (may be used with cron or Task Scheduler)
+ + HTTP proxy support
+ + Requires ffmpeg for conversion to MP4 and AtomicParsley for metadata tagging
+ .
+ IMPORTANT
+ Please refer to the release notes at
+ https://github.com/get-iplayer/get_iplayer/wiki/releasenotes
+ .
+ DOCUMENTATION AND SUPPORT
+ Documentation: https://github.com/get-iplayer/get_iplayer/wiki
+ Suppoort: https://squarepenguin.co.uk/forums/
+
+Package: atomicparsley
+Architecture: armhf
+Version: 0.9.6-hg109.9183fff907bf-0ppa4
+Priority: optional
+Section: video
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Installed-Size: 259
+Depends: libc6 (>= 2.5), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Filename: stable/atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+Size: 95434
+MD5sum: dc808089e340a139ea100be8d6daee2e
+SHA1: 8a1e19b93bab11e3d449428ad4339416956b78b7
+SHA256: d7cb8aa3d6174d212dc7bedc7020cfdb5dd9b0b96cc8652c85083b22d1403fb4
+SHA512: c65c51ded4c441dda5f7c2c728d493dd6ec9490913f2af050e36e32066b5ecfe809e080e0509cd57725d19a293da3b83d843987711b228f7420cf03196298643
+Homepage: https://bitbucket.org/wez/atomicparsley/
+Description: read, parse and set metadata of MPEG-4 and 3gp files
+ AtomicParsley is a lightweight command line program for reading,
+ parsing and setting metadata into MPEG-4 files supporting these styles
+ of metadata:
+ .
+  - iTunes-style metadata into .mp4, .m4a, .m4p, .m4v, .m4b files
+  - 3gp-style assets (3GPP TS 26.444 version 6.4.0 Release 6
+    specification conforming) in 3GPP, 3GPP2, MobileMP4 & derivatives
+  - ISO copyright notices at movie & track level for MPEG-4 & derivative
+    files
+  - uuid private user extension text & file embedding for MPEG-4 &
+    derivative files
+

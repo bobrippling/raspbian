@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sat, 09 Sep 2017 17:21:09 +0000
+Source: atomicparsley
+Binary: atomicparsley
+Architecture: source armhf
+Version: 0.9.6-hg109.9183fff907bf-0ppa4
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ atomicparsley - read, parse and set metadata of MPEG-4 and 3gp files
+Changes:
+ atomicparsley (0.9.6-hg109.9183fff907bf-0ppa4) stable; urgency=medium
+ .
+   * Non-maintainer upload.
+   * rebuild for raspbian stable
+Checksums-Sha1:
+ 83713bf0068037587f4606fa96880a53b99d5588 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ 4c8f88508c5f6c6525b6da06b7167732c8c9b7e4 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 88c24560ead678722f7da62759920495e93ef99d 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+ c7b8f2840622010dbfd3da7930d3d2cce7bd5167 218994 atomicparsley-dbgsym_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+ e32f31e5e4ea32867cafae4b31e1c63626d7a6e6 5667 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.buildinfo
+ 8a1e19b93bab11e3d449428ad4339416956b78b7 95434 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+Checksums-Sha256:
+ bb13875422d44464632530abbf48611024b5bbafe6a74fb1a7817b7f210515bb 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ e38f5a0f36523b873c1eabe03f078dfe9041cea680351acb3b9f8be20b6f689a 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 25df39e37a3d0f4214206164611062706d4495f2b485eea98de7eecddffb5851 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+ edd5c234e4c5ac265afabb308599a7ea9b64f1c5ba438e57c700e88b7b8a06d4 218994 atomicparsley-dbgsym_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+ 8305ae8ee5d935f9d264eb89f49f77d14391f7118e9d360aa0c5986e095e803e 5667 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.buildinfo
+ d7cb8aa3d6174d212dc7bedc7020cfdb5dd9b0b96cc8652c85083b22d1403fb4 95434 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+Files:
+ de1388d1a6756f0018fdab429eeed10f 1605 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
+ d664e8203f79fb72b6eb575d09a4dd99 220157 video optional atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 9c13e22994963264b4c743bec6cd391b 12656 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
+ 51abccb8c0a74de57dd5db6056f4f292 218994 debug extra atomicparsley-dbgsym_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+ 763d172c138b149985d2e239c5281f70 5667 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.buildinfo
+ dc808089e340a139ea100be8d6daee2e 95434 video optional atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlm1KlMACgkQAxXLbBOS
+QzMKbAf/cSEAPMMQjJrA2Jl9jIEPxrw5yf6EA1GEIq4zvL8XrHg+t1WxO3RH8Rmn
+OX3r1gC73ApKDN34xLYrHAXpt/PMr9g/sHmx8cKWYd2qRlI2YDLjFQ+efW3uwmT7
+l5hqBkctTw1McSnGkIs2V3A5fnd9jJ/5To86PFZGMtbAj2f9fqgejUnK1MoFSSfs
+Mop5HadJ3mTx/WRl3D9+WGK6GzF0qDpdI3LTnQRIdBDMLf4lqde6nD3T7DSLQ4NE
+VYGXftwnBL8UXpzwu576BYhZVM1vm9rYUfwNrBWF3KUIthjA4XbN3xKRss2Dkx4X
+8t7COsSHainfN6XZv+o+Er7BqlENOQ==
+=OXB+
+-----END PGP SIGNATURE-----
