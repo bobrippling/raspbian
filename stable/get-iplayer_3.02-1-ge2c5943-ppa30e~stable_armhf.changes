@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 10 Sep 2017 15:39:14 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.02-1-ge2c5943-ppa30e~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.02-1-ge2c5943-ppa30e~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+Checksums-Sha1:
+ 3b173eea21e94ca6c8fb5d2f0e80afaf578e130f 1528 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ 7763d30596f80379b786dfa39f388fc3682327d7 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ ddbdfcbd6b643d7cf1fdb04619e59c03e5af9a52 123400 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ b8a99a8f5e174583b2590839d3c89f09a1b57ce8 130448 get-iplayer_3.02-1-ge2c5943-ppa30e~stable_all.deb
+ 45e8df49ce543420bba19b8a2bfa3d2bf481c394 5250 get-iplayer_3.02-1-ge2c5943-ppa30e~stable_armhf.buildinfo
+Checksums-Sha256:
+ e8f70e6734b22a57480032b6856f8d2aa844a05dbd659f382f2ef7b22af98b5c 1528 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ a933d55c0100ee9d5ecf94b95b35b523f722f2f9fd1159584850044ef00d6168 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ bc385d60ecbbfcf9292faad26df0f6c9d7f109534c53ce250ceeb01736291e2f 123400 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ 31b03412c6f45a10fc7cc1235eb8ef3c1b9da161d3f2fe2e5d254d255eb273db 130448 get-iplayer_3.02-1-ge2c5943-ppa30e~stable_all.deb
+ 0cb1cbea21562a06a367333255526f49beecb83cf42316d3dea815dc81d0fe14 5250 get-iplayer_3.02-1-ge2c5943-ppa30e~stable_armhf.buildinfo
+Files:
+ 6d205967ca81df2266b00e3512500136 1528 video optional get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ b926c9dcb7ce00c3b3bc7ee7d4ef8e8b 132516 video optional get-iplayer_3.02-1-ge2c5943.orig.tar.gz
+ 8a0b1adf629bd55ee33a5234ee6c60ae 123400 video optional get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ 6064a9931b1f72424ccbfa8079a41760 130448 video optional get-iplayer_3.02-1-ge2c5943-ppa30e~stable_all.deb
+ eee14c57be8b72f0a3a23cd85f63a461 5250 video optional get-iplayer_3.02-1-ge2c5943-ppa30e~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlm1XPAACgkQAxXLbBOS
+QzM1uAf/fJVoSbbj1j153TlxEBJBF7ohLONzpb2X54wxfrBScHFwtqVhUGdivSE6
+casuCEwVMjVTTbMgrRg/QQi5ZFbpP+C6t0mh08KIxsuYruGGvPI5lloPcEzuZncN
+2NuGXHXS2Tyb7VrFqNZlGBuKHeqpBP7JAq5i+Cl4bsKfpcTS9OHBGiNYc7wR38A7
+yYK83D0T/WidfqyuHZgxhKRC9gSCxF0Xh+CeXi6tG/CMu0SpfBbYFPMMV2tDZu0n
+X3Ac0ngpXVU2p4boY0h13+QR3pg62lCaO7jKBOdgWZLB0D5cn9GcseeL6KXdcE9J
+nrhJ/P2+5v00Yj51K0OFH2u0XZgZVA==
+=oJuT
+-----END PGP SIGNATURE-----
