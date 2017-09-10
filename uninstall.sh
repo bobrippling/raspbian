@@ -25,13 +25,13 @@ echo "under certain conditions.  read this script for details."
 sudo apt -y purge get-iplayer
 
 # remove the packages.hedgerows.org.uk repository
-sudo rm /etc/apt/sources.list.d/packages.hedgerows.org.uk.list
+sudo rm -f /etc/apt/sources.list.d/packages.hedgerows.org.uk.list
 
 # remove the repository signing key used for packages.hedgerows.org.uk
 # - for jon@hedgerows.org.uk
-sudo apt-key remove --keyserver keyserver.ubuntu.com --recv 0F5BFDFE
+sudo apt-key del 0F5BFDFE
 # - for jon's build-bot
-sudo apt-key remove --keyserver keyserver.ubuntu.com --recv 13924333
+sudo apt-key del 13924333
 
 # update the packages list
 sudo apt update
