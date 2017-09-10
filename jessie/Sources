@@ -1,22 +1,48 @@
+Package: rtmpdump
+Format: 1.0
+Binary: rtmpdump, librtmp-dev
+Architecture: any
+Version: 2.4-n78-git3a1e20c-ppa8~jessie
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Standards-Version: 3.9.0
+Build-Depends: debhelper, cdbs, libssl-dev, zlib1g-dev
+Homepage: http://rtmpdump.mplayerhq.hu/
+Directory: jessie
+Package-List:
+ librtmp-dev deb libdevel extra arch=any
+ rtmpdump deb web extra arch=any
+Files:
+ 19446166177c08784d7facf2b1000e52 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ aadaa2c0022be5cd33116af07a9a6148 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ d327732900a3d92bd82303a2e129ce48 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+Checksums-Sha1:
+ 724aa954e10f840a65850bb4fc8f9af895f65f35 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ a976bd567859eab2e1ebfcb089f78917e6622870 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 0a0d056adfbdad76836cc1d52727c458cda9480e 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+Checksums-Sha256:
+ bc48ef7108d7d75b4a240617cc3d647ee7b1e7b05bc5af07658bd8845fea5c86 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ b2c8f0b36d2cc830a8ffc142dbf409a66b0397d3bb14e659ffa2314bdd98c1c8 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 4c8b0fd92917a504801bee195580eb239d67cd469073104b934899142dce2055 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+Checksums-Sha512:
+ 8398e2925dca06a8474231f7ccc609188dc13920e8c962a1419beb3bea6324905f3f9f4e88c78c4564cabe3f019ee8255f2df323b312207ed2dd0861135fffa0 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
+ e4ab9c9a650450f6b8a1e867a5223cf70bd9e780ba9024c4bc04abbbdca120dffd66a79e97beaff440a425be49d19d8a77cb7898e7239d8232d126039c2fdc97 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
+ 79637ac651a1312db7600374a9c2c001f5bfd99e633e8ca26f8250769f20c06b795a1ad54660b951aceb77c6ee4cd6e1d49973ad9ce7995cb5edc4e7aa7d9750 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
+
 Package: ffmpeg
+Format: 3.0 (quilt)
 Binary: ffmpeg, ffmpeg-doc, libavcodec57, libavcodec-extra57, libavcodec-extra, libavcodec-dev, libavdevice57, libavdevice-dev, libavfilter6, libavfilter-extra6, libavfilter-extra, libavfilter-dev, libavformat57, libavformat-dev, libavresample3, libavresample-dev, libavutil55, libavutil-dev, libpostproc54, libpostproc-dev, libswresample2, libswresample-dev, libswscale4, libswscale-dev, libav-tools
+Architecture: any all
 Version: 7:3.2.2-1~bpo8+1.1
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>, Alexander Strasser <eclipse7@gmx.net>, Reinhard Tartler <siretart@tauware.de>, Balint Reczey <balint@balintreczey.hu>
+Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.17.14), flite1-dev, frei0r-plugins-dev <!stage1>, gcc-4.8 [i386], g++-4.8 [i386], ladspa-sdk, libass-dev, libbluray-dev, libbs2b-dev, libbz2-dev, libcaca-dev, libcdio-paranoia-dev, libcrystalhd-dev [amd64 i386], libdc1394-22-dev [linux-any], libfontconfig1-dev, libfreetype6-dev, libfribidi-dev, libgl1-mesa-dev, libgme-dev, libgnutls28-dev | libgnutls-dev, libgsm1-dev, libiec61883-dev [linux-any], libavc1394-dev [linux-any], libjack-jackd2-dev, libleptonica-dev, liblzma-dev, libmodplug-dev, libmp3lame-dev, libnetcdf-dev [!powerpcspe], libopenal-dev, libomxil-bellagio-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopencv-imgproc-dev <!stage1>, libopenjp2-7-dev, libopus-dev, libpulse-dev, librubberband-dev, libsctp-dev [linux-any], libsdl2-dev, libshine-dev (>= 3.0.0), libsnappy-dev, libsoxr-dev, libspeex-dev, libssh-gcrypt-dev, libtesseract-dev, libtheora-dev, libtwolame-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libwavpack-dev, libwebp-dev, libx264-dev [!powerpcspe] <!stage1>, libx265-dev (>= 1.8), libxcb-shape0-dev, libxcb-shm0-dev, libxcb-xfixes0-dev, libxv-dev, libxvidcore-dev, libxvmc-dev, libzmq3-dev, libzvbi-dev, pkg-config, texinfo, yasm, zlib1g-dev
 Build-Depends-Indep: cleancss, doxygen, node-less
-Architecture: any all
-Standards-Version: 3.9.8
-Format: 3.0 (quilt)
-Directory: jessie
-Files:
- e1f97861258f552d563ed6d2b176f961 4213 ffmpeg_3.2.2-1~bpo8+1.1.dsc
- e34d1b92c5d844f2a3611c741a6dba18 8016776 ffmpeg_3.2.2.orig.tar.xz
- c0d02546e53579912212fbc259666ff1 39876 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
-Uploaders: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>, Alexander Strasser <eclipse7@gmx.net>, Reinhard Tartler <siretart@tauware.de>, Balint Reczey <balint@balintreczey.hu>
+Testsuite: autopkgtest
 Homepage: https://ffmpeg.org/
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/ffmpeg.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/ffmpeg.git
-Testsuite: autopkgtest
+Directory: jessie
 Package-List:
  ffmpeg deb video optional arch=any
  ffmpeg-doc deb doc optional arch=all
@@ -43,6 +69,10 @@ Package-List:
  libswresample2 deb libs optional arch=any
  libswscale-dev deb libdevel optional arch=any
  libswscale4 deb libs optional arch=any
+Files:
+ e1f97861258f552d563ed6d2b176f961 4213 ffmpeg_3.2.2-1~bpo8+1.1.dsc
+ e34d1b92c5d844f2a3611c741a6dba18 8016776 ffmpeg_3.2.2.orig.tar.xz
+ c0d02546e53579912212fbc259666ff1 39876 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
 Checksums-Sha1:
  c6ae8d7448b821f6717d30b37647116051edde49 4213 ffmpeg_3.2.2-1~bpo8+1.1.dsc
  1178507b46ae88aa3dccb911e71af4b70c6f4f8e 8016776 ffmpeg_3.2.2.orig.tar.xz
@@ -56,89 +86,51 @@ Checksums-Sha512:
  cf632b5b412f5a9a00b55c10fd115ae8a7e6ee10ef5f8504ecc5b42ac2f6485dfba5eb7b5dd4bdf9a9fbe58d0a394900f983eac422945618f1fefb4cb2682ca1 8016776 ffmpeg_3.2.2.orig.tar.xz
  ad1e0464b602d62120b3157d672bfd1f82de3cd7c81a64714b6932eabe41475047caed4981e90df7d6b2faedf3995749a4b66324db3d249713ac8f314fb89d19 39876 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
 
-Package: rtmpdump
-Binary: rtmpdump, librtmp-dev
-Version: 2.4-n78-git3a1e20c-ppa8~jessie
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: debhelper, cdbs, libssl-dev, zlib1g-dev
-Architecture: any
-Standards-Version: 3.9.0
-Format: 1.0
-Directory: jessie
-Files:
- 19446166177c08784d7facf2b1000e52 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
- aadaa2c0022be5cd33116af07a9a6148 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
- d327732900a3d92bd82303a2e129ce48 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
-Homepage: http://rtmpdump.mplayerhq.hu/
-Package-List:
- librtmp-dev deb libdevel extra arch=any
- rtmpdump deb web extra arch=any
-Checksums-Sha1:
- 724aa954e10f840a65850bb4fc8f9af895f65f35 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
- a976bd567859eab2e1ebfcb089f78917e6622870 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
- 0a0d056adfbdad76836cc1d52727c458cda9480e 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
-Checksums-Sha256:
- bc48ef7108d7d75b4a240617cc3d647ee7b1e7b05bc5af07658bd8845fea5c86 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
- b2c8f0b36d2cc830a8ffc142dbf409a66b0397d3bb14e659ffa2314bdd98c1c8 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
- 4c8b0fd92917a504801bee195580eb239d67cd469073104b934899142dce2055 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
-Checksums-Sha512:
- 8398e2925dca06a8474231f7ccc609188dc13920e8c962a1419beb3bea6324905f3f9f4e88c78c4564cabe3f019ee8255f2df323b312207ed2dd0861135fffa0 1228 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.dsc
- e4ab9c9a650450f6b8a1e867a5223cf70bd9e780ba9024c4bc04abbbdca120dffd66a79e97beaff440a425be49d19d8a77cb7898e7239d8232d126039c2fdc97 146101 rtmpdump_2.4-n78-git3a1e20c.orig.tar.gz
- 79637ac651a1312db7600374a9c2c001f5bfd99e633e8ca26f8250769f20c06b795a1ad54660b951aceb77c6ee4cd6e1d49973ad9ce7995cb5edc4e7aa7d9750 34435 rtmpdump_2.4-n78-git3a1e20c-ppa8~jessie.diff.gz
-
-Package: x265
-Binary: x265, libx265-dev, libx265-87, libx265-doc
-Version: 2.0-4~bpo8+1.1
-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
-Build-Depends: debhelper (>= 9.20151219), cmake, libnuma-dev [amd64 arm64 i386 mips mips64 mips64el mipsel powerpc ppc64el], yasm (>= 1.2) [amd64 kfreebsd-amd64]
-Build-Depends-Indep: python-sphinx
-Architecture: any all
-Standards-Version: 3.9.8
+Package: atomicparsley
 Format: 3.0 (quilt)
+Binary: atomicparsley
+Architecture: any
+Version: 0.9.6-hg109.9183fff907bf-0ppa4~jessie
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Standards-Version: 3.8.4
+Build-Depends: cdbs, autoconf, automake1.11, debhelper (>= 6), libz-dev
+Homepage: https://bitbucket.org/wez/atomicparsley/
 Directory: jessie
-Files:
- c391473124b0947a8431bdfdcd64100e 1613 x265_2.0-4~bpo8+1.1.dsc
- a4f16c0f054f002d6d8c9c6f7fb03026 1028299 x265_2.0.orig.tar.gz
- 82b7d7817bc47986dfb5d80dd7f9afb1 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
-Uploaders: Sebastian Ramacher <sramacher@debian.org>
-Homepage: http://x265.org
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/x265.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/x265.git
-Testsuite: autopkgtest
 Package-List:
- libx265-87 deb libs optional arch=any
- libx265-dev deb libdevel optional arch=any
- libx265-doc deb doc optional arch=all
- x265 deb video optional arch=any
+ atomicparsley deb video optional arch=any
+Files:
+ 270e403e6284798d7a5196b5f0e0e1af 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ d664e8203f79fb72b6eb575d09a4dd99 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 3d28e50167332aa5eb4b76e0d01c1201 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
 Checksums-Sha1:
- 9d5758c35b0db01687c154c83cbaa6dea8f9c1ce 1613 x265_2.0-4~bpo8+1.1.dsc
- 358d7208a071c811d72fc100890ac86b0fde1255 1028299 x265_2.0.orig.tar.gz
- 1ce7dca8692267168d4d23fe676ff7c281b90938 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ 81aa947b8f9c45cfa630ca889fae8691d3b8bdc6 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ 4c8f88508c5f6c6525b6da06b7167732c8c9b7e4 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 9a73251c4508cadd16b26585a5a79a7025160186 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
 Checksums-Sha256:
- 992f5361b808f61945ee28972502825cd96f2b4432c67aa8d06449299e8bfd8d 1613 x265_2.0-4~bpo8+1.1.dsc
- 5a7f6797bee33310c690be5d9a6c63125f36663ac3478e98ac6b6142a70bce1f 1028299 x265_2.0.orig.tar.gz
- 2043071fedd3aa864418165d89aa507ed83286d70f940e293788ff3caa30ebaf 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ 56e23aaa1cb6387c93d4e859b67ecfaadff47320b367e7dac768b93687406be9 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ e38f5a0f36523b873c1eabe03f078dfe9041cea680351acb3b9f8be20b6f689a 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 89a6f24de392a8bb11b4a088182d20347db319f0c7f1450a82fa7b85e59fa50a 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
 Checksums-Sha512:
- 4c3d803b8d389fc43e82d14b959f2f8865778c087d27d9d83a35118a3429e9d51cc04a66bdada709fce1953496c0a7f441ee771011b4cbfaf161067f124de505 1613 x265_2.0-4~bpo8+1.1.dsc
- 4262a32cf9a34c494770c7917fbaba88e8211c332a91932f4cd096ce25394979e1d43ae641be0aa480af1d0580e842ca70f58005dd41361b78dfd25870035a1e 1028299 x265_2.0.orig.tar.gz
- fda9b503ccb1c6af58221a7302555d2703ca143f93a97adcaa6f0f0e1cf3993ac6c98611ea4225870ff717835c99867ac59b41002e12e778a4bcb53b530fbc72 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ 628acbcad545382037963e0fbb0789d25d7f0bd1cff68c83117c6a0b795afb723cb78b2e18f012a9793d8fb3f2f890cac67cb50f6a874511343a76ca07521e09 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
+ 52fcad020813bba76a86e35f40fb50a268a4d406bc245b2bf6f7fcc3ec65d4ac694f13684ce3963bd96578ff0bf841867726bb997a9d4a932733d7a8ee99286f 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
+ 6264b451d4f702212958fcb25df7f84f092f55ff5f41b9fc2177bbbf28e514615737542355e9b4483a2173fc987ff0479fb1adad80fe924a0162e245581b26fd 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
 
 Package: get-iplayer
+Format: 3.0 (quilt)
 Binary: get-iplayer
+Architecture: all
 Version: 3.01-ppa30a~jessie
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: debhelper (>= 9), quilt
-Architecture: all
 Standards-Version: 3.9.5
-Format: 3.0 (quilt)
+Build-Depends: debhelper (>= 9), quilt
+Homepage: https://github.com/get-iplayer/get_iplayer
 Directory: jessie
+Package-List:
+ get-iplayer deb video optional arch=all
 Files:
  e4b1d594ec1ed0ec811182766c30b238 1142 get-iplayer_3.01-ppa30a~jessie.dsc
  cb553644636b588f26d02f259ffd055e 139816 get-iplayer_3.01.orig.tar.gz
  3637b82c1a7aac1ce277b9c53d932b64 120728 get-iplayer_3.01-ppa30a~jessie.debian.tar.xz
-Homepage: https://github.com/get-iplayer/get_iplayer
-Package-List:
- get-iplayer deb video optional arch=all
 Checksums-Sha1:
  2ef70fae036390d60458f496a56b0e71376dcbf4 1142 get-iplayer_3.01-ppa30a~jessie.dsc
  17e530d2cb8112fd4ead86c042c1849653ae6f71 139816 get-iplayer_3.01.orig.tar.gz
@@ -152,32 +144,40 @@ Checksums-Sha512:
  e0ecd9ce03466c74f009d61a828e1c4b289c3d5f59ffe0c9ba3539ff47f985a443ae6f79860b846c9b28fbc499beae72a94a749ffa1de990b402c0bdf51fd197 139816 get-iplayer_3.01.orig.tar.gz
  5ac8c78da8470e8a8979c807a8612ee6e5308927dc8f215ea1617a2ba59fc3f32b8bad782661bbc67e8b99e6df50490d1158ea361ae60be5e4fb1aabcf2ec151 120728 get-iplayer_3.01-ppa30a~jessie.debian.tar.xz
 
-Package: atomicparsley
-Binary: atomicparsley
-Version: 0.9.6-hg109.9183fff907bf-0ppa4~jessie
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: cdbs, autoconf, automake1.11, debhelper (>= 6), libz-dev
-Architecture: any
-Standards-Version: 3.8.4
+Package: x265
 Format: 3.0 (quilt)
+Binary: x265, libx265-dev, libx265-87, libx265-doc
+Architecture: any all
+Version: 2.0-4~bpo8+1.1
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9.20151219), cmake, libnuma-dev [amd64 arm64 i386 mips mips64 mips64el mipsel powerpc ppc64el], yasm (>= 1.2) [amd64 kfreebsd-amd64]
+Build-Depends-Indep: python-sphinx
+Testsuite: autopkgtest
+Homepage: http://x265.org
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/x265.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/x265.git
 Directory: jessie
-Files:
- 270e403e6284798d7a5196b5f0e0e1af 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
- d664e8203f79fb72b6eb575d09a4dd99 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
- 3d28e50167332aa5eb4b76e0d01c1201 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
-Homepage: https://bitbucket.org/wez/atomicparsley/
 Package-List:
- atomicparsley deb video optional arch=any
+ libx265-87 deb libs optional arch=any
+ libx265-dev deb libdevel optional arch=any
+ libx265-doc deb doc optional arch=all
+ x265 deb video optional arch=any
+Files:
+ c391473124b0947a8431bdfdcd64100e 1613 x265_2.0-4~bpo8+1.1.dsc
+ a4f16c0f054f002d6d8c9c6f7fb03026 1028299 x265_2.0.orig.tar.gz
+ 82b7d7817bc47986dfb5d80dd7f9afb1 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
 Checksums-Sha1:
- 81aa947b8f9c45cfa630ca889fae8691d3b8bdc6 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
- 4c8f88508c5f6c6525b6da06b7167732c8c9b7e4 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
- 9a73251c4508cadd16b26585a5a79a7025160186 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+ 9d5758c35b0db01687c154c83cbaa6dea8f9c1ce 1613 x265_2.0-4~bpo8+1.1.dsc
+ 358d7208a071c811d72fc100890ac86b0fde1255 1028299 x265_2.0.orig.tar.gz
+ 1ce7dca8692267168d4d23fe676ff7c281b90938 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
 Checksums-Sha256:
- 56e23aaa1cb6387c93d4e859b67ecfaadff47320b367e7dac768b93687406be9 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
- e38f5a0f36523b873c1eabe03f078dfe9041cea680351acb3b9f8be20b6f689a 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
- 89a6f24de392a8bb11b4a088182d20347db319f0c7f1450a82fa7b85e59fa50a 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+ 992f5361b808f61945ee28972502825cd96f2b4432c67aa8d06449299e8bfd8d 1613 x265_2.0-4~bpo8+1.1.dsc
+ 5a7f6797bee33310c690be5d9a6c63125f36663ac3478e98ac6b6142a70bce1f 1028299 x265_2.0.orig.tar.gz
+ 2043071fedd3aa864418165d89aa507ed83286d70f940e293788ff3caa30ebaf 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
 Checksums-Sha512:
- 628acbcad545382037963e0fbb0789d25d7f0bd1cff68c83117c6a0b795afb723cb78b2e18f012a9793d8fb3f2f890cac67cb50f6a874511343a76ca07521e09 1324 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.dsc
- 52fcad020813bba76a86e35f40fb50a268a4d406bc245b2bf6f7fcc3ec65d4ac694f13684ce3963bd96578ff0bf841867726bb997a9d4a932733d7a8ee99286f 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
- 6264b451d4f702212958fcb25df7f84f092f55ff5f41b9fc2177bbbf28e514615737542355e9b4483a2173fc987ff0479fb1adad80fe924a0162e245581b26fd 12592 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4~jessie.debian.tar.xz
+ 4c3d803b8d389fc43e82d14b959f2f8865778c087d27d9d83a35118a3429e9d51cc04a66bdada709fce1953496c0a7f441ee771011b4cbfaf161067f124de505 1613 x265_2.0-4~bpo8+1.1.dsc
+ 4262a32cf9a34c494770c7917fbaba88e8211c332a91932f4cd096ce25394979e1d43ae641be0aa480af1d0580e842ca70f58005dd41361b78dfd25870035a1e 1028299 x265_2.0.orig.tar.gz
+ fda9b503ccb1c6af58221a7302555d2703ca143f93a97adcaa6f0f0e1cf3993ac6c98611ea4225870ff717835c99867ac59b41002e12e778a4bcb53b530fbc72 10900 x265_2.0-4~bpo8+1.1.debian.tar.xz
 
