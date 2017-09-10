@@ -23,9 +23,9 @@ echo "under certain conditions.  read this script for details."
 
 # install the repository signing keys used for packages.hedgerows.org.uk
 # - for jon@hedgerows.org.uk
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 0F5BFDFE
+wget -qO - "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8B07C4FF0F5BFDFE" | sudo apt-key add
 # - for jon's build-bot
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 13924333
+wget -qO - "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0315CB6C13924333" | sudo apt-key add
 
 # add the packages.hedgerows.org.uk repository
 echo "deb http://packages.hedgerows.org.uk/raspbian stable/" | sudo tee /etc/apt/sources.list.d/packages.hedgerows.org.uk.list
