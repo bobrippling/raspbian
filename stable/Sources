@@ -2,7 +2,7 @@ Package: get-iplayer
 Format: 3.0 (quilt)
 Binary: get-iplayer
 Architecture: all
-Version: 3.02-1-ge2c5943-ppa30e~stable
+Version: 3.02-1-ge2c5943-ppa30f~stable
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9), quilt
@@ -11,21 +11,21 @@ Directory: stable
 Package-List:
  get-iplayer deb video optional arch=all
 Files:
- 6d205967ca81df2266b00e3512500136 1528 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ 0051e80e70ff7089b1f31e65bcdda58d 1528 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.dsc
  b926c9dcb7ce00c3b3bc7ee7d4ef8e8b 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
- 8a0b1adf629bd55ee33a5234ee6c60ae 123400 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ cc03242b0fca6e6fa1fcf4c964440671 123380 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.debian.tar.xz
 Checksums-Sha1:
- 3b173eea21e94ca6c8fb5d2f0e80afaf578e130f 1528 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ edf8d5f4f0f0ea4add40d1cbb9eb9dd269525983 1528 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.dsc
  7763d30596f80379b786dfa39f388fc3682327d7 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
- ddbdfcbd6b643d7cf1fdb04619e59c03e5af9a52 123400 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ b907ec383625c5414c1e4182fe8d7c1453871d60 123380 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.debian.tar.xz
 Checksums-Sha256:
- e8f70e6734b22a57480032b6856f8d2aa844a05dbd659f382f2ef7b22af98b5c 1528 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ dc03bafa55ea9696e663650b4d7dfcf4c64ccadc2dbcf19a78fe7303c42b6918 1528 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.dsc
  a933d55c0100ee9d5ecf94b95b35b523f722f2f9fd1159584850044ef00d6168 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
- bc385d60ecbbfcf9292faad26df0f6c9d7f109534c53ce250ceeb01736291e2f 123400 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ 9a18de6bb6ce3d7e4b0d6823f36251113d9ae6ff34c66e1898a0e952a39bab8b 123380 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.debian.tar.xz
 Checksums-Sha512:
- f6a5bb11c0599280b49ab2710d33014e75e63323787dbeefc80a384795de6ee25caa122659e82ba844c52dd094d72664b7720143c6b522b22821195050630524 1528 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.dsc
+ d3ee09c3e8ae5ea4ee55baef55faad20a30f569b2e11e5caa6afc2f1069f819b66da6b2d6e0873669446b93a476d490ed1b4bcfd692ecdda910c293294b72259 1528 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.dsc
  a2b9994f24a3d7ec494c3b2b0e4cfa866f6cbf2daf6ad0f4042490fb2e6c15bb8c297c6abc6e232fb397e649b7d35b7bed225caf61354adc1c9e5caf577494f5 132516 get-iplayer_3.02-1-ge2c5943.orig.tar.gz
- aed9d7b9b9be034370451ffe9190bd14642c010f3d94b84491edceede34da1e1ef451df4586a143fee278137a07bc5fb035475e9cd7ff284858e222a795d9934 123400 get-iplayer_3.02-1-ge2c5943-ppa30e~stable.debian.tar.xz
+ 7d276cf1990d99c95090cbcbda81c82d6f51fcdbeb37a4f05b8e5ccdf3ce6b28002931abc24786576d63cec6f591eaf564a2bdcb755653ef6783ab3eb9074a6b 123380 get-iplayer_3.02-1-ge2c5943-ppa30f~stable.debian.tar.xz
 
 Package: atomicparsley
 Format: 3.0 (quilt)

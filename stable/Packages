@@ -1,17 +1,37 @@
+Package: atomicparsley-dbgsym
+Architecture: armhf
+Version: 0.9.6-hg109.9183fff907bf-0ppa4
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: atomicparsley
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Installed-Size: 249
+Depends: atomicparsley (= 0.9.6-hg109.9183fff907bf-0ppa4)
+Filename: stable/atomicparsley-dbgsym_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
+Size: 218994
+MD5sum: 51abccb8c0a74de57dd5db6056f4f292
+SHA1: c7b8f2840622010dbfd3da7930d3d2cce7bd5167
+SHA256: edd5c234e4c5ac265afabb308599a7ea9b64f1c5ba438e57c700e88b7b8a06d4
+SHA512: c5d5197f4260ba3370ebf97292d3cb478be1ee064aa1f3981ed8ea3b4181044040d920a1151ec70cf4a92c1150afad9d756f2281b14c1228b6495c4dc7eb463d
+Homepage: https://bitbucket.org/wez/atomicparsley/
+Description: Debug symbols for atomicparsley
+Build-Ids: 3dc44aadc6eb4e233d47dc27eec8bbf7e9fbe134
+
 Package: get-iplayer
 Architecture: all
-Version: 3.02-1-ge2c5943-ppa30e~stable
+Version: 3.02-1-ge2c5943-ppa30f~stable
 Priority: optional
 Section: video
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Installed-Size: 493
-Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, atomicparsley (>= 0.9.4), ffmpeg
-Filename: stable/get-iplayer_3.02-1-ge2c5943-ppa30e~stable_all.deb
-Size: 130448
-MD5sum: 6064a9931b1f72424ccbfa8079a41760
-SHA1: b8a99a8f5e174583b2590839d3c89f09a1b57ce8
-SHA256: 31b03412c6f45a10fc7cc1235eb8ef3c1b9da161d3f2fe2e5d254d255eb273db
-SHA512: b07c72a230a1f330b95f32422d48c03913645e27892a2242cfdb8d9043475c91b9469818b253d2257f6a2b599f2d66d083c9246462a07fac8aed9a5ee5f44f69
+Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, libcgi-pm-perl, atomicparsley (>= 0.9.4), ffmpeg
+Filename: stable/get-iplayer_3.02-1-ge2c5943-ppa30f~stable_all.deb
+Size: 130468
+MD5sum: 0dbaab4000a1f1dc35151901596465a2
+SHA1: 7234989783ba6b52a56f8e13347c11a682c6802b
+SHA256: d413c5688f9764b4ba48b763dc3c2e8b266fc62890bfc9cffc1cb07e462b51e3
+SHA512: 72250ba77968fda50e185654011dcce0d34c479c4f83b7b33fcc10e5cf82017b76ca8f4e8c380a88b52c7b34c1e8abb4f843b59b199fcdce5214346fc18c86a8
 Homepage: https://github.com/get-iplayer/get_iplayer
 Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
  .
@@ -36,26 +56,6 @@ Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
  DOCUMENTATION AND SUPPORT
  Documentation: https://github.com/get-iplayer/get_iplayer/wiki
  Suppoort: https://squarepenguin.co.uk/forums/
-
-Package: atomicparsley-dbgsym
-Architecture: armhf
-Version: 0.9.6-hg109.9183fff907bf-0ppa4
-Auto-Built-Package: debug-symbols
-Priority: extra
-Section: debug
-Source: atomicparsley
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Installed-Size: 249
-Depends: atomicparsley (= 0.9.6-hg109.9183fff907bf-0ppa4)
-Filename: stable/atomicparsley-dbgsym_0.9.6-hg109.9183fff907bf-0ppa4_armhf.deb
-Size: 218994
-MD5sum: 51abccb8c0a74de57dd5db6056f4f292
-SHA1: c7b8f2840622010dbfd3da7930d3d2cce7bd5167
-SHA256: edd5c234e4c5ac265afabb308599a7ea9b64f1c5ba438e57c700e88b7b8a06d4
-SHA512: c5d5197f4260ba3370ebf97292d3cb478be1ee064aa1f3981ed8ea3b4181044040d920a1151ec70cf4a92c1150afad9d756f2281b14c1228b6495c4dc7eb463d
-Homepage: https://bitbucket.org/wez/atomicparsley/
-Description: Debug symbols for atomicparsley
-Build-Ids: 3dc44aadc6eb4e233d47dc27eec8bbf7e9fbe134
 
 Package: atomicparsley
 Architecture: armhf
