@@ -20,18 +20,18 @@ Build-Ids: 3dc44aadc6eb4e233d47dc27eec8bbf7e9fbe134
 
 Package: get-iplayer
 Architecture: all
-Version: 3.02-1-ge2c5943-ppa30f~stable
+Version: 3.03-ppa31~stable
 Priority: optional
 Section: video
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Installed-Size: 493
+Installed-Size: 495
 Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, libcgi-pm-perl, atomicparsley (>= 0.9.4), ffmpeg
-Filename: stable/get-iplayer_3.02-1-ge2c5943-ppa30f~stable_all.deb
-Size: 130468
-MD5sum: 0dbaab4000a1f1dc35151901596465a2
-SHA1: 7234989783ba6b52a56f8e13347c11a682c6802b
-SHA256: d413c5688f9764b4ba48b763dc3c2e8b266fc62890bfc9cffc1cb07e462b51e3
-SHA512: 72250ba77968fda50e185654011dcce0d34c479c4f83b7b33fcc10e5cf82017b76ca8f4e8c380a88b52c7b34c1e8abb4f843b59b199fcdce5214346fc18c86a8
+Filename: stable/get-iplayer_3.03-ppa31~stable_all.deb
+Size: 131586
+MD5sum: 57b01b66a5d7ad241c6bd5b43c16556d
+SHA1: 7c8d35441de35cd130fc36b81059aed31389efb5
+SHA256: 86217578a09ff1f57f9671cd64825f76c90ad33d66a95f8bb5a851d5db3b3fe6
+SHA512: 67be9a200e397703ae5093793061e4f8fa1ef518fecd7f90cde0d0fc1cdff2404fbe1cbf0e86b3bd002d1d924e253f774c97a553375f6d49cc698fae73ca21d2
 Homepage: https://github.com/get-iplayer/get_iplayer
 Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
  .
@@ -55,7 +55,7 @@ Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
  .
  DOCUMENTATION AND SUPPORT
  Documentation: https://github.com/get-iplayer/get_iplayer/wiki
- Suppoort: https://squarepenguin.co.uk/forums/
+ Support: https://squarepenguin.co.uk/forums/
 
 Package: atomicparsley
 Architecture: armhf
