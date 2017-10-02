@@ -1,0 +1,140 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 18 Feb 2017 09:56:38 +0000
+Source: ffmpeg
+Binary: ffmpeg ffmpeg-doc libavcodec57 libavcodec-extra57 libavcodec-extra libavcodec-dev libavdevice57 libavdevice-dev libavfilter6 libavfilter-extra6 libavfilter-extra libavfilter-dev libavformat57 libavformat-dev libavresample3 libavresample-dev libavutil55 libavutil-dev libpostproc54 libpostproc-dev libswresample2 libswresample-dev libswscale4 libswscale-dev libav-tools
+Architecture: source armhf all
+Version: 7:3.2.2-1~bpo8+1.1
+Distribution: stable
+Urgency: medium
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Changed-By: Jon Davies <jon@hedgerows.org.uk>
+Description:
+ ffmpeg     - Tools for transcoding, streaming and playing of multimedia files
+ ffmpeg-doc - Documentation of the FFmpeg multimedia framework
+ libav-tools - Compatibility links for libav-tools (transitional package)
+ libavcodec-dev - FFmpeg library with de/encoders for audio/video codecs - developm
+ libavcodec-extra - FFmpeg library with extra codecs (metapackage)
+ libavcodec-extra57 - FFmpeg library with additional de/encoders for audio/video codecs
+ libavcodec57 - FFmpeg library with de/encoders for audio/video codecs - runtime
+ libavdevice-dev - FFmpeg library for handling input and output devices - developmen
+ libavdevice57 - FFmpeg library for handling input and output devices - runtime fi
+ libavfilter-dev - FFmpeg library containing media filters - development files
+ libavfilter-extra - FFmpeg library with extra filters (metapackage)
+ libavfilter-extra6 - FFmpeg library with extra media filters - runtime files
+ libavfilter6 - FFmpeg library containing media filters - runtime files
+ libavformat-dev - FFmpeg library with (de)muxers for multimedia containers - develo
+ libavformat57 - FFmpeg library with (de)muxers for multimedia containers - runtim
+ libavresample-dev - FFmpeg compatibility library for resampling - development files
+ libavresample3 - FFmpeg compatibility library for resampling - runtime files
+ libavutil-dev - FFmpeg library with functions for simplifying programming - devel
+ libavutil55 - FFmpeg library with functions for simplifying programming - runti
+ libpostproc-dev - FFmpeg library for post processing - development files
+ libpostproc54 - FFmpeg library for post processing - runtime files
+ libswresample-dev - FFmpeg library for audio resampling, rematrixing etc. - developme
+ libswresample2 - FFmpeg library for audio resampling, rematrixing etc. - runtime f
+ libswscale-dev - FFmpeg library for image scaling and various conversions - develo
+ libswscale4 - FFmpeg library for image scaling and various conversions - runtim
+Changes:
+ ffmpeg (7:3.2.2-1~bpo8+1.1) stable; urgency=medium
+ .
+   * Non-maintainer upload.
+   * chromaprint disabled.
+Checksums-Sha1:
+ 8d332cadc92c88d94c184471653e49d7936141aa 4505 ffmpeg_3.2.2-1~bpo8+1.1.dsc
+ aab931f80a5d6878226c38017234d7541cc49177 39792 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
+ 56e8d419a887cc46a0394fa0e1a3b800c97be600 1507490 ffmpeg_3.2.2-1~bpo8+1.1_armhf.deb
+ 5989ce69b2d4b622c8d5312329299700a038bcdc 1737942 ffmpeg-doc_3.2.2-1~bpo8+1.1_all.deb
+ 84f915be4307fc6cd67583a127439b374f9444f0 4012060 libavcodec57_3.2.2-1~bpo8+1.1_armhf.deb
+ 8cbc4925ac0427614c21b986a8dbda04ab1e3025 4012806 libavcodec-extra57_3.2.2-1~bpo8+1.1_armhf.deb
+ 8a85130c44164125d89e0fd8c9567b7f21891ea0 45788 libavcodec-extra_3.2.2-1~bpo8+1.1_all.deb
+ e75a5eea36155e7eee40f501f0c2a3daac95af31 4472058 libavcodec-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 2d560e516d3713d286ca89ce892990322e564b0c 97774 libavdevice57_3.2.2-1~bpo8+1.1_armhf.deb
+ 886ae976acbfbf4f0e3306bb28659e2a94826892 113130 libavdevice-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 16de6bd6fd0fbccfe88133722c8f13fbe373aa9a 669786 libavfilter6_3.2.2-1~bpo8+1.1_armhf.deb
+ 0d73e7ac04370c366b8ceb2c9e76dec52fe69539 673890 libavfilter-extra6_3.2.2-1~bpo8+1.1_armhf.deb
+ f7ef8b2885c775fef7d5b4aa1ef18f14a75d9808 45788 libavfilter-extra_3.2.2-1~bpo8+1.1_all.deb
+ 828a76b61635395ec47c5ee6b0df0642c53b4e0d 808632 libavfilter-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 1f56bc7ca747167209c34947ecc067656c7465a1 854864 libavformat57_3.2.2-1~bpo8+1.1_armhf.deb
+ 5348c43eb26fbc09629de964fd608dbe0bc4ffb2 1071908 libavformat-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 09c6fd2a89bd5ce145e3acafcf83ce179bc5086a 72292 libavresample3_3.2.2-1~bpo8+1.1_armhf.deb
+ 35fad205cec83724cbacf2df356d5504e5028188 80752 libavresample-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 707fb16900b6024a9b5f51a29de13ec3faf8f8df 220522 libavutil55_3.2.2-1~bpo8+1.1_armhf.deb
+ 13fdbe80f2abdcd73dc50e16c2280ca0f10d5f46 321008 libavutil-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ f2bc1aeb765f1896783a5d3e231c3ce848c57721 62716 libpostproc54_3.2.2-1~bpo8+1.1_armhf.deb
+ d8a79866f62ff44f0a967ccbb8588b7852600aaa 63470 libpostproc-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 93c4b18325d7242d3380442fe32be8b87a6450ff 80512 libswresample2_3.2.2-1~bpo8+1.1_armhf.deb
+ dd59c84e9eb8629c726b5333d7a529a99c44fc52 89254 libswresample-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ a1985b15191f7e97c98d9fb25acddfbbfb0a0c5e 154626 libswscale4_3.2.2-1~bpo8+1.1_armhf.deb
+ c8661672be9c47550418a206fcaca28c7e3078a0 168062 libswscale-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ a08fbb5368d7a6138f61484c856f18f9d8fc50fc 46012 libav-tools_3.2.2-1~bpo8+1.1_all.deb
+Checksums-Sha256:
+ 27e1e7e58c1329f4849107c1bab659dabdaf7956d1859afd500e823793401eea 4505 ffmpeg_3.2.2-1~bpo8+1.1.dsc
+ f8dde7eafd81c46e5804d368e07ccc38166527861eabb33480595b32c480cbf5 39792 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
+ 987c6c89c88c4102c5b69a83dab9b7cdb67f618a5209c8d9e852ea308b9a198d 1507490 ffmpeg_3.2.2-1~bpo8+1.1_armhf.deb
+ 3b5e80b09db13873d30bce3a088a6926ab86a585aa80c7a4b611a397d977dd76 1737942 ffmpeg-doc_3.2.2-1~bpo8+1.1_all.deb
+ 3e3ddd3a626a5de6a9c7abcc487c0121d5d7c741fd1fb116adf6b31521411def 4012060 libavcodec57_3.2.2-1~bpo8+1.1_armhf.deb
+ 3c359002fc0f8e339cceec0701f58367ab0aae0c0daad6f131f28169a793b5f8 4012806 libavcodec-extra57_3.2.2-1~bpo8+1.1_armhf.deb
+ ab745ca4ff2d6041f1b665f75ddebd07d07e389ed16b974648e3d3a99b10a113 45788 libavcodec-extra_3.2.2-1~bpo8+1.1_all.deb
+ c039e5d3f968a7912013efb45744cf8ec8b563ece7db78d2db0a0d357258b7a8 4472058 libavcodec-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 87a67c65b50ce1c2f587e0a8674f24e55ad76b30d6d5cd45faac62ea9af96f99 97774 libavdevice57_3.2.2-1~bpo8+1.1_armhf.deb
+ 2a02cfd1f00d2301c9d6c7e3e0bc4acdd94c343d0b8e97d63fe4fd178b392a24 113130 libavdevice-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 8928678cb4b3d229a3a70a6c42871bc7edf52b1108b7ec5e99457dd18784a287 669786 libavfilter6_3.2.2-1~bpo8+1.1_armhf.deb
+ 3bd375589d36916c9133ab4c1e6dc679e3a7f63a16a35166c776e87ce909d1b2 673890 libavfilter-extra6_3.2.2-1~bpo8+1.1_armhf.deb
+ 75c8e15e7c5db5534a1fb7444236d36dd48e9d256a468ceb633cee19e3930d37 45788 libavfilter-extra_3.2.2-1~bpo8+1.1_all.deb
+ e2d6e7a1ccabe93ba4fbf48badd6aba8466818e55e0b0e5245308b7a63523aa3 808632 libavfilter-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ a4b7fe30e44eaaefa599655a93a890bdf27ad29486b156091ceb5391ee8221c5 854864 libavformat57_3.2.2-1~bpo8+1.1_armhf.deb
+ e9c715495ed0d832644cd3b2c591f90d67ca0d67a9aee4c060923a018c10a46c 1071908 libavformat-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ da627553d289d2e935924c992d8551dbbca86deae0d0fd02f72a6efb64a472e0 72292 libavresample3_3.2.2-1~bpo8+1.1_armhf.deb
+ b9fe747bbc70074c4eac2ebae0f396c512d3c549c31d9795e71c9df19d003fa0 80752 libavresample-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ c599f931a75457ff4011d8c7b0c6be050f1d04ac9f5c5ecba2a3f78e6ce979da 220522 libavutil55_3.2.2-1~bpo8+1.1_armhf.deb
+ 1fdcaffb04586723f8ba3a74d781f20cb46f92ea7c2861ccfe911ffa0a37e20a 321008 libavutil-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 537d5f99d648b8111d4400042de70f0c2a5db660b8f89fdf6b212676443da9a6 62716 libpostproc54_3.2.2-1~bpo8+1.1_armhf.deb
+ 536c9ccf5ec0e1e28db02b4f61daea9110d116e90f97d49876f66d9b14e83dee 63470 libpostproc-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ c1a8e6301a4025517abf2585c4c82863b51865e82b2d3785580e4bec9f15cd5f 80512 libswresample2_3.2.2-1~bpo8+1.1_armhf.deb
+ d38a45b28f131ff162a2cfdcb0ed9b2ed1294c5e8c6716e2caca9abf20baebca 89254 libswresample-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 26fe802b58c979a266c20fe8a139117be55725426cfbd260d8738e4f9ae872cc 154626 libswscale4_3.2.2-1~bpo8+1.1_armhf.deb
+ d9c94fa3a0fbc51e849969f5d3a1722c96a1e9fa77aaf0c7011a154d77c0b246 168062 libswscale-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 7891552063f6258a34c1c106bca5794cdc0ce7644e18e917d32ed8b59560a271 46012 libav-tools_3.2.2-1~bpo8+1.1_all.deb
+Files:
+ 80ed189d270b71acee7a9a9103dfbc74 4505 video optional ffmpeg_3.2.2-1~bpo8+1.1.dsc
+ edcf8ee5a62d2b5d2409b9d4ecbcd7f8 39792 video optional ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
+ 97704691638b29dc907e5ab7ffd1c502 1507490 video optional ffmpeg_3.2.2-1~bpo8+1.1_armhf.deb
+ 5d79c29911f85adc540cfaf469ac13fe 1737942 doc optional ffmpeg-doc_3.2.2-1~bpo8+1.1_all.deb
+ 19e40507ea69e6132da7e5d86c7430f6 4012060 libs optional libavcodec57_3.2.2-1~bpo8+1.1_armhf.deb
+ cabd632f5b7818dae2274c20ae728c3a 4012806 libs extra libavcodec-extra57_3.2.2-1~bpo8+1.1_armhf.deb
+ 7299a35d93f335b9b7ac52f4b3019afd 45788 metapackages extra libavcodec-extra_3.2.2-1~bpo8+1.1_all.deb
+ e6290fa6004621af593177ce6416febb 4472058 libdevel optional libavcodec-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 7addc1dee41ca4d2083dce3be01887d3 97774 libs optional libavdevice57_3.2.2-1~bpo8+1.1_armhf.deb
+ f0a382e68d7f2e67917a7c19bdab0b95 113130 libdevel optional libavdevice-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 28eaae4b44d2d5c83713b2d01395b7a5 669786 libs optional libavfilter6_3.2.2-1~bpo8+1.1_armhf.deb
+ 1884e33aa8024f6f0d30b21f7c993071 673890 libs extra libavfilter-extra6_3.2.2-1~bpo8+1.1_armhf.deb
+ 2ac5ce78b7f78ee2a4a7ddcd145d1f89 45788 metapackages extra libavfilter-extra_3.2.2-1~bpo8+1.1_all.deb
+ bfc793712b616df24bf2be21ea335cc4 808632 libdevel optional libavfilter-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ ddea90945e0860872ff8e92c290b1b2c 854864 libs optional libavformat57_3.2.2-1~bpo8+1.1_armhf.deb
+ 3b1d103935e6c72d1b4446af9b4faccf 1071908 libdevel optional libavformat-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 339e64a4e22a26870608535a982a1a22 72292 libs optional libavresample3_3.2.2-1~bpo8+1.1_armhf.deb
+ 41fe990acd7027a67589df227ce9589d 80752 libdevel optional libavresample-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 114583e721f290a6e82bce53c3f9f8b5 220522 libs optional libavutil55_3.2.2-1~bpo8+1.1_armhf.deb
+ 5907b701fd468018e9871f2e20bc8ac9 321008 libdevel optional libavutil-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 8d003c1f19ef0d284857673730a7367e 62716 libs optional libpostproc54_3.2.2-1~bpo8+1.1_armhf.deb
+ 9cdf99fb2336b5b34a28a265ca7988ed 63470 libdevel optional libpostproc-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ e31b39771def06ebce7175a68c66a937 80512 libs optional libswresample2_3.2.2-1~bpo8+1.1_armhf.deb
+ d4920092bed3d58f5ebf652647abadd8 89254 libdevel optional libswresample-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 68fdf562882d190944fcbc5864730ad2 154626 libs optional libswscale4_3.2.2-1~bpo8+1.1_armhf.deb
+ e966ec95f5a6a0206f65386d9342ca47 168062 libdevel optional libswscale-dev_3.2.2-1~bpo8+1.1_armhf.deb
+ 9fe6bc5836f99d470462eed8df3ea617 46012 oldlibs extra libav-tools_3.2.2-1~bpo8+1.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJZ0j8BAAoJEAMVy2wTkkMzD5gH/0dJhow6sxvDEWDQ0rtA9n1x
+RhtuaxdvrDxTvpQPfdtubVn+tckRIgjHULM0mQK4PdVvPvVBkfQjnXkLOPOXlG/k
+cTAp1DNQSrpLVkFBxBsrll7O6I6ouPnOGEsHGRVkGm4Pjo+Ey9lDhTEjMtZeWkC7
+qTmKCmPjIuLpkSrcYnU83TOTfvJ2dhFOF6cMGLsWFWSrZRZJFDWfutGYaYEodFnn
+3PXTR3X6sDKMXfNB8HQaFa4LEcNofNJiD68N9MTwWHhGKCMdgMYOiD98xg6inAHg
+++qULqoOw2Wf8MqrPJlPeZkiP+dmFvK1SiE/yrOfPmNVzTySO7jxW6Rq+OUb8OE=
+=x3k0
+-----END PGP SIGNATURE-----
