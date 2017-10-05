@@ -1,22 +1,18 @@
 Package: ffmpeg
+Format: 3.0 (quilt)
 Binary: ffmpeg, ffmpeg-doc, libavcodec57, libavcodec-extra57, libavcodec-extra, libavcodec-dev, libavdevice57, libavdevice-dev, libavfilter6, libavfilter-extra6, libavfilter-extra, libavfilter-dev, libavformat57, libavformat-dev, libavresample3, libavresample-dev, libavutil55, libavutil-dev, libpostproc54, libpostproc-dev, libswresample2, libswresample-dev, libswscale4, libswscale-dev, libav-tools
+Architecture: any all
 Version: 7:3.2.2-1~bpo8+1.1
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>, Alexander Strasser <eclipse7@gmx.net>, Reinhard Tartler <siretart@tauware.de>, Balint Reczey <balint@balintreczey.hu>
+Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.17.14), flite1-dev, frei0r-plugins-dev <!stage1>, gcc-4.8 [i386], g++-4.8 [i386], ladspa-sdk, libass-dev, libbluray-dev, libbs2b-dev, libbz2-dev, libcaca-dev, libcdio-paranoia-dev, libcrystalhd-dev [amd64 i386], libdc1394-22-dev [linux-any], libfontconfig1-dev, libfreetype6-dev, libfribidi-dev, libgl1-mesa-dev, libgme-dev, libgnutls28-dev | libgnutls-dev, libgsm1-dev, libiec61883-dev [linux-any], libavc1394-dev [linux-any], libjack-jackd2-dev, libleptonica-dev, liblzma-dev, libmodplug-dev, libmp3lame-dev, libnetcdf-dev [!powerpcspe], libopenal-dev, libomxil-bellagio-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopencv-imgproc-dev <!stage1>, libopenjp2-7-dev, libopus-dev, libpulse-dev, librubberband-dev, libsctp-dev [linux-any], libsdl2-dev, libshine-dev (>= 3.0.0), libsnappy-dev, libsoxr-dev, libspeex-dev, libssh-gcrypt-dev, libtesseract-dev, libtheora-dev, libtwolame-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libwavpack-dev, libwebp-dev, libx264-dev [!powerpcspe] <!stage1>, libx265-dev (>= 1.8), libxcb-shape0-dev, libxcb-shm0-dev, libxcb-xfixes0-dev, libxv-dev, libxvidcore-dev, libxvmc-dev, libzmq3-dev, libzvbi-dev, pkg-config, texinfo, yasm, zlib1g-dev
 Build-Depends-Indep: cleancss, doxygen, node-less
-Architecture: any all
-Standards-Version: 3.9.8
-Format: 3.0 (quilt)
-Directory: stable
-Files:
- 80ed189d270b71acee7a9a9103dfbc74 4505 ffmpeg_3.2.2-1~bpo8+1.1.dsc
- e34d1b92c5d844f2a3611c741a6dba18 8016776 ffmpeg_3.2.2.orig.tar.xz
- edcf8ee5a62d2b5d2409b9d4ecbcd7f8 39792 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
-Uploaders: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>, Alexander Strasser <eclipse7@gmx.net>, Reinhard Tartler <siretart@tauware.de>, Balint Reczey <balint@balintreczey.hu>
+Testsuite: autopkgtest
 Homepage: https://ffmpeg.org/
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/ffmpeg.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/ffmpeg.git
-Testsuite: autopkgtest
+Directory: stable
 Package-List:
  ffmpeg deb video optional arch=any
  ffmpeg-doc deb doc optional arch=all
@@ -43,6 +39,10 @@ Package-List:
  libswresample2 deb libs optional arch=any
  libswscale-dev deb libdevel optional arch=any
  libswscale4 deb libs optional arch=any
+Files:
+ 80ed189d270b71acee7a9a9103dfbc74 4505 ffmpeg_3.2.2-1~bpo8+1.1.dsc
+ e34d1b92c5d844f2a3611c741a6dba18 8016776 ffmpeg_3.2.2.orig.tar.xz
+ edcf8ee5a62d2b5d2409b9d4ecbcd7f8 39792 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
 Checksums-Sha1:
  8d332cadc92c88d94c184471653e49d7936141aa 4505 ffmpeg_3.2.2-1~bpo8+1.1.dsc
  1178507b46ae88aa3dccb911e71af4b70c6f4f8e 8016776 ffmpeg_3.2.2.orig.tar.xz
@@ -56,59 +56,51 @@ Checksums-Sha512:
  cf632b5b412f5a9a00b55c10fd115ae8a7e6ee10ef5f8504ecc5b42ac2f6485dfba5eb7b5dd4bdf9a9fbe58d0a394900f983eac422945618f1fefb4cb2682ca1 8016776 ffmpeg_3.2.2.orig.tar.xz
  2eb490464e22cc133d733a72a8e226bd850adbc84f4aac75594bde5aa7e0fb5d393bd7d4f3dbb1d0600c76bf37d1081b3cb5702edd05cdadc96eccc28132a869 39792 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
 
-Package: x265
-Binary: x265, libx265-dev, libx265-87, libx265-doc
-Version: 2.0-4~bpo8+1.1
-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
-Build-Depends: debhelper (>= 9.20151219), cmake, libnuma-dev [amd64 arm64 i386 mips mips64 mips64el mipsel powerpc ppc64el], yasm (>= 1.2) [amd64 kfreebsd-amd64]
-Build-Depends-Indep: python-sphinx
-Architecture: any all
-Standards-Version: 3.9.8
+Package: get-iplayer
 Format: 3.0 (quilt)
+Binary: get-iplayer
+Architecture: all
+Version: 3.04-ppa31~stable
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), quilt
+Homepage: https://github.com/get-iplayer/get_iplayer
 Directory: stable
-Files:
- e408caf1c9f6bda12224e7632f0d3598 1905 x265_2.0-4~bpo8+1.1.dsc
- a4f16c0f054f002d6d8c9c6f7fb03026 1028299 x265_2.0.orig.tar.gz
- 77ca0dba309814915c47c7fe7c724731 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
-Uploaders: Sebastian Ramacher <sramacher@debian.org>
-Homepage: http://x265.org
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/x265.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/x265.git
-Testsuite: autopkgtest
 Package-List:
- libx265-87 deb libs optional arch=any
- libx265-dev deb libdevel optional arch=any
- libx265-doc deb doc optional arch=all
- x265 deb video optional arch=any
+ get-iplayer deb video optional arch=all
+Files:
+ 6511e2f0b245e77760375f63285572ce 1447 get-iplayer_3.04-ppa31~stable.dsc
+ 27592c1c5e17d67d87d8f38c5820346e 132538 get-iplayer_3.04.orig.tar.gz
+ d0303aca7e63b5d8fb9d3a9fdcbeee7a 125296 get-iplayer_3.04-ppa31~stable.debian.tar.xz
 Checksums-Sha1:
- 3e1ef73b18587ffec0fd02f46cca38d7b8b8c74e 1905 x265_2.0-4~bpo8+1.1.dsc
- 358d7208a071c811d72fc100890ac86b0fde1255 1028299 x265_2.0.orig.tar.gz
- ae8addf436ed2f80627ff95ac454d55e4be07ef6 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ e72e4af2bfbd61bc3eae0727ca49627690b7e621 1447 get-iplayer_3.04-ppa31~stable.dsc
+ 95da11138297af4c7330dbcf71d637f91e731c65 132538 get-iplayer_3.04.orig.tar.gz
+ f46fea04da6846020e9ead7f6e1f513d0d6563a5 125296 get-iplayer_3.04-ppa31~stable.debian.tar.xz
 Checksums-Sha256:
- 146a69e75f0f4ae0c9baef610c89d9694dd120dda88238c2e3df44adfaad331b 1905 x265_2.0-4~bpo8+1.1.dsc
- 5a7f6797bee33310c690be5d9a6c63125f36663ac3478e98ac6b6142a70bce1f 1028299 x265_2.0.orig.tar.gz
- ad527a1978f6b425235fb6ef706ede2d80fbb263fada4767e7edbcb86cad60b0 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ 40c45d614def4dd6c9357d316cce7526194793c56e12a6fb529ac86bf079da8b 1447 get-iplayer_3.04-ppa31~stable.dsc
+ c68d65a1cfaf4a3d3885c14d7c0b901a1c11f8cc1aa4bf340416d4fed74ea6f1 132538 get-iplayer_3.04.orig.tar.gz
+ a03e976f0b2124b2477b199316a182046efb24480fd74596565f26c7e52605a0 125296 get-iplayer_3.04-ppa31~stable.debian.tar.xz
 Checksums-Sha512:
- d14009cf5837c5956045ead08c27854262c84b034f476908e70eb185347c80da8b13acdf192a859e8a737b587675cf8aa5bb36007030ed4303bace24790d0d93 1905 x265_2.0-4~bpo8+1.1.dsc
- 4262a32cf9a34c494770c7917fbaba88e8211c332a91932f4cd096ce25394979e1d43ae641be0aa480af1d0580e842ca70f58005dd41361b78dfd25870035a1e 1028299 x265_2.0.orig.tar.gz
- bdb99df0c0c09b165c4f6fa6cfe8288ab688670852fd1e45331feda321b129890e4cb17bb89f40856974119cb2cb8de8f1a17eb98ccef0fa6b81d77dd4e15442 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
+ 2cdb04c7072d410d0c2353f52f2a5c3332cc31dc94ce882b14ff89a2e56be711c9cb816c0f6ca0998cd081863f676878a314e5db400554b778f7ecc9eb0f75f7 1447 get-iplayer_3.04-ppa31~stable.dsc
+ c5b473c153da481ba248286431fb507cd0474ee374e3d4556e08b687ff0835c0a3ceee16088ae644131b64ae11d300d70430d35bd4bb6931073fbbd41b272c3c 132538 get-iplayer_3.04.orig.tar.gz
+ f64ca0f4f3aecedafb9ff1120c4ba5a7a520051e6322d808575e271a53945d0a250d97b48b79554db83bc80b7a11a90a2cfa69b38b8d33d678b7ec2f3ed9cda1 125296 get-iplayer_3.04-ppa31~stable.debian.tar.xz
 
 Package: atomicparsley
+Format: 3.0 (quilt)
 Binary: atomicparsley
+Architecture: any
 Version: 0.9.6-hg109.9183fff907bf-0ppa4
 Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: cdbs, autoconf, automake1.11, debhelper (>= 6), libz-dev
-Architecture: any
 Standards-Version: 3.8.4
-Format: 3.0 (quilt)
+Build-Depends: cdbs, autoconf, automake1.11, debhelper (>= 6), libz-dev
+Homepage: https://bitbucket.org/wez/atomicparsley/
 Directory: stable
+Package-List:
+ atomicparsley deb video optional arch=any
 Files:
  fb1e9377d88981530bd2e16925830b1e 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
  d664e8203f79fb72b6eb575d09a4dd99 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
  9c13e22994963264b4c743bec6cd391b 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
-Homepage: https://bitbucket.org/wez/atomicparsley/
-Package-List:
- atomicparsley deb video optional arch=any
 Checksums-Sha1:
  00104e7f298b759ff26790275104818df9601b5c 1605 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.dsc
  4c8f88508c5f6c6525b6da06b7167732c8c9b7e4 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
@@ -122,32 +114,40 @@ Checksums-Sha512:
  52fcad020813bba76a86e35f40fb50a268a4d406bc245b2bf6f7fcc3ec65d4ac694f13684ce3963bd96578ff0bf841867726bb997a9d4a932733d7a8ee99286f 220157 atomicparsley_0.9.6-hg109.9183fff907bf.orig.tar.gz
  a90adb5209de44b2626a8d540970f43aecf3898c96261214b80aa64c222cd64198c33b1b268377643c04e56a1b853e1bd4cd4c174032ae675eb717d577e86fa3 12656 atomicparsley_0.9.6-hg109.9183fff907bf-0ppa4.debian.tar.xz
 
-Package: get-iplayer
-Binary: get-iplayer
-Version: 3.03-ppa31~stable
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Build-Depends: debhelper (>= 9), quilt
-Architecture: all
-Standards-Version: 3.9.5
+Package: x265
 Format: 3.0 (quilt)
+Binary: x265, libx265-dev, libx265-87, libx265-doc
+Architecture: any all
+Version: 2.0-4~bpo8+1.1
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9.20151219), cmake, libnuma-dev [amd64 arm64 i386 mips mips64 mips64el mipsel powerpc ppc64el], yasm (>= 1.2) [amd64 kfreebsd-amd64]
+Build-Depends-Indep: python-sphinx
+Testsuite: autopkgtest
+Homepage: http://x265.org
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/x265.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/x265.git
 Directory: stable
-Files:
- 71b63b4c360c3f784c78f91f893b355d 1447 get-iplayer_3.03-ppa31~stable.dsc
- c49e0bed1e5f58a411474b06fa333e11 132508 get-iplayer_3.03.orig.tar.gz
- abe59c706842c6c3bf0ec33209453e26 125060 get-iplayer_3.03-ppa31~stable.debian.tar.xz
-Homepage: https://github.com/get-iplayer/get_iplayer
 Package-List:
- get-iplayer deb video optional arch=all
+ libx265-87 deb libs optional arch=any
+ libx265-dev deb libdevel optional arch=any
+ libx265-doc deb doc optional arch=all
+ x265 deb video optional arch=any
+Files:
+ e408caf1c9f6bda12224e7632f0d3598 1905 x265_2.0-4~bpo8+1.1.dsc
+ a4f16c0f054f002d6d8c9c6f7fb03026 1028299 x265_2.0.orig.tar.gz
+ 77ca0dba309814915c47c7fe7c724731 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
 Checksums-Sha1:
- 018a4b7ef43fd92eeaad5aff5572c02810968a47 1447 get-iplayer_3.03-ppa31~stable.dsc
- a5aefc0009408851f77bb964cbf266ede193e3f9 132508 get-iplayer_3.03.orig.tar.gz
- fcc88141b61d7f5eeaed27989307f5026d57bff6 125060 get-iplayer_3.03-ppa31~stable.debian.tar.xz
+ 3e1ef73b18587ffec0fd02f46cca38d7b8b8c74e 1905 x265_2.0-4~bpo8+1.1.dsc
+ 358d7208a071c811d72fc100890ac86b0fde1255 1028299 x265_2.0.orig.tar.gz
+ ae8addf436ed2f80627ff95ac454d55e4be07ef6 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
 Checksums-Sha256:
- 8f960f41a8e04d683131c95e7e0870cafcdfb11dca677a408e2e7dd752c79200 1447 get-iplayer_3.03-ppa31~stable.dsc
- 4e33b001076aee8b7ac24955036c065528ed065e33bc18490882a8dbfaca8152 132508 get-iplayer_3.03.orig.tar.gz
- 0c033287b126dfc94359526f753af9f1152934a73ab651dbe6612845308b75de 125060 get-iplayer_3.03-ppa31~stable.debian.tar.xz
+ 146a69e75f0f4ae0c9baef610c89d9694dd120dda88238c2e3df44adfaad331b 1905 x265_2.0-4~bpo8+1.1.dsc
+ 5a7f6797bee33310c690be5d9a6c63125f36663ac3478e98ac6b6142a70bce1f 1028299 x265_2.0.orig.tar.gz
+ ad527a1978f6b425235fb6ef706ede2d80fbb263fada4767e7edbcb86cad60b0 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
 Checksums-Sha512:
- 4a1c9a380904a381e23a3587f95c8f19e5385646a383fd034503f5770c0973bf6b793cab65cdd83c25a8a5293cfbe87b53d1a39d188ef5c4bfa54dee0495f879 1447 get-iplayer_3.03-ppa31~stable.dsc
- d2656b33eb6e3e3b07409f7011bee245a0c25dc1c09963125923fd30d1bff786cc6833165751ec1ee8d31eab2b2cd11d1820948fd0b768da4171819e6c7bd9c1 132508 get-iplayer_3.03.orig.tar.gz
- 9bf357efa6117309ab6aebf2ed511ae6eb5cd8cdb9fe5053dd595eaef65e57547a30e4764326713f64836a3663e2c25f70932c7746fcfca85b84b10f544f6728 125060 get-iplayer_3.03-ppa31~stable.debian.tar.xz
+ d14009cf5837c5956045ead08c27854262c84b034f476908e70eb185347c80da8b13acdf192a859e8a737b587675cf8aa5bb36007030ed4303bace24790d0d93 1905 x265_2.0-4~bpo8+1.1.dsc
+ 4262a32cf9a34c494770c7917fbaba88e8211c332a91932f4cd096ce25394979e1d43ae641be0aa480af1d0580e842ca70f58005dd41361b78dfd25870035a1e 1028299 x265_2.0.orig.tar.gz
+ bdb99df0c0c09b165c4f6fa6cfe8288ab688670852fd1e45331feda321b129890e4cb17bb89f40856974119cb2cb8de8f1a17eb98ccef0fa6b81d77dd4e15442 10904 x265_2.0-4~bpo8+1.1.debian.tar.xz
 

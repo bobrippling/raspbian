@@ -1,28 +1,28 @@
 Origin: packages.hedgerows.org.uk
-Label: get-iplayer Raspbian Packages
+Label: Raspbian Packages
 Suite: stable
 Codename: stable
-Date: Mon, 02 Oct 2017 21:54:01 UTC
+Date: Thu, 05 Oct 2017 07:03:02 UTC
 Architectures: all armhf
-Description: get_iplayer packages for the Raspberry Pi
+Description: Additional software packages for the Raspberry Pi
 MD5Sum:
- 5fed2929b3379a4a2aa2d712a9e25bef           48754 Packages
- 94d5f4a4b1580f5aa988f37be5785ac4           12265 Packages.gz
- 5c9817bd4d6686240bcc3ec50161f89e           11721 Packages.bz2
- af322efaaecfdb638ed3df72d526eadf           10600 Sources
- 4b6e048843f1e6865e836c3a6de70565            3955 Sources.gz
- 291e18e4917c173e7daaa77123aa1203            4011 Sources.bz2
+ b77059f251023ac6b210c19f456b26ba           48754 Packages
+ 78a35c6be9d9a30a5f56452d5e578a5d           12328 Packages.gz
+ df3794f1a9e8a1c51c2b7d856dc8c294           11728 Packages.bz2
+ 2134f69c17d79c0132ece29dde6338a7           10600 Sources
+ 8a9f5145b28c9f523dc31ff76bea4413            3964 Sources.gz
+ b78be4c82977df03ebde9336494034f3            4032 Sources.bz2
 SHA1:
- 7293ff2dd8be907239466f794c09cb8e464fd89c           48754 Packages
- 142d71b37a0058cc2582ccac617e1ecc76271b75           12265 Packages.gz
- 9b80c0b2c84c865b8f2615705a7b89033dee611f           11721 Packages.bz2
- 3608398d999a974190e98858b6066d814b534ec4           10600 Sources
- e53cf0dc7616c5ddeacec19a6850c87608d54305            3955 Sources.gz
- b077a49a1d31d3b7f7de5be00d45feb08a61178d            4011 Sources.bz2
+ 0ce67635216e8ef35c37e3d23d287f6b9efcb8c2           48754 Packages
+ 37e398e1d37c20a3e3d66722b3dc0371319be5d6           12328 Packages.gz
+ 887a3e00daf7b94c38efbf3924f937dc56fadee6           11728 Packages.bz2
+ 9bf4223ef3f46e4784b9957550180b7297ac806e           10600 Sources
+ 917894af588c44b042daba6ea40a006ae5b8c823            3964 Sources.gz
+ d5996c4cb68a57728f4d22c38670fcc4fb457fac            4032 Sources.bz2
 SHA256:
- 3bf454b82db2854b1140dd29724739068728dd2a109e7a7f733eca173ffffa52           48754 Packages
- b1a8cb62f201a233d1f9cabb83863555e66c4ac0098b0fe2294e3be71f47cb5a           12265 Packages.gz
- 2614639e86150711b8d91eb4ee882426419981647210d97d988ab15c8f9eb20f           11721 Packages.bz2
- 1943fbf736a96d69f65022d6308b28b8d623ea36caf298e6b478b5281960e98a           10600 Sources
- 0cb27805900da5ce086aefd129a699e85544a2e4d585e07534dc73b6431b7b68            3955 Sources.gz
- d0da5bbaa6b06b325eee8a0845ffa2b62135c355e7d2cd54781c7f7e67c2ed3a            4011 Sources.bz2
+ 1481024e005ba8dbf4054f397f1ebb378f48604bf713143707a93821e4f4ef62           48754 Packages
+ c25a2d99999ff22c1d858db021f0f8419872a721f9a49c813dfa2c947a8f8d92           12328 Packages.gz
+ f063ef2764cde5a3f9d46b8dee56ec2d90384b4295378bb3392a86910b7f681e           11728 Packages.bz2
+ e32b343ea70d8a6e7a45df937713c581fa02f9435860601b3f11b63476dd9261           10600 Sources
+ e26508bdde23e46af916dc1e9b8eefaf92804a6b496cac4ec31fb7e2d425c4fe            3964 Sources.gz
+ 2eb645ce0ff0d519ada38d38d4994bbfa8ab9d01a2c83d353807f2e6ac0dab3f            4032 Sources.bz2
