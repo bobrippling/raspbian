@@ -1,0 +1,102 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 14 Jan 2018 16:19:41 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.12-ppa31b~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.12-ppa31b~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+   * dae6b3b: Release 3.12 [dinkypumpkin]
+   * 9d6a22c: Sanitise version strings (redux) [dinkypumpkin]
+   * 06679b4: Revert "Sanitise version strings" [dinkypumpkin]
+   * 9076dab: bump dev version [dinkypumpkin]
+   * 5708096: Release 3.11 [dinkypumpkin]
+   * 3c60862: Merge branch 'contribute' into develop [dinkypumpkin]
+   * a7b56b5: Sanitise version strings [notnac]
+   * 4f43b7e: Revert "allow hyphens in version string in download resume
+     data" [notnac]
+   * 621e755: Merge branch 'contribute' into develop [dinkypumpkin]
+   * 13b6cda: allow hyphens in version string in download resume data
+     [notnac]
+   * f85ea88: avoid unnecessary schedule downloads with refresh limit
+     [dinkypumpkin]
+   * 70cfe83: don't check cache file for refresh unless necessary
+     [dinkypumpkin]
+   * 34d9ecf: don't load Time::Piece unless necessary [dinkypumpkin]
+   * 32bf2a7: Merge branch 'contribute' into develop [dinkypumpkin]
+   * 157a139: don't print search terms error message with --cache-
+     {rebuild,reset} [dinkypumpkin]
+   * e7c11a1: Fix schedule refresh with limit at start of year [Will
+     Elwood]
+   * 130ed64: bump dev version [dinkypumpkin]
+   * 3a77dee: Release 3.10 [dinkypumpkin]
+   * cd2cc44: don't print search terms error message with --refresh [Will
+     Elwood]
+   * 51d217b: bump dev version [dinkypumpkin]
+   * f2c5c48: Release 3.09 [dinkypumpkin]
+   * f9d2c96: don't print search terms error message with --type and --
+     refresh [dinkypumpkin]
+   * 79e4915: bump dev version [dinkypumpkin]
+   * bf6a7c6: Release 3.08 [dinkypumpkin]
+   * a1e028a: Merge branch 'contribute' into develop [dinkypumpkin]
+   * 7d23d3e: help text edits [dinkypumpkin]
+   * e370fdb: show error message if search term(s) not supplied and
+     search options used [dinkypumpkin]
+   * be9e69e: Added --download-abortonfail option [notnac]
+   * 0517811: Remove nulls from raw TTML subtitles [notnac]
+   * c37691d: tidy filename generation [dinkypumpkin]
+   * 9875414: force filename regeneration if version skipped
+     [dinkypumpkin]
+   * 57ec792: removed obsolete thumbnail sizes [dinkypumpkin]
+   * e1da1cb: make --streaminfo short-circuit with --pid [dinkypumpkin]
+   * c7afb5e: added --no-metadata option [dinkypumpkin]
+   * 79f2449: use .partial file with --subtitles-only [dinkypumpkin]
+   * 656a0fa: added substitution parameters: <subsfile> <subsraw>
+     [dinkypumpkin]
+   * a7b7b79: ignore empty search strings [dinkypumpkin]
+   * c4e8552: do not allow search args in default options file
+     [dinkypumpkin]
+   * 08ace2c: enable colour subtitles for S4C programmes [dinkypumpkin]
+   * c32d002: Merge branch 'master' into contribute [dinkypumpkin]
+   * 0f4298e: Updated README [dinkypumpkin]
+Checksums-Sha1:
+ d851a867bc77b33c6588b772aa0a6f478ff8eef2 1457 get-iplayer_3.12-ppa31b~stable.dsc
+ 4597cdb50c283b73fa5c0ba18f872cc34cec734b 12142287 get-iplayer_3.12.orig.tar.gz
+ 8b5e331574757f30d5da7f30151e637d06921111 130468 get-iplayer_3.12-ppa31b~stable.debian.tar.xz
+ 541617a5f595862b2a9a3b417ef159d7073b89a7 134828 get-iplayer_3.12-ppa31b~stable_all.deb
+ 228b2971a3c0fa44b533813c6c470b062bc9ca00 5201 get-iplayer_3.12-ppa31b~stable_armhf.buildinfo
+Checksums-Sha256:
+ c9e287757a442b466a344af33340005d9767f9e3503a03d3b758229d3b0b0028 1457 get-iplayer_3.12-ppa31b~stable.dsc
+ 7aa2f90c6d667aad3f615243349dae7ec09cd9ca909893a20cd923c20bc8189e 12142287 get-iplayer_3.12.orig.tar.gz
+ 48e4a261debec02c669301548f1faef462015d41788b1a1a49686b642663ad7f 130468 get-iplayer_3.12-ppa31b~stable.debian.tar.xz
+ fb70cf258e2ae7771b7ffc56785a971276fb77e9082f26800ba023a0f19f90b1 134828 get-iplayer_3.12-ppa31b~stable_all.deb
+ 2359d798ee24fa14c0b6087adae0fff0b27755b007c3c288bc7cb9db010064b7 5201 get-iplayer_3.12-ppa31b~stable_armhf.buildinfo
+Files:
+ fb67d7f90b29f35b7e41e5b1be16795a 1457 video optional get-iplayer_3.12-ppa31b~stable.dsc
+ 408afc75f5fcffc71b8b8859e40043e4 12142287 video optional get-iplayer_3.12.orig.tar.gz
+ 17913a40d6dfc348d38359d26a4b3983 130468 video optional get-iplayer_3.12-ppa31b~stable.debian.tar.xz
+ acade21ad54d650196af70bafc4de44b 134828 video optional get-iplayer_3.12-ppa31b~stable_all.deb
+ 7de27ab8378e774b4d1900a31105eded 5201 video optional get-iplayer_3.12-ppa31b~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlpbhAQACgkQAxXLbBOS
+QzOnkwf6AlKjbj5ENknTnEi3I/fGue7kG9B+DBUu3KkcgkAfz9Q5eQVTpTn1Wi62
+1O8vbc1ma3y98f+u42XJNJwMTEZf9N9mI2rkthLhQ9qU3IvIzwjndjWeV6mD30yK
+0DT98zLTwt3di0iF6Gd0nEpGcRiaTGXgYYJcuewHJ1ovInxnQY6aKVOg7A5u9wu6
+peffEQT/uRUCIvUmdOny68mFQnNtyPXBpcVDX8jZgiHwQLBwefOXu92bmMuFN97O
+sQbGZF25zB+46cgBHzpVhzmDfScsdHRf3nhTLadPMwVU/m3770eoAUy3mF7WdbSv
+94jCYDOfbRDxNEyoVWn9toHrm/QxSw==
+=Jsyq
+-----END PGP SIGNATURE-----
