@@ -11,15 +11,15 @@ Directory: stable
 Package-List:
  get-iplayer deb video optional arch=all
 Files:
- 1fb289e44f094701b81b602aa4e79ad2 1451 get-iplayer_3.12-ppa31c~stable.dsc
+ 1fb289e44f094701b81b602aa4e79ad2 1457 get-iplayer_3.12-ppa31c~stable.dsc
  b7737218aad92c4f476892e3e26b6b5d 134336 get-iplayer_3.12.orig.tar.gz
  52714c6da3680f76d3ae4d405cf2becf 130656 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Checksums-Sha1:
- a5fe5bf7d2c52b549bbc364e99355237f643bca0 1451 get-iplayer_3.12-ppa31c~stable.dsc
+ a5fe5bf7d2c52b549bbc364e99355237f643bca0 1457 get-iplayer_3.12-ppa31c~stable.dsc
  c80378c9a644adddc446484ada0b021a583a71b2 134336 get-iplayer_3.12.orig.tar.gz
  1adbea5625171db3d72c848df60fefe04c028150 130656 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Checksums-Sha256:
- ab61a74ae496e3426c9cf1df1821f45226f24b263b06fdcf41176cef4b3bb8f5 1451 get-iplayer_3.12-ppa31c~stable.dsc
+ ab61a74ae496e3426c9cf1df1821f45226f24b263b06fdcf41176cef4b3bb8f5 1457 get-iplayer_3.12-ppa31c~stable.dsc
  b24698720e5cdd2806e06304aae3e4fd04952ec13f1699254c5e9053ecc661e7 134336 get-iplayer_3.12.orig.tar.gz
  0e775cefeb47b06cc33b175fef144de7c76dc3a7583b4301b7816ef2aa807fa8 130656 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Checksums-Sha512:
