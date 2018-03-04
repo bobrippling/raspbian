@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9), quilt
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- d1a79b4546e296a6a5d1f8284d5af0d5c28e6858 12142948 get-iplayer_3.12.orig.tar.gz
- ed9033d07cc47a6395fb64bebe3985b302ce25bc 130536 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
+ c80378c9a644adddc446484ada0b021a583a71b2 134336 get-iplayer_3.12.orig.tar.gz
+ f394194c63016d835bd57a1786aa160ffd298c32 130544 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Checksums-Sha256:
- 27ea014091690667405bd81a321c44ec7cfea819327e270c9cc54a5da7123eb8 12142948 get-iplayer_3.12.orig.tar.gz
- aab8b8a034a64bf15c76766aa4e40d2c948314440670a50179d5e2c127f90464 130536 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
+ b24698720e5cdd2806e06304aae3e4fd04952ec13f1699254c5e9053ecc661e7 134336 get-iplayer_3.12.orig.tar.gz
+ b442d242fd4ebaa03c56e5596110b9f00052a9ee5d0fcbbab9809abd573cd315 130544 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Files:
- a8d8479c26820e7fe20b37cacf37ab16 12142948 get-iplayer_3.12.orig.tar.gz
- cb465cbf13336f531585e7204139da26 130536 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
+ b7737218aad92c4f476892e3e26b6b5d 134336 get-iplayer_3.12.orig.tar.gz
+ 4535b46fe8a1d898f931ad240a37368c 130544 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlqYMKEACgkQAxXLbBOS
-QzPiMgf/WD4g5FH2rBHdtftk+U7CYFf3QU0/0yPb+NX2Hqz5gh2Xj2NtQY+3FaRY
-mdSpbwixhgaPyHbZAz99xz4LmAHqEgCetHzEfHPJWtaZWtcmavFFoZBtnvTp4IsA
-fvv1GyIcHKWU/8XshuKoB2h/u5ReoZcGIYIBS0TkzY1Z6v7KxnonpxwlcdDS66OR
-9EnIDifQWMhM4YT6G52kknUam2Cd90e1LG8HN65FMrxlVe9PyLc0m3jwMO+jjUeB
-GAieNKxnlhlUk+NWDBq8SKqaD1P8cal4kEHSP5ardxUyZ67iaBnkxDJP7OqQnePw
-GlANH9Bn4yzwLyKrTARd55EG7xJJzA==
-=WUt5
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlqcJRcACgkQAxXLbBOS
+QzNbQAf9FSmP7eiJb7m+8ToIAYq8ucwSd2nX1lb82Iz7VeJN+n7zBCr89N7zZpJW
+y+1Cs1kxq5xSEjAVUzvd5lXFHMBv2tRwN7mzh2f1f8wEJcDOhIH1pyT/XQ5gS5Wk
+WzXoaPUFVuYTgxndsSnMBIS14AZcPYdDmYjf9HBA8qVRyoRJeA/m3VvilEy6e5Xm
+xYr035LcSDtcfRTHdUkpMfz457s1t7FZfclfalqVrJu4jjJwbvLp5HFG5TIydkfi
+vV1lBqkuo9gjaVr1fwRrw5jXVGZh7vPCbeRfodr3ZXe9LbGzWj1ky52XPvoyQx7Z
+DbtHgTBkH4Ict/6s4UVBTkVU9jyVRA==
+=sxd6
 -----END PGP SIGNATURE-----
