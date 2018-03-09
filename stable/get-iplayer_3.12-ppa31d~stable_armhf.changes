@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 09 Mar 2018 12:45:25 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.12-ppa31d~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.12-ppa31d~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+Checksums-Sha1:
+ 639152cb5b9c4fb35e3c5ba1d3d0d6a448301103 1451 get-iplayer_3.12-ppa31d~stable.dsc
+ c80378c9a644adddc446484ada0b021a583a71b2 134336 get-iplayer_3.12.orig.tar.gz
+ fb2e47dfb2f3df0db822864827b1d0d9946aa406 130620 get-iplayer_3.12-ppa31d~stable.debian.tar.xz
+ 1e2bdd4da952b6d769c8d03d8c89716c4702e474 134898 get-iplayer_3.12-ppa31d~stable_all.deb
+ efe02b4115604e40364f4503a1811cb107b178c4 5215 get-iplayer_3.12-ppa31d~stable_armhf.buildinfo
+Checksums-Sha256:
+ 047dcd93f5dd0d77acb44818e0618c6b7206c05087a9be9778edbe7018e5cfec 1451 get-iplayer_3.12-ppa31d~stable.dsc
+ b24698720e5cdd2806e06304aae3e4fd04952ec13f1699254c5e9053ecc661e7 134336 get-iplayer_3.12.orig.tar.gz
+ 233e1308ad0eac40b767f7412bd32fd8e3b1ccc3b3f32a2482b37a279a46a58f 130620 get-iplayer_3.12-ppa31d~stable.debian.tar.xz
+ ee22e7d81f08bc1e800884c00164b937c7f25c97dc813700ecab0cf89feb5ce3 134898 get-iplayer_3.12-ppa31d~stable_all.deb
+ 25da4d859e1b576976d43c7fedf93c49bd39b1cb6d889f27b449defed14854d7 5215 get-iplayer_3.12-ppa31d~stable_armhf.buildinfo
+Files:
+ 2ad228501d82af91430664f9d955a6f4 1451 video optional get-iplayer_3.12-ppa31d~stable.dsc
+ b7737218aad92c4f476892e3e26b6b5d 134336 video optional get-iplayer_3.12.orig.tar.gz
+ 32cfe46c8e9f195183d7d067814f2608 130620 video optional get-iplayer_3.12-ppa31d~stable.debian.tar.xz
+ 23634f86d436f9d61206b6c8375e21ba 134898 video optional get-iplayer_3.12-ppa31d~stable_all.deb
+ 37e77d617d39e37b6e64b2efd4e97df2 5215 video optional get-iplayer_3.12-ppa31d~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlqigj4ACgkQAxXLbBOS
+QzNdzwf9GEllRAdVgM4GpcRiqFSBR2ojiXPvAgLhkvf0b28RYmWM6AihveXVhtkK
+6dX43+E61TqcLACx++p5I4dYE9dzOJktpaElv4KqjW19Q83q75EI/i0BqcFTMoAg
+MN6JOysfgx5UuuSP8MIwsvecKBBhrt1wyvdHPiWMEf2HnWHeqeifJwnKBOpsupsN
+5DjhLudP8MkJf2ZwPm9BeyKRTkjf8MYN17bpK9HqUeKub4+f8bL9acA06NsXv0lJ
+1ltcbB5dCcMVhB3wc1kMfhUHoXDHmurFy5DVzblXtn7QFBmAPAV7qpm4XCk785qR
+UyQgmBvYTp8a1NKuihQdoWrMYOh6qQ==
+=ZLSr
+-----END PGP SIGNATURE-----
