@@ -14,22 +14,22 @@ Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
  c80378c9a644adddc446484ada0b021a583a71b2 134336 get-iplayer_3.12.orig.tar.gz
- f394194c63016d835bd57a1786aa160ffd298c32 130544 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
+ 0f130c56638d79a29c4e335bdbacf104a0362b68 130556 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Checksums-Sha256:
  b24698720e5cdd2806e06304aae3e4fd04952ec13f1699254c5e9053ecc661e7 134336 get-iplayer_3.12.orig.tar.gz
- b442d242fd4ebaa03c56e5596110b9f00052a9ee5d0fcbbab9809abd573cd315 130544 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
+ 6348aaac57210734f731d774b45eb6aa8f285d383ac80bf7fb7871427ed36542 130556 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 Files:
  b7737218aad92c4f476892e3e26b6b5d 134336 get-iplayer_3.12.orig.tar.gz
- 4535b46fe8a1d898f931ad240a37368c 130544 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
+ 33ef3fd0b2c7acd5efce897bdf45000a 130556 get-iplayer_3.12-ppa31c~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlqcJRcACgkQAxXLbBOS
-QzNbQAf9FSmP7eiJb7m+8ToIAYq8ucwSd2nX1lb82Iz7VeJN+n7zBCr89N7zZpJW
-y+1Cs1kxq5xSEjAVUzvd5lXFHMBv2tRwN7mzh2f1f8wEJcDOhIH1pyT/XQ5gS5Wk
-WzXoaPUFVuYTgxndsSnMBIS14AZcPYdDmYjf9HBA8qVRyoRJeA/m3VvilEy6e5Xm
-xYr035LcSDtcfRTHdUkpMfz457s1t7FZfclfalqVrJu4jjJwbvLp5HFG5TIydkfi
-vV1lBqkuo9gjaVr1fwRrw5jXVGZh7vPCbeRfodr3ZXe9LbGzWj1ky52XPvoyQx7Z
-DbtHgTBkH4Ict/6s4UVBTkVU9jyVRA==
-=sxd6
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlqifPkACgkQAxXLbBOS
+QzMzmwf/dQ9spwt7Ktb630ZhJiwayMPPnfYc2/F0T1jvhzi2/N3uUCLkPjP7he95
+SaMk9TSH48u8y76X6s/m2QRLyu3GMFYm1HfwiboTwxkbnhU3OM/T0iy+apKKKeY2
+JA4vZdVy6uPpInK5WsJ9YikO2coEiKJyXOSF15ibyBYYNYGqRNYeAoJtCBHJ1ZDv
+09KAN/c19Qv4E99qNGlxGgaQcxZFHJgbDjjFQ78Uv8M+XCbM8oBGzw+vug4aeJ2u
+jna3/zv6f5+5YEBSr3Tu/wLgPx+d0oRu5ULO1mT5p/1VMOhfhyMI9Mk3sQi/6+Ht
+Sa03VuRtieKxaCuh0yFhQr37KhyOyA==
+=jpu4
 -----END PGP SIGNATURE-----
