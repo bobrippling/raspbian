@@ -1,0 +1,86 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 25 Mar 2018 16:54:45 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.13-ppa31d~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.13-ppa31d~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+   * 0753567: Release 3.13 [notnac]
+   * 63fe503: Updated cache refresh for changes in BBC schedule page
+     structure [notnac]
+   * 09a3f94: help text edits [dinkypumpkin]
+   * 575520f: any subtitles option will force subtitles download
+     [dinkypumpkin]
+   * 1c20fd0: open default options file on Windows as UTF-8
+     [dinkypumpkin]
+   * 1357a08: use more consistent environment variable names
+     [dinkypumpkin]
+   * df0d32b: use SSL hostname verification with Mojolicious
+     [dinkypumpkin]
+   * 4e03c06: Simplified stream data retrieval [notnac]
+   * ba4d692: don't allow pvr search or preset names to begin with hyphen
+     [dinkypumpkin]
+   * ad59725: HLS radio downloads are audio only [dinkypumpkin]
+   * 47e37e4: clean up formatting of verbose list of modes found
+     [dinkypumpkin]
+   * 3efab34: added "may no longer be available" message when no modes or
+     no streams [dinkypumpkin]
+   * 1806937: show CDN in download progress display [dinkypumpkin]
+   * c531691: Tell user that subtitles are being embedded in conversion
+     to MP4 [notnac]
+   * 9786f33: added tracklist download [dinkypumpkin]
+   * 7846af1: Implemented --pvr-series option [notnac]
+   * 575b078: Implemented --mark-downloaded option [notnac]
+   * 6791761: Refactored download by PID [notnac]
+   * c0d7521: Implemented --subs-embed option for embedding soft
+     subtitles [notnac]
+   * 2c1e611: Show warning for stream data load failure on retry [notnac]
+   * b048c7a: Remove unnecessary white space in S4C subtitles [notnac]
+   * fb9f856: Changed raw subtitles file extension from .ttxt to .ttml
+     [notnac]
+   * 8045b17: Fixed trimming of subtitles with --start and --start
+     [notnac]
+   * 26eb341: Only warn about existing thumbnail file with --thumbnail-
+     only or if --no-tag used with --thumbnail [notnac]
+Checksums-Sha1:
+ 3232a3f6cbbc47b4f504ea5bfd8dca397d90be3b 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ 476b92fc106e0f2966e0c87c1dc123eb0fd960b4 138322 get-iplayer_3.13.orig.tar.gz
+ 20837d9cbe1263f50195e6ade4eb4f6256fcd8b4 132808 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 8ade4ec97d2d779a3d79af1aac0094c267c13774 138242 get-iplayer_3.13-ppa31d~stable_all.deb
+ 266cb9490b43e2af1c283077f23543b23c45afaf 5362 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+Checksums-Sha256:
+ 7b12b07d4e176f902db2a9b91e8c5c0a5d4f4439acfbe7c607c121ccb20d1676 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ ef904e4ba4cc99467644ba1462817c9688c65ee031061dccade70b78bff2187f 138322 get-iplayer_3.13.orig.tar.gz
+ 6f289e11489b7180c482b69ebc571a02258337bcfb3e3e0486a7157f825aba4d 132808 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 35de04084e533f20d5362b9300c7d75e2b1687349673006b96607f29c0eba556 138242 get-iplayer_3.13-ppa31d~stable_all.deb
+ e6d12159e7a9d18b5e8333868eef99d14642b3e46f2fd7aae180585402ebb701 5362 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+Files:
+ 12b0b5397e368a3e8e887d79f8d8e15e 1451 video optional get-iplayer_3.13-ppa31d~stable.dsc
+ 54148281d11f294fc916eb3a1065bcd3 138322 video optional get-iplayer_3.13.orig.tar.gz
+ 40e87644440358b7971b69ff23d68312 132808 video optional get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ ee4b464d7619251c4cdabaa710e09116 138242 video optional get-iplayer_3.13-ppa31d~stable_all.deb
+ f5c59e4b246280d404cb19f6f21a9d85 5362 video optional get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlq31PoACgkQAxXLbBOS
+QzPEKwgAjU5bW69dBqwJaQu7mOLNaGU7etkKpo+0hhMeGhYncXZ7AvG85CS9jeDj
+Zp9Qe2p3Daj3vO/cMlswdKeINImHbCS2rwCSWnhW7KU90z3gocghQOwpEJFMfjOL
+l2kFUYsff7qM/nrOcecRhCfFIe8FTwSVCH0iSQ7M72+tqr9R143eo6kbilEGo528
+Nczkvw/iANpChG/esVUNq//SlyKlq3Iqn+5r8fOWlDl/PO2m1ldQd6LNvFPvj5Ja
+LZ+q5uPFQEmmjXcAYyyc054kEgAvbrgbEiZ3F2+2dPCe09+2gQpmkQ9rc3v1ZQke
+ydP/hDmAHWwHcYUG542j4JB6Lkm5hw==
+=64cG
+-----END PGP SIGNATURE-----

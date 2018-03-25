@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: stable
 Codename: stable
-Date: Fri, 09 Mar 2018 12:47:09 UTC
+Date: Sun, 25 Mar 2018 16:57:46 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
- c8114b788dbdf44310033c5cd1ecda83           48756 Packages
- 6d5d0f19b6fad7071f9dfcfed9086298           12331 Packages.gz
- 4ce4580921d584542563ccb729e28bb7           11733 Packages.bz2
- 05779c75c94521e833e3db332e6f76fa           10609 Sources
- d4f46ef7d17db3f7b761dd295882a505            3965 Sources.gz
- e94011e9c6271a93cea936bb620d2365            4015 Sources.bz2
+ 77caf2010819a947ea740d53d38e0ef7           48756 Packages
+ b0016d325fad65859a8237364a372255           12006 Packages.gz
+ 774ab34ae97b3403187596de283ef735           11717 Packages.bz2
+ 62bb1b2e8726c9b41cdae5172ec49e67           10609 Sources
+ b2b9d5fedd8f137d51efd0d41ee70958            3948 Sources.gz
+ 96934e1a7e6e204090b7937462f2ecf9            4031 Sources.bz2
 SHA1:
- e7306fc3916dba96159f17f5aca980041bf06a5f           48756 Packages
- 123a715cbe3664213638401607f8acee4aec4edb           12331 Packages.gz
- be7db7874c1d8bed78d6e1f35346221ad43a0aa4           11733 Packages.bz2
- c8eb3b7d4740c18dc9883161b8c3e7cc73eab041           10609 Sources
- 2d190bc222d6a79d203abdf4f9deff3f09d4ec40            3965 Sources.gz
- 3e98d44f5ffed3b6840c2474a9a86cad76aa672a            4015 Sources.bz2
+ 3f1a1c3ef59a12d8226f94ef8f74599f12f67f1b           48756 Packages
+ 82bc311c9f5b66aebc29bfa2ea7f30097a038a83           12006 Packages.gz
+ 4393230dd4d19066255e1e4cbcbca83c5c3b075f           11717 Packages.bz2
+ 728adc1451616f2c98855821a7defd48f6e3e87c           10609 Sources
+ 73addf3491fb9785f9fb1f3c1472e3ef0f0410ac            3948 Sources.gz
+ 6769bfbb8ae9ea8a55c0e5b2b2e9290dead71d97            4031 Sources.bz2
 SHA256:
- e341188d495e74bb659a4e23740c0fcb505a333042372f37b2f79b486fec9e02           48756 Packages
- 5163a2d1b80e48445eb61d444082951afb120872cdfe14e79e14f8b1a8a23aec           12331 Packages.gz
- 1d60db968d6da3bc2a840afbc7b8edd2855f913c37b6513d8734510a9c219602           11733 Packages.bz2
- e4b6e32f3dc12f76f730618235f9c0ca960a3dc525520369dc5e06505ce63d82           10609 Sources
- cc150abb4ed3209d318e365e3a92320208fb5d2b7711c14195fe7a6bb2988656            3965 Sources.gz
- 35ed3494de3c19e1bae57bc79a5ce7d05b2363c9d61cfa0adf299c6649343c15            4015 Sources.bz2
+ 80ab379ef21839e1183b53d6d6761b29e8844a18ba286197178d2f1032e0e04f           48756 Packages
+ f3b4c3b9c881b25a6e37ebf8f22e353971c9610f5c84c40448f9300573bf4ed3           12006 Packages.gz
+ 1b1fb519d18456f47a8537c2fdb033885c7b079b47675f09915e342427319992           11717 Packages.bz2
+ fd902aa7ac416c4397e10427eec687446b8e197c7e585a7bed367cac6c0643aa           10609 Sources
+ c7f3ec1e17e42a1be84be5fab0d821277410c95f679fb354ff8950a4cd6e1654            3948 Sources.gz
+ 76c1551490f7af935811a7517f86ec49d3a99c600d19e1615d90f2063fe98f27            4031 Sources.bz2
