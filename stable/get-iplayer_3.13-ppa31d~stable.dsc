@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9), quilt
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 476b92fc106e0f2966e0c87c1dc123eb0fd960b4 138322 get-iplayer_3.13.orig.tar.gz
- 20837d9cbe1263f50195e6ade4eb4f6256fcd8b4 132808 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 584cc760a2a82968da1897e8b7c359cbfcbadbb0 14858324 get-iplayer_3.13.orig.tar.gz
+ f6a5ecee0897ba48011d3c80def13ae2b374f39c 132848 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
 Checksums-Sha256:
- ef904e4ba4cc99467644ba1462817c9688c65ee031061dccade70b78bff2187f 138322 get-iplayer_3.13.orig.tar.gz
- 6f289e11489b7180c482b69ebc571a02258337bcfb3e3e0486a7157f825aba4d 132808 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 0c7563c58d3476332e2e10d6abeeff297aabcad15caa421633924aa87ec6fce7 14858324 get-iplayer_3.13.orig.tar.gz
+ 18d0a1ca8e951c030436e0984ffbbe910e0bfb2a0e49fef66f189939cf126cc4 132848 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
 Files:
- 54148281d11f294fc916eb3a1065bcd3 138322 get-iplayer_3.13.orig.tar.gz
- 40e87644440358b7971b69ff23d68312 132808 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 2c5d53e3466aab741129db1d1d3b2e8f 14858324 get-iplayer_3.13.orig.tar.gz
+ bb8e7b64378735833424af842c98dfa3 132848 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlq31PkACgkQAxXLbBOS
-QzMh0QgAh0zP0ylYLD0EiWtvyp/9WmAIwPypqgjWjRcjQ8Jqohx8o4dCEkd+9nSq
-QgcUrIzgePxFopqYif2Pu5E/U2wozgFn1rxSl6zzFb4hMV960zEkpRBgf4JXVynH
-wNbu0Pn64anuCytzsZHBQLAmfIoOECJjLbrucp33IlDMAOpXUR/sxETKbFZqIjk3
-WRCTKj76zmZmrqGXq8W304AKEefjCHLG9LhTXT/UEdDkOqDCWMCPeVuc9Cl5Za1z
-MvFpHBo2FR3LOVm9dQq6dAI6glpx2425Cq1HnWiR+FeeapbKAo8fKvHdUQSQKZgC
-ZYAWNFK779NPOLQZsjKvc4YZfgEyqw==
-=LGKN
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrNCSYACgkQAxXLbBOS
+QzPUCgf9GjvA4RYGgQ2g7O4C/UnJFl9TJL1vtHz52EQNeeYYxQVlRzmr+TY/i+KA
+F31c1SPIZY/4NYqlPl/ZIav/P8RbMW8B7EJxOizBD51YnP520U8ZlfX7OzGeBjs5
+HFb3uIApWubrkqiRdHAkhckjMPkLCNRS5qPhjnZTSJhCxU/VshCZD9Vg7iMDm9Zc
+QbgEZ9x02BpEVUfxLwmvRLs/1XDo/mLHCkKe31tVfUUrBqJDWryOU8luYNmd9H50
+d7f3j3juRqLZ/hu+C4waSszCiJpPurJQdc/MNxMpoOCLYiDX4z3jBMA2gF6UvxZK
+fF8x4U/v82W4d5zDb4ZtT2clAJ2heg==
+=KOgI
 -----END PGP SIGNATURE-----
