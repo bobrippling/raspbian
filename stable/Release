@@ -2,27 +2,27 @@ Origin: packages.hedgerows.org.uk
 Label: Raspbian Packages
 Suite: stable
 Codename: stable
-Date: Tue, 10 Apr 2018 18:58:39 UTC
+Date: Wed, 11 Apr 2018 00:55:58 UTC
 Architectures: all armhf
 Description: Additional software packages for the Raspberry Pi
 MD5Sum:
  77caf2010819a947ea740d53d38e0ef7           48756 Packages
- 34473252879f90c4fb5365592c9b60b2           12006 Packages.gz
+ c9aceb2753f2b48812b1dd9b22f7c869           12006 Packages.gz
  774ab34ae97b3403187596de283ef735           11717 Packages.bz2
- 16f30eb779023879690466deb0727af3           10609 Sources
- 2a9a2eb502530c46c98590cda4ff97c1            3949 Sources.gz
- c2571abd0322028e2ab79b49f07054c5            4026 Sources.bz2
+ 62bb1b2e8726c9b41cdae5172ec49e67           10609 Sources
+ cc0288c05bd23a10be18afad6fd8224d            3948 Sources.gz
+ 96934e1a7e6e204090b7937462f2ecf9            4031 Sources.bz2
 SHA1:
  3f1a1c3ef59a12d8226f94ef8f74599f12f67f1b           48756 Packages
- 202f08ae8f0cc8334c7c570d8375d4a04aa8e56b           12006 Packages.gz
+ 6636004dc65fc4d5a673f51a695fe31d699ab155           12006 Packages.gz
  4393230dd4d19066255e1e4cbcbca83c5c3b075f           11717 Packages.bz2
- 09d2a6b5c086de33f3e5549f722f610a58e9de45           10609 Sources
- 6c398f6f7b676917f45481db655ef3e916fa338b            3949 Sources.gz
- 14baf735418beea5124ffd2b1ea26dcfbd2f5aa4            4026 Sources.bz2
+ 728adc1451616f2c98855821a7defd48f6e3e87c           10609 Sources
+ 2b975f0ac41b1d3749eeecde9a572a5c5e264cfd            3948 Sources.gz
+ 6769bfbb8ae9ea8a55c0e5b2b2e9290dead71d97            4031 Sources.bz2
 SHA256:
  80ab379ef21839e1183b53d6d6761b29e8844a18ba286197178d2f1032e0e04f           48756 Packages
- 81667bfd6e2debce162484567a6c8e2b6743d99121ad363ac059eed71f664537           12006 Packages.gz
+ b160b5c83a8be1b4d645c6c64fec5b342f3ea75894b65f0f088074632371cb7a           12006 Packages.gz
  1b1fb519d18456f47a8537c2fdb033885c7b079b47675f09915e342427319992           11717 Packages.bz2
- cdc4d6fa6d27fa69e73e69d3d8c3cf5e8ff1e55750eb5fd194fb0694f373e21a           10609 Sources
- 42d52fb807380799743948c09ca1e1e5fd5f29e58b34c74626902ab083f5c048            3949 Sources.gz
- 891823e2a7ce87728fb766eccbfc4985a1868a7d3e10135ff50f6dc490bf1eee            4026 Sources.bz2
+ fd902aa7ac416c4397e10427eec687446b8e197c7e585a7bed367cac6c0643aa           10609 Sources
+ ec585385a292e90f9a09b52f87b4e94f0a357df0234de1a60789cc504b22026a            3948 Sources.gz
+ 76c1551490f7af935811a7517f86ec49d3a99c600d19e1615d90f2063fe98f27            4031 Sources.bz2
