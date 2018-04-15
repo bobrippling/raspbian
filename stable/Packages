@@ -229,11 +229,11 @@ Maintainer: Jon Davies <jon@hedgerows.org.uk>
 Installed-Size: 520
 Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, libcgi-pm-perl, atomicparsley (>= 0.9.4), ffmpeg
 Filename: stable/get-iplayer_3.13-ppa31d~stable_all.deb
-Size: 138242
-MD5sum: ee4b464d7619251c4cdabaa710e09116
-SHA1: 8ade4ec97d2d779a3d79af1aac0094c267c13774
-SHA256: 35de04084e533f20d5362b9300c7d75e2b1687349673006b96607f29c0eba556
-SHA512: dd3f9c55c40390b834ef508af7e27c8cea9fa47057aa65437b19c59fcc82d9e0a7e559a4def615f9bb9849ba1e58fb41c7effd86b152c65683834d9241289794
+Size: 138230
+MD5sum: 94000e8ae3606adbdacc07f0dab5545e
+SHA1: ef51898ebc655f72ac15007d3d449706c43fd2e1
+SHA256: 06a0b9b75922294782979886695f3ad5cb58e84290e357e0f735e10d25a26686
+SHA512: a165c6f8f99b46b8b10f8bfc56d1776803e60ceffdc2606ba43e99bf6a7bdf8ec811558ccf60cd00f7c0e8b95c5282f758735cee0aa412d0d98002e46a01388e
 Homepage: https://github.com/get-iplayer/get_iplayer
 Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
  .
