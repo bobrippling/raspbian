@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.13-ppa31d~stable
 Checksums-Md5:
- 6265e17a791a4ead21b8cf2e808a617f 1451 get-iplayer_3.13-ppa31d~stable.dsc
- 94000e8ae3606adbdacc07f0dab5545e 138230 get-iplayer_3.13-ppa31d~stable_all.deb
+ 35c7581289e75844dee6807c7981023e 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ c03d61d062ee5067abb284ba378c515a 138266 get-iplayer_3.13-ppa31d~stable_all.deb
 Checksums-Sha1:
- 24baf06b702576606e892768ef9b4d569c4d1dbd 1451 get-iplayer_3.13-ppa31d~stable.dsc
- ef51898ebc655f72ac15007d3d449706c43fd2e1 138230 get-iplayer_3.13-ppa31d~stable_all.deb
+ 1131e3828e9bf2fb3bd4f0b52aa7f984f3d7dcf8 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ 88ad288848c4c3f0e42f78c80e3d814c1532b069 138266 get-iplayer_3.13-ppa31d~stable_all.deb
 Checksums-Sha256:
- 5aca60c33c648599789eabad719125102885efc674459177339c4e9b499b217e 1451 get-iplayer_3.13-ppa31d~stable.dsc
- 06a0b9b75922294782979886695f3ad5cb58e84290e357e0f735e10d25a26686 138230 get-iplayer_3.13-ppa31d~stable_all.deb
+ c5c44437662307341d5a64109b348f4b725b7a41448cd02bde40e9dd2097dd98 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ d6cb06af2e1f6da27ce85efae628832be94fd3357bb795d7284a8fcfafca83cb 138266 get-iplayer_3.13-ppa31d~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Sun, 15 Apr 2018 21:33:40 +0000
+Build-Date: Sun, 15 Apr 2018 21:59:26 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -158,16 +158,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1523827945"
+ SOURCE_DATE_EPOCH="1523829489"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrTxUAACgkQAxXLbBOS
-QzPlWQf9H//PeO2l2P6E+bjPRfeWGbAvnt4aeFPdo3zIMIEHiI1EUR4dPyH7P3gB
-p2xZCnK0oE+cmeszjtEH7FrGHp6sifM5xS1ip7xZucsb5rlu+LwV2FlmSNjjrV8S
-NrpXcQC2iFIJF2vMG3MIvuLTwbFDJ8s81qNwc92Fto3/R0wWi8aTRu2XPnROsLHj
-fFUVBxS3UyL2/2lNmmk2ASHdaBlJiJSc/+uBdfv1gCWgo17R61I6KUg9wgB3Xcq3
-IHr/xo2NNUqX7yZDgB70mbtVk+7szEglneh22I5rYehWEt5B/Aa978q63skHiNJe
-wNytGoxaFQefdT+iuR8mrujYODZQbA==
-=M2dO
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrTy0oACgkQAxXLbBOS
+QzMKtAf9Hz4Clt/CHV6xSY8l+DNMwWCueAwDRzIzVsIUNWqHdGSkVRV1JUt7RibO
+RuWw5QqrBapT+l/a8IwGsgGDSTVvhExBzpHj+4MuYK93TEasyk4SHXeQLQmZcnZl
+goFb7eabntb1MRiNLOYXZ1zWvnpo6HH7zz6AqGqfuuyXv5ZOWlT2vDXutXAniyDA
+6wMNjcfeJjNJ0O7/GrXkSjDQQ8lC1nhrCnLSGlBVqu5Q0eJ/4Br8BzF5rzsu3N24
+/l02fxXFpeWubMPAR4au17O7wVlLusBClhg75Mp2Y/0N22zpT25wV5VWvNRuoyVs
+0kaSdTM/t4YEF219PFl/lRZjKsATEQ==
+=4AOQ
 -----END PGP SIGNATURE-----
