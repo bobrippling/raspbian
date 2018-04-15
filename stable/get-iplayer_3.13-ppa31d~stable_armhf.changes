@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Wed, 11 Apr 2018 00:54:21 +0000
+Date: Sun, 15 Apr 2018 21:32:25 +0000
 Source: get-iplayer
 Binary: get-iplayer
 Architecture: source all
@@ -18,32 +18,32 @@ Changes:
  .
    * New upstream snapshot
 Checksums-Sha1:
- e17cd095b3ba303425618f9c13f4c5d8369e49d7 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ 24baf06b702576606e892768ef9b4d569c4d1dbd 1451 get-iplayer_3.13-ppa31d~stable.dsc
  476b92fc106e0f2966e0c87c1dc123eb0fd960b4 138322 get-iplayer_3.13.orig.tar.gz
- 7a027f536c2276a83545c60d70aaf1de1fc8ed50 132820 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
- cc59dc7b7fdf6ba6f92efbb4dd9beb4c8bca6176 138234 get-iplayer_3.13-ppa31d~stable_all.deb
- 8d89b981c200b302c63f575eee7cfaec1f472200 5362 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+ 3db246896184d43fc722dde7e0f0b85dab91b4b3 132908 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ ef51898ebc655f72ac15007d3d449706c43fd2e1 138230 get-iplayer_3.13-ppa31d~stable_all.deb
+ 80820d03c1b818427e19c948628bbd249a6a5c5e 5369 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
 Checksums-Sha256:
- 71970570e29b7366df9b301bdeb92aa1bff1f91e9fedd3ed48e753366f07ed67 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ 5aca60c33c648599789eabad719125102885efc674459177339c4e9b499b217e 1451 get-iplayer_3.13-ppa31d~stable.dsc
  ef904e4ba4cc99467644ba1462817c9688c65ee031061dccade70b78bff2187f 138322 get-iplayer_3.13.orig.tar.gz
- d63de2cee9c50e14ff194281266a4086f3fcf67e42e206d0b45bb8722d30f815 132820 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
- a140ecb14d1ea83b724292100c68b6c6a124fb7541721fb75681181b17ad0faa 138234 get-iplayer_3.13-ppa31d~stable_all.deb
- 7c94dbf4f2452a0a435a909017afca4d1976e7f0b1e2976733fb8449d9588689 5362 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+ d68a7f696e4bdd852624c96bc0a4a3ec5fdea18d5842790f1e8be5428c34cc60 132908 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 06a0b9b75922294782979886695f3ad5cb58e84290e357e0f735e10d25a26686 138230 get-iplayer_3.13-ppa31d~stable_all.deb
+ 7528ff1a578653291aad56eca805eff3aa7d4f092cdd7991f47615df80785f58 5369 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
 Files:
- 7d1555659400054f6c224933d428ec27 1451 video optional get-iplayer_3.13-ppa31d~stable.dsc
+ 6265e17a791a4ead21b8cf2e808a617f 1451 video optional get-iplayer_3.13-ppa31d~stable.dsc
  54148281d11f294fc916eb3a1065bcd3 138322 video optional get-iplayer_3.13.orig.tar.gz
- 8037146428cedbd47acc14390c61e166 132820 video optional get-iplayer_3.13-ppa31d~stable.debian.tar.xz
- 6da2258eaef1ff25e4a6db35befaf123 138234 video optional get-iplayer_3.13-ppa31d~stable_all.deb
- 35119ea28493faabb1161e0699d0d8f1 5362 video optional get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+ d86e5e64d7c5283f32e7dee80ba420cb 132908 video optional get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 94000e8ae3606adbdacc07f0dab5545e 138230 video optional get-iplayer_3.13-ppa31d~stable_all.deb
+ e438e0dd2aebe2036c55ea92ed1f1d46 5369 video optional get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrNXRAACgkQAxXLbBOS
-QzPBLwf+IfTDpvZYntXKg1yLzQAybd5bByQTn3ngOFFtFxkRHdA1Zgx+WPTM7fvW
-tJd1uFrq9KUMfjtVSjROqTqw38Dhn7wKe+dO4ljPm/vHjkFVLXY2CvXKTp4i4Kgm
-GZoEB2de+vQ0NthDktISb/jhVWJbz4WkCzIN5pZetQWxfAKK2Hofi9TOixxCNUaI
-+sjV3YKbKu1hK1W/WxHIWM/WK6BUfmkodoMub9VnbRGxwslxpzyxNr06bWFhXEVQ
-miKg4wpkitKf+7k6lPXxncFR4aXujgaq0ooKjvoeChbWxTEFN8O6C1asrZlnCuA1
-ZeYtZ3QiWUQgRLd3tV40bropvYmrsQ==
-=f+9W
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrTxUAACgkQAxXLbBOS
+QzONiQgAkKdojL9/zZs1FzMEjZbibi9ujzEytUVQFsg7dtNqdT90p2aDb4ztBfWE
+ijCeTCztuEWZ/gL1tPVfkof5yBHLykDQL7PGN+KuUfEnC2yAf/1iwwfKowfLV1L2
+du12YdN3txKZo3k9wA4jpbE9MnOwxwiHuUH44e8C2FZkgLrClqAIgjcE7LX5Z8GG
+XuSfSeZtDzOjSwxmeFkl/g/Y+eh758u2cF/yKmYfJx3qjxFCj3Nio3BSrQL0eVsj
+DX4VUixJEoQ9qNce6Q0dFFajKrpgzRaGmu+cQdHZ0WMdTip6R6RGyE3TNz0yJK0E
+cbFdWbDS5w16zTnbYzEC48YD6tZ3ZA==
+=8GMI
 -----END PGP SIGNATURE-----

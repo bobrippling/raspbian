@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.13-ppa31d~stable
 Checksums-Md5:
- 7d1555659400054f6c224933d428ec27 1451 get-iplayer_3.13-ppa31d~stable.dsc
- 6da2258eaef1ff25e4a6db35befaf123 138234 get-iplayer_3.13-ppa31d~stable_all.deb
+ 6265e17a791a4ead21b8cf2e808a617f 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ 94000e8ae3606adbdacc07f0dab5545e 138230 get-iplayer_3.13-ppa31d~stable_all.deb
 Checksums-Sha1:
- e17cd095b3ba303425618f9c13f4c5d8369e49d7 1451 get-iplayer_3.13-ppa31d~stable.dsc
- cc59dc7b7fdf6ba6f92efbb4dd9beb4c8bca6176 138234 get-iplayer_3.13-ppa31d~stable_all.deb
+ 24baf06b702576606e892768ef9b4d569c4d1dbd 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ ef51898ebc655f72ac15007d3d449706c43fd2e1 138230 get-iplayer_3.13-ppa31d~stable_all.deb
 Checksums-Sha256:
- 71970570e29b7366df9b301bdeb92aa1bff1f91e9fedd3ed48e753366f07ed67 1451 get-iplayer_3.13-ppa31d~stable.dsc
- a140ecb14d1ea83b724292100c68b6c6a124fb7541721fb75681181b17ad0faa 138234 get-iplayer_3.13-ppa31d~stable_all.deb
+ 5aca60c33c648599789eabad719125102885efc674459177339c4e9b499b217e 1451 get-iplayer_3.13-ppa31d~stable.dsc
+ 06a0b9b75922294782979886695f3ad5cb58e84290e357e0f735e10d25a26686 138230 get-iplayer_3.13-ppa31d~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Wed, 11 Apr 2018 00:55:30 +0000
+Build-Date: Sun, 15 Apr 2018 21:33:40 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -110,7 +110,7 @@ Installed-Build-Depends:
  libpam-runtime (= 1.1.8-3.6+rpi1),
  libpam0g (= 1.1.8-3.6+rpi1),
  libpcre3 (= 2:8.39-3),
- libperl5.24 (= 5.24.1-3+deb9u2),
+ libperl5.24 (= 5.24.1-3+deb9u3),
  libpipeline1 (= 1.4.1-2),
  libselinux1 (= 2.6-3),
  libsemanage-common (= 2.6-2),
@@ -131,7 +131,7 @@ Installed-Build-Depends:
  libustr-1.0-1 (= 1.0.4-6),
  libuuid1 (= 2.29.2-1+deb9u1),
  libxml2 (= 2.9.4+dfsg1-2.2+deb9u2),
- linux-libc-dev (= 4.9.51-1+rpi3),
+ linux-libc-dev (= 4.9.82-1+deb9u3+rpi1),
  login (= 1:4.4-4.1),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1),
@@ -143,9 +143,9 @@ Installed-Build-Depends:
  ncurses-bin (= 6.0+20161126-1+deb9u2),
  passwd (= 1:4.4-4.1),
  patch (= 2.7.5-1),
- perl (= 5.24.1-3+deb9u2),
- perl-base (= 5.24.1-3+deb9u2),
- perl-modules-5.24 (= 5.24.1-3+deb9u2),
+ perl (= 5.24.1-3+deb9u3),
+ perl-base (= 5.24.1-3+deb9u3),
+ perl-modules-5.24 (= 5.24.1-3+deb9u3),
  po-debconf (= 1.0.20),
  quilt (= 0.63-8),
  sed (= 4.4-1),
@@ -158,16 +158,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1523408061"
+ SOURCE_DATE_EPOCH="1523827945"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrNXQ8ACgkQAxXLbBOS
-QzPYyggAgNn1ND+RnCBuhAU5taovgBYNXBC3+0Sa8yw9u6dpXp+czkquJaLgPH+F
-WuZKSv9OrlcdgUoVT5i07AbbrQ5w8f0etHi4dg8CjybFwYxL5OrCtKlLPQW7W0p7
-+w0LoEdQd+94lRtKhsvvDLpmE8h152TgxLMCXg8/aCRSIidw4/tN/k2EehXUgCsq
-Xn0tEty0CK2Yd4z9qpFycb0ZUgnCWLLQxLN/Or2dhrPkiu7K6WPkzOQl2ujkJy10
-uU+FtGn3Bff52LbRJ9MqIVQbjbCXOWIeJyJs0OJb6uCnuXdLkWN6khUqACT8V9FQ
-s+PP+BYBEyMsX2TR1+wvUQb5SZ5A/A==
-=250u
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrTxUAACgkQAxXLbBOS
+QzPlWQf9H//PeO2l2P6E+bjPRfeWGbAvnt4aeFPdo3zIMIEHiI1EUR4dPyH7P3gB
+p2xZCnK0oE+cmeszjtEH7FrGHp6sifM5xS1ip7xZucsb5rlu+LwV2FlmSNjjrV8S
+NrpXcQC2iFIJF2vMG3MIvuLTwbFDJ8s81qNwc92Fto3/R0wWi8aTRu2XPnROsLHj
+fFUVBxS3UyL2/2lNmmk2ASHdaBlJiJSc/+uBdfv1gCWgo17R61I6KUg9wgB3Xcq3
+IHr/xo2NNUqX7yZDgB70mbtVk+7szEglneh22I5rYehWEt5B/Aa978q63skHiNJe
+wNytGoxaFQefdT+iuR8mrujYODZQbA==
+=M2dO
 -----END PGP SIGNATURE-----
