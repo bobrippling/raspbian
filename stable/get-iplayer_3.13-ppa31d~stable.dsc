@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9), quilt
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 476b92fc106e0f2966e0c87c1dc123eb0fd960b4 138322 get-iplayer_3.13.orig.tar.gz
- aa472444168e801b6589d34e6ec5cb5c1b3b3914 132860 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ d303dd8086a160d86dfb6aa9abb428a2ed9ddd86 14858965 get-iplayer_3.13.orig.tar.gz
+ 7e244cbcf75f06b356233695e078d3d142dd608b 132844 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
 Checksums-Sha256:
- ef904e4ba4cc99467644ba1462817c9688c65ee031061dccade70b78bff2187f 138322 get-iplayer_3.13.orig.tar.gz
- f54136c2b74241873027c6e88662e86b37dc5219f2ac8ecb4baf64c8d7c8f746 132860 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 2554ee0d6627f450d503450d15959b2ee3129a72bffbd3f3cfd34860a4c19e01 14858965 get-iplayer_3.13.orig.tar.gz
+ b1611bba23a1be79bad466f0589f277e78e022836cc5a675209f2e6a7a85eff1 132844 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
 Files:
- 54148281d11f294fc916eb3a1065bcd3 138322 get-iplayer_3.13.orig.tar.gz
- 0cb908655dc7454e720fe16b93ed44d2 132860 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ f60cbd9f147d4f7f6d4b6e8721cb2e1a 14858965 get-iplayer_3.13.orig.tar.gz
+ fe4813d15bee58e0e62a1412ce6b45d1 132844 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrTy0kACgkQAxXLbBOS
-QzOw6gf/cfmO18dIpYXGe/B/LcBIE6iAyXdg/AJ1TfoBmnQ4LeLVFq3FHfL/WYpw
-si4a5lt3ppq1p8PSVdCfnEtRzIhHOaf1tXGeQx+S68sVYrf8VU+uP2u0G5SsZQAn
-QeB0fZCLSD3W9z0CHDMswfsFzZWv649/A+6sOFie8EKuh3pbMulVWVrOCcP7gVkf
-lcRbdKpvBcCkC3rD5/HX2sbHuroff32FCOD5BEZEo10aka315ytOafI2dRp4p2fN
-6i308QmP/ILDFk5gSorwbBJvnTnNjn8VvfX8rCtoTeZsA84P+AYBmsKvKJ5Q9aj2
-BbGP971Vri/iu+QoukrWS4q06LDN0g==
-=rhkW
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlru+84ACgkQAxXLbBOS
+QzNjqgf8DbP9cOP2et48FZnURpD5xKnYtvuXg6CDF/8lTcbSv1bOR/PLNeUv5LJA
+6jjkOScceAKn6tl2tcdKJOiGQcZwDcgu8pgMVtDxevBM6LNEgM1KNDGaUjt2klOV
+Jqju9KXkS+6B+QOiHHYZAhenFGt8UYIdIfdgcj+h05SpvU0PEqFre+Kvr6Im0U4Q
+XzwuA/i9e0OsroDL/3W/y/kCNuW1MRnkUmALL939V/niVq9t2/ykyZ1EZhgdNpxJ
+31Cxyi9C7QPAbo6rK4mShb/mCiT7S+4LUHai/hIFpJrkxYcVwhyRox4J6h+HtAF4
+9ZeEQX+oQjKi3I5i95He4ABR8YAt7Q==
+=xKBG
 -----END PGP SIGNATURE-----

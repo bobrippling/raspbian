@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Sun, 15 Apr 2018 21:58:09 +0000
+Date: Sun, 06 May 2018 12:56:18 +0000
 Source: get-iplayer
 Binary: get-iplayer
 Architecture: source all
@@ -18,32 +18,32 @@ Changes:
  .
    * New upstream snapshot
 Checksums-Sha1:
- 1131e3828e9bf2fb3bd4f0b52aa7f984f3d7dcf8 1451 get-iplayer_3.13-ppa31d~stable.dsc
- 476b92fc106e0f2966e0c87c1dc123eb0fd960b4 138322 get-iplayer_3.13.orig.tar.gz
- aa472444168e801b6589d34e6ec5cb5c1b3b3914 132860 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
- 88ad288848c4c3f0e42f78c80e3d814c1532b069 138266 get-iplayer_3.13-ppa31d~stable_all.deb
- 9e22fa6a4f34a9a66369919989981eb937b4fd70 5369 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+ 8b402acc83e9e91b3b63725896266a732d54affe 1457 get-iplayer_3.13-ppa31d~stable.dsc
+ d303dd8086a160d86dfb6aa9abb428a2ed9ddd86 14858965 get-iplayer_3.13.orig.tar.gz
+ 7e244cbcf75f06b356233695e078d3d142dd608b 132844 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ ad58d2a4f0e140a11081cec44ab1dc50fbf8b14a 138270 get-iplayer_3.13-ppa31d~stable_all.deb
+ 674721296a234b86c8799deb29c66df574545e0c 5369 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
 Checksums-Sha256:
- c5c44437662307341d5a64109b348f4b725b7a41448cd02bde40e9dd2097dd98 1451 get-iplayer_3.13-ppa31d~stable.dsc
- ef904e4ba4cc99467644ba1462817c9688c65ee031061dccade70b78bff2187f 138322 get-iplayer_3.13.orig.tar.gz
- f54136c2b74241873027c6e88662e86b37dc5219f2ac8ecb4baf64c8d7c8f746 132860 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
- d6cb06af2e1f6da27ce85efae628832be94fd3357bb795d7284a8fcfafca83cb 138266 get-iplayer_3.13-ppa31d~stable_all.deb
- e65b4bb38c1f64331ecfb9c5f21d0a8244b99bcb91922c84e98c9976b512fd5c 5369 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+ 902ebccf93b6909a29767e1b70669d8498f563e7ce97fda259fd05527e6c5eab 1457 get-iplayer_3.13-ppa31d~stable.dsc
+ 2554ee0d6627f450d503450d15959b2ee3129a72bffbd3f3cfd34860a4c19e01 14858965 get-iplayer_3.13.orig.tar.gz
+ b1611bba23a1be79bad466f0589f277e78e022836cc5a675209f2e6a7a85eff1 132844 get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 0b60e080addf8d9604432b63f4d52aada4f10cb0139d9c28b8300bd26995c2a5 138270 get-iplayer_3.13-ppa31d~stable_all.deb
+ 6a7ce1aaf57510941d84698282b22cb9f67df814932e81ed4f695cfbc56b4796 5369 get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
 Files:
- 35c7581289e75844dee6807c7981023e 1451 video optional get-iplayer_3.13-ppa31d~stable.dsc
- 54148281d11f294fc916eb3a1065bcd3 138322 video optional get-iplayer_3.13.orig.tar.gz
- 0cb908655dc7454e720fe16b93ed44d2 132860 video optional get-iplayer_3.13-ppa31d~stable.debian.tar.xz
- c03d61d062ee5067abb284ba378c515a 138266 video optional get-iplayer_3.13-ppa31d~stable_all.deb
- 53b8bc15e43377900142e8af0687049b 5369 video optional get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
+ 4bffe1bfb33acda51bfb0d901270c5fc 1457 video optional get-iplayer_3.13-ppa31d~stable.dsc
+ f60cbd9f147d4f7f6d4b6e8721cb2e1a 14858965 video optional get-iplayer_3.13.orig.tar.gz
+ fe4813d15bee58e0e62a1412ce6b45d1 132844 video optional get-iplayer_3.13-ppa31d~stable.debian.tar.xz
+ 591c318687504becef450802b84bf603 138270 video optional get-iplayer_3.13-ppa31d~stable_all.deb
+ 93d63b0b2d56645b9975555c17e331e6 5369 video optional get-iplayer_3.13-ppa31d~stable_armhf.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrTy0oACgkQAxXLbBOS
-QzOy0gf/Xt8ZL+7v6QHcanX1GJJzq3SAfdAcs01GHjJsUgIeqzYVTJkMWcuJnQp/
-pZrTi59UINv8L2MCuXVOhA/Bso2joWzUHlUeU0I67tZElOoSSklsvMO6avclrbNV
-X5R7XpfYDZ/HlAe1TCRrQnY2yNaoUH+ngjqBuFGtF0qZC4J7hNGUmuVn0VFJaqvf
-TuBgTNw+3ZV/MDh1gU2Q0P5Zn5n/RMUkRYz8ksXCA3liqQuvOPLkABAlT6coAF6y
-wbKleAuYp7JxCcjgzi6dUYjoX1/vxOdpjnQ30DLNNi5mz3qjwtIPsRrIDwNAhV48
-dANjHmxWShi5iBaMajZFjwVYwue69w==
-=MiqI
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlru+9AACgkQAxXLbBOS
+QzNN5gf9FyVuWqRGXjA8LBi31B88eVIHyiQeALdR+pNrnD0itQSH4xYMkWoADoHs
++/qmyqS92aniDd7NBhsbl+iFI1pBOW5/qa/xXheYN6ENF0cEJ3Ml/L4ay3npPCjh
+t+yrtPcdbRvUTY0ngr542UULd9gdxM4j85Qoswbcos2aLt4jJJxEj1JpqtdIsK96
+I7U87etuP/5ew3KsXM3WVjMu6JFVL7VTeZOSRlnjKfBWIHW/eIIeMKgiltLkOxhr
+Tt8R+J5M1AGx3QtCws4T5WntoTQMevSv6oA+U6Pn7j9bMMjLTDsZ1l40D6KDR2ZQ
+6Gx0pQZRLx0uNnzW6KE3u1p3X50W2A==
+=nbyQ
 -----END PGP SIGNATURE-----
