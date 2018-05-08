@@ -1,0 +1,73 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 08 May 2018 00:54:35 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.14-ppa31d~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.14-ppa31d~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+   * 76d0fc8: Release 3.14 [dinkypumpkin]
+   * 248f390: updated README [dinkypumpkin]
+   * 5d6a19d: updated --streaminfo output [dinkypumpkin]
+   * ad6ad1e: revamped recording modes, 50fps now default [dinkypumpkin]
+   * 07bffe4: added --thumbnail-size option alias [dinkypumpkin]
+   * aa8fd57: use PID-based schedule page URLs [dinkypumpkin]
+   * c864674: import modules during compilation [dinkypumpkin]
+   * 7cc728e: use HTTPS everywhere [dinkypumpkin]
+   * 3fd78b0: removed unnecessary module load [dinkypumpkin]
+   * f448d0e: removed unnecessary line from SSL verification warning
+     [dinkypumpkin]
+   * 69bedcc: tweaked verbose modes list [dinkypumpkin]
+   * 52e448c: Added --thumbnail-square option [notnac]
+   * 52dec8c: Ensure cache is always topped up to 30 days [dinkypumpkin]
+   * 0a031d2: Added programme credits download [notnac]
+   * 98f29bd: Convert DASH audio and video into MPEG-TS file before
+     converting to MP4 [notnac]
+   * 3a1276c: Restructure stream data retrieval [notnac]
+   * d8f7ae9: Web PVR: select default page size from values in dropdown
+     list [dinkypumpkin]
+   * ba1bd62: Web PVR: alternate sort direction when clicking column
+     headers in search results [dinkypumpkin]
+   * e130836: A statement from the Ministry of the Bleedin' Obvious
+     [dinkypumpkin]
+Checksums-Sha1:
+ 454221c7f1bbc1adb559d269689006881c077749 1451 get-iplayer_3.14-ppa31d~stable.dsc
+ c53dd12c7562f6fdb3bbb2a0d2c7dc0166caa799 138844 get-iplayer_3.14.orig.tar.gz
+ acd7137f0bb26fe7612924f7249c75b0c2b086a5 135112 get-iplayer_3.14-ppa31d~stable.debian.tar.xz
+ 421a97240a591bab8b1afcd41b3d60e239f86601 138998 get-iplayer_3.14-ppa31d~stable_all.deb
+ 794ea1a4546a68f03c59ed1c30dd823b02b1bd38 5369 get-iplayer_3.14-ppa31d~stable_armhf.buildinfo
+Checksums-Sha256:
+ b9d650afa87f8e48d2bbad83815799b142946e0837203d28d363974c9d1af0af 1451 get-iplayer_3.14-ppa31d~stable.dsc
+ c948137b47d33bf81b12061a369f2bf766b6194377b8ed8afa7aa087db1b517f 138844 get-iplayer_3.14.orig.tar.gz
+ 39ea7887852a97dff4a7ee293d56d425976432cede7046c56d9b469c6b634aed 135112 get-iplayer_3.14-ppa31d~stable.debian.tar.xz
+ 010bc5023675dc4c98d7598329538015072105c3cbb7d51db3a21fdc103369f4 138998 get-iplayer_3.14-ppa31d~stable_all.deb
+ 30da7ead6512e0eba9442b6f368f6e5faae1f1b75f1b105fde6e2bdfe949b0fc 5369 get-iplayer_3.14-ppa31d~stable_armhf.buildinfo
+Files:
+ 58e36fb68e53626193d6566ccd3844a8 1451 video optional get-iplayer_3.14-ppa31d~stable.dsc
+ df0f08eb62645e2c13f73d8aa7f8911e 138844 video optional get-iplayer_3.14.orig.tar.gz
+ a55caec595ae291bf4c75f96b2427c29 135112 video optional get-iplayer_3.14-ppa31d~stable.debian.tar.xz
+ b6b9898f68651ec61ca8110f3699d432 138998 video optional get-iplayer_3.14-ppa31d~stable_all.deb
+ 236f7216bbe0cc1b7d079735bffd3b33 5369 video optional get-iplayer_3.14-ppa31d~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlrw9d8ACgkQAxXLbBOS
+QzPE3wf/eJI8fowxtH+rOvH82o8pVH/ubqoGLWaSxptzfTpPjfkIgK+Zy+HE9ZXN
+91RePadasjldbRacLsGHesukjnsedNprIH2CIa+H8VUpG0sGhOp4RDDyo1MjaJxD
+OZTnzY2HkjqROSGCpqcZIIWD5FyzeNWAr0+dM1VKZ+ITO9kWjJXOXIOGoa2lOSNr
+vLqbdjhj5v72HeuY3/rxxriaf1HKDS7zIqB88Jppet0vu/oJZh4sVIumbnQgfcUb
+iQKn6cfVjFHA+aZMA6KcCNniYdCISz0LG4xlk9RDauhXyLQCLozyk2oINNPREvJs
+JiB3bxanO9EMhQP0EG42WkHwoL+93g==
+=cMTf
+-----END PGP SIGNATURE-----
