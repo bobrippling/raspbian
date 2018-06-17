@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 17 Jun 2018 18:54:28 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.14-ppa32~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.14-ppa32~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+Checksums-Sha1:
+ 35cbe0f5f2173d8f690ae431b3122d6cc77e77c5 1447 get-iplayer_3.14-ppa32~stable.dsc
+ c53dd12c7562f6fdb3bbb2a0d2c7dc0166caa799 138844 get-iplayer_3.14.orig.tar.gz
+ 90ebb2dacf089a28f36e00143576285f0fbde841 135100 get-iplayer_3.14-ppa32~stable.debian.tar.xz
+ 1becb23b48ca45b8df52d4bc3eae3339537567fc 139052 get-iplayer_3.14-ppa32~stable_all.deb
+ 9fb7b54e6207ffe12b1c2b0ba20e8c4287850a41 5362 get-iplayer_3.14-ppa32~stable_armhf.buildinfo
+Checksums-Sha256:
+ 9c53ee45f724aa2480ec13a253c2dd32433bfc6b5b23e274aeb55b604a57e40b 1447 get-iplayer_3.14-ppa32~stable.dsc
+ c948137b47d33bf81b12061a369f2bf766b6194377b8ed8afa7aa087db1b517f 138844 get-iplayer_3.14.orig.tar.gz
+ a25a2245750c5b4e18926ac5fb020b3e31896a0cd8f5583c061386e78d597470 135100 get-iplayer_3.14-ppa32~stable.debian.tar.xz
+ caf63669cbef2fa312c23181f9fbe6bb9b944d6d1a50de18cf792063fb6af79f 139052 get-iplayer_3.14-ppa32~stable_all.deb
+ 51d59bb11c6c245ba37e39ef9d859708370c34af51870589ef4a2446ed7d1f15 5362 get-iplayer_3.14-ppa32~stable_armhf.buildinfo
+Files:
+ 19ed81baef4d0a5ea980517a0b4f355f 1447 video optional get-iplayer_3.14-ppa32~stable.dsc
+ df0f08eb62645e2c13f73d8aa7f8911e 138844 video optional get-iplayer_3.14.orig.tar.gz
+ 3f73d4afacf358dbd14044e42500b99a 135100 video optional get-iplayer_3.14-ppa32~stable.debian.tar.xz
+ ec73cef8471dd8183653485f4215262d 139052 video optional get-iplayer_3.14-ppa32~stable_all.deb
+ 7455708f83b5627f2a5c9d7246d6a4cf 5362 video optional get-iplayer_3.14-ppa32~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlsmrsMACgkQAxXLbBOS
+QzMFzQf/cBA56nQyf0GAnyGtmLbpxFBgJD60tsNmp3h4WPjbw13WB7WZZHF687h8
+L1Q7kL86QeWwEYH9cZexam4WfwI1NFs6Bgn1PZo7qJp8V6+I872yDTUZPfS3UJYf
+d4nLMuCRJTfNQ5RH//aLYfisI2nyQOe1MTupVhvbb1aLaIY09ubVcpv0LgTToojW
+WFG+S8A/aKyxnxNnIfgjw6196LXUVRuFxmhUlF1HPw7ZYfkL0eI+b+UgjrGoQwok
+gRyzUHbJ4OKIuS0OGwYD8LkvSxuJta6fnekcAaQ6Cym0qlvSxFM6bhttebb8nXFN
+4KhIPC9InHQBJGnIWBeViVm+pkt19g==
+=nxrH
+-----END PGP SIGNATURE-----

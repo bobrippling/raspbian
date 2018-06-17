@@ -23,6 +23,45 @@ Description: H.265/HEVC video stream encoder (development files)
  This is the development package which contains headers and libraries for
  libx265.
 
+Package: get-iplayer
+Architecture: all
+Version: 3.14-ppa32~stable
+Priority: optional
+Section: video
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Installed-Size: 519
+Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, libcgi-pm-perl, atomicparsley (>= 0.9.4), ffmpeg
+Filename: stable/get-iplayer_3.14-ppa32~stable_all.deb
+Size: 139052
+MD5sum: ec73cef8471dd8183653485f4215262d
+SHA1: 1becb23b48ca45b8df52d4bc3eae3339537567fc
+SHA256: caf63669cbef2fa312c23181f9fbe6bb9b944d6d1a50de18cf792063fb6af79f
+SHA512: 10d12d2360865bb73b60727d22231f709c3b22af83e88c2461433a331d9b3e5cecac21aa685fd81b4f9239b3ab17d4255a6b8a324bb8fd2bf6d040105ac99c7a
+Homepage: https://github.com/get-iplayer/get_iplayer
+Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
+ .
+ Features
+ + Downloads TV and radio programmes from BBC iPlayer
+ + Allows multiple programmes to be downloaded using a single command
+ + Indexing of most available iPlayer catch-up programmes (not BBC Three,
+   Red Button or iPlayer Exclusive)
+ + Caching of index with automatic updating (default 4h)
+ + Regex search on programme name
+ + Regex search on programme description and episode title
+ + Filter search results by channel
+ + Direct download via programme ID or URL
+ + PVR capability (may be used with cron or Task Scheduler)
+ + HTTP proxy support
+ + Requires ffmpeg for conversion to MP4 and AtomicParsley for metadata tagging
+ .
+ IMPORTANT
+ Please refer to the release notes at
+ https://github.com/get-iplayer/get_iplayer/wiki/releasenotes
+ .
+ DOCUMENTATION AND SUPPORT
+ Documentation: https://github.com/get-iplayer/get_iplayer/wiki
+ Support: https://squarepenguin.co.uk/forums/
+
 Package: libavfilter-extra
 Architecture: all
 Version: 7:3.2.2-1~bpo8+1.1
@@ -796,45 +835,6 @@ Description: Documentation of the FFmpeg multimedia framework
  This package contains the HTML documentation for the FFmpeg multimedia
  framework including the API documentation created by doxygen and the manpages
  for the libraries.
-
-Package: get-iplayer
-Architecture: all
-Version: 3.14-ppa31d~stable
-Priority: optional
-Section: video
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Installed-Size: 519
-Depends: libwww-perl, perl:any, libxml-simple-perl, libxml-libxml-perl, libmojolicious-perl, libcgi-pm-perl, atomicparsley (>= 0.9.4), ffmpeg
-Filename: stable/get-iplayer_3.14-ppa31d~stable_all.deb
-Size: 139004
-MD5sum: a4a6a4ac72b6e8d9b6261cba6b6a5a52
-SHA1: 5c03b95ec4573c3b3cb344278a215494a442c867
-SHA256: 2eef070824bbba94fa2902b293b06d17b4fa278fa91a52588cc95d4cb3464562
-SHA512: 25b265a0492211fb5068282e2c22981dd47572bc7c75335335c46779bb000e92267ccdcfaff5482b64d4c7c96ce2b412eb8014272b5de4b069f3d31456254a36
-Homepage: https://github.com/get-iplayer/get_iplayer
-Description: get_iplayer: BBC iPlayer Indexing Tool and PVR
- .
- Features
- + Downloads TV and radio programmes from BBC iPlayer
- + Allows multiple programmes to be downloaded using a single command
- + Indexing of most available iPlayer catch-up programmes (not BBC Three,
-   Red Button or iPlayer Exclusive)
- + Caching of index with automatic updating (default 4h)
- + Regex search on programme name
- + Regex search on programme description and episode title
- + Filter search results by channel
- + Direct download via programme ID or URL
- + PVR capability (may be used with cron or Task Scheduler)
- + HTTP proxy support
- + Requires ffmpeg for conversion to MP4 and AtomicParsley for metadata tagging
- .
- IMPORTANT
- Please refer to the release notes at
- https://github.com/get-iplayer/get_iplayer/wiki/releasenotes
- .
- DOCUMENTATION AND SUPPORT
- Documentation: https://github.com/get-iplayer/get_iplayer/wiki
- Support: https://squarepenguin.co.uk/forums/
 
 Package: libx265-87
 Architecture: armhf
