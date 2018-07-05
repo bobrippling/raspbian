@@ -1,3 +1,32 @@
+Package: get-iplayer
+Format: 3.0 (quilt)
+Binary: get-iplayer
+Architecture: all
+Version: 3.16-ppa32~stable
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), quilt
+Homepage: https://github.com/get-iplayer/get_iplayer
+Directory: stable
+Package-List:
+ get-iplayer deb video optional arch=all
+Files:
+ 9ad276162e326bf9caed03616d70c619 1453 get-iplayer_3.16-ppa32~stable.dsc
+ 62b65e4739f7ee6cc36d245c4207cc22 17705441 get-iplayer_3.16.orig.tar.gz
+ 70d633af9252723ae5effeaa58895d3d 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+Checksums-Sha1:
+ 743c144e0df9c223aaf5900e6bcca0f00c363a5e 1453 get-iplayer_3.16-ppa32~stable.dsc
+ 95649bcb429298505cb63c722d2bec6ab9b03e97 17705441 get-iplayer_3.16.orig.tar.gz
+ 01e29b07f27bb95f3fac501635f5f78c072e7c57 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+Checksums-Sha256:
+ 07f39eaaee5ef4477646f82685d0c91b009e6a48eb680a299534f6037dc882c0 1453 get-iplayer_3.16-ppa32~stable.dsc
+ 0f9aa1544073941ea6b20bcaa0442b11db7607215476eec14ab2ed1369cbaba0 17705441 get-iplayer_3.16.orig.tar.gz
+ f2666a8ee3a54b82a64b459d580015390f4c74ca1ccb116994870e99137805cb 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+Checksums-Sha512:
+ 1085bf3ac8e177dc6e4d0f0140bbff2e71cd2a8bd3cb50450d91bd6a9481095213a7e787d989fc0e5276bf617a675e5b12868dd0c5f90b51f33598af9434675c 1453 get-iplayer_3.16-ppa32~stable.dsc
+ 58cd079a26919b84d0cdac5d4678a4cd6745a9860ffe55c37805dd46d75d5c53d98b9c476bba5708cab2cd42e3c068bf86aca25d431a13cbf37a4bdd8734f61c 17705441 get-iplayer_3.16.orig.tar.gz
+ 061fad3aac102d310c9f817da3e2a330b4c61fcde05daa15cac65ef9da4bb56e8b1bef23948b191f86368abcd553d1b16b395952e1f88ff87d1b32ce1fbf7a03 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+
 Package: ffmpeg
 Format: 3.0 (quilt)
 Binary: ffmpeg, ffmpeg-doc, libavcodec57, libavcodec-extra57, libavcodec-extra, libavcodec-dev, libavdevice57, libavdevice-dev, libavfilter6, libavfilter-extra6, libavfilter-extra, libavfilter-dev, libavformat57, libavformat-dev, libavresample3, libavresample-dev, libavutil55, libavutil-dev, libpostproc54, libpostproc-dev, libswresample2, libswresample-dev, libswscale4, libswscale-dev, libav-tools
@@ -55,35 +84,6 @@ Checksums-Sha512:
  1b71a130131573ba951cc935720e54875f139aeb81fbbcd1ce81eab8114a9756403fd3e8221b69096e752277af47a27dcb3f6ef2218d0413b2de348c208c8e1d 4505 ffmpeg_3.2.2-1~bpo8+1.1.dsc
  cf632b5b412f5a9a00b55c10fd115ae8a7e6ee10ef5f8504ecc5b42ac2f6485dfba5eb7b5dd4bdf9a9fbe58d0a394900f983eac422945618f1fefb4cb2682ca1 8016776 ffmpeg_3.2.2.orig.tar.xz
  2eb490464e22cc133d733a72a8e226bd850adbc84f4aac75594bde5aa7e0fb5d393bd7d4f3dbb1d0600c76bf37d1081b3cb5702edd05cdadc96eccc28132a869 39792 ffmpeg_3.2.2-1~bpo8+1.1.debian.tar.xz
-
-Package: get-iplayer
-Format: 3.0 (quilt)
-Binary: get-iplayer
-Architecture: all
-Version: 3.15-ppa32~stable
-Maintainer: Jon Davies <jon@hedgerows.org.uk>
-Standards-Version: 3.9.5
-Build-Depends: debhelper (>= 9), quilt
-Homepage: https://github.com/get-iplayer/get_iplayer
-Directory: stable
-Package-List:
- get-iplayer deb video optional arch=all
-Files:
- 7802234738da800091b5e414f3ad484b 1453 get-iplayer_3.15-ppa32~stable.dsc
- 16a546754cfb252dd92a16e11d0f6f93 17191985 get-iplayer_3.15.orig.tar.gz
- 8dcaa440248a2fa5b2acb070874d6013 137868 get-iplayer_3.15-ppa32~stable.debian.tar.xz
-Checksums-Sha1:
- 0ef58a0dfec94e0bcaf5ba81f22ba9b3b54a03a6 1453 get-iplayer_3.15-ppa32~stable.dsc
- b8bafd213b751789f054fd0a57b711e5d902f541 17191985 get-iplayer_3.15.orig.tar.gz
- eaedc43820b47b01a7b44d170478e70717712ba7 137868 get-iplayer_3.15-ppa32~stable.debian.tar.xz
-Checksums-Sha256:
- 7c55b0736ef8fe30d449c0fbfc2de268ade85d000aa749c9ad86052f1b7ea44a 1453 get-iplayer_3.15-ppa32~stable.dsc
- dce3bff6f4b0e616c7761d4765cd323c00bda19962c0cb36993a7f6a2c17f2d5 17191985 get-iplayer_3.15.orig.tar.gz
- fd13ebfd0bbf59b147586080523304c40b76772c085246df134138cb79c593bc 137868 get-iplayer_3.15-ppa32~stable.debian.tar.xz
-Checksums-Sha512:
- 40884329baecc2c673c6bb93a1ba3356b15c87ecbb7773f4a7de9b9a0981a38c6c59f660330e7af5b09db06bc06617e8da701ff6ebc3dea5b1376f64b3dd173f 1453 get-iplayer_3.15-ppa32~stable.dsc
- 1fb25f035e11e67f082237e764db98b74f4bbff35b3206fad36daef292bdbc7552712dd0e3f05325242211348211e5a9ff20b8ba6f4b27e2805ee912acc96fb9 17191985 get-iplayer_3.15.orig.tar.gz
- 689a69fa4889649ab0bedd07405ed002b44b149044f544658190169bd328ffbc2e7f283d6293ba3fd4a76336ddea7fc1465c587f8fa312254e8c9f334faa7266 137868 get-iplayer_3.15-ppa32~stable.debian.tar.xz
 
 Package: atomicparsley
 Format: 3.0 (quilt)
