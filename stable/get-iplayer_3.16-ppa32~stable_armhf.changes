@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Thu, 05 Jul 2018 18:55:01 +0000
+Date: Sat, 28 Jul 2018 18:54:51 +0000
 Source: get-iplayer
 Binary: get-iplayer
 Architecture: source all
@@ -17,96 +17,33 @@ Changes:
  get-iplayer (3.16-ppa32~stable) stable; urgency=medium
  .
    * New upstream snapshot
-   * 168a944: Release 3.16 [notnac]
-   * 79fdee4: Work around missing Mojo::Message::Response::is_success
-     method [notnac]
-   * 13ebc4d: help text edit [dinkypumpkin]
-   * 7b02cf5: bump dev version [dinkypumpkin]
-   * 3a91a41: Release 3.15 [dinkypumpkin]
-   * 77ad41a: display HTTP and connection errors without --verbose
-     [dinkypumpkin]
-   * cf0e912: help text edit [dinkypumpkin]
-   * 415cdea: more of the bleedin' obvious [dinkypumpkin]
-   * a0366f3: use same default output directory on macOS as on Windows
-     [dinkypumpkin]
-   * 2383b99: Restored --pid-recursive for non-CBBC/CBeebies TV and radio
-     programmes [dinkypumpkin]
-   * e7067a7: don't sanitise tracklist and credits filenames in user
-     commands [dinkypumpkin]
-   * 455c136: encode metadata file name [dinkypumpkin]
-   * b60cfcf: restored --pid-recursive for CBBC and CBeebies
-     [dinkypumpkin]
-   * 60a2e62: use smallest size (192) for cache thumbnails [dinkypumpkin]
-   * be40aee: Web PVR: make info page work in recordings tab [notnac]
-   * ace8cd8: bump dev version after building release [dinkypumpkin]
-   * bf42f48: added some hyphenated option names [dinkypumpkin]
-   * 58618d6: added --pid-recursive-list option [dinkypumpkin]
-   * ca2515b: allow "ll" abbreviation for limelight with --
-     {exclude,include}-supplier [dinkypumpkin]
-   * 5dc52c9: Use constant to define default thumbnail URL [notnac]
-   * 0d74c1c: Web PVR: Restored thumbnails to search output view [notnac]
-   * 470c35b: check earlier for empty schedule page [dinkypumpkin]
-   * 4d34156: remove unnecessary function arg [dinkypumpkin]
-   * 1c84844: edit non-uk warning text [dinkypumpkin]
-   * c3eb883: look for series number in JSON [dinkypumpkin]
-   * 77d5311: restored thumbnail URLs to cache [dinkypumpkin]
-   * 683a632: make refresh a bit less noisy with --verbose [dinkypumpkin]
-   * d4ca365: updated help text [dinkypumpkin]
-   * ac3ee39: added --list-format alias [dinkypumpkin]
-   * 5566e6c: simplify schedule page download a bit [dinkypumpkin]
-   * 32c5e46: added S4C series parsing with --pid-recursive
-     [dinkypumpkin]
-   * 5eb29b9: added explicit import of LWP::Protocol::https
-     [dinkypumpkin]
-   * 1de383c: show cache expiry with --verbose [dinkypumpkin]
-   * 61439ba: white space fixup [dinkypumpkin]
-   * 9191044: indicate future listings being indexed [dinkypumpkin]
-   * 7d77843: don't duplicate exit code 11 [dinkypumpkin]
-   * e8d7c9a: adapt for Mojolicious >= 7.80 SSL changes [dinkypumpkin]
-   * 4a5a4da: ensure full <lyrics> value duplicated to <longDescription>
-     [dinkypumpkin]
-   * 0c35fc5: populate <web> metadata field with episode programme info
-     page URL [dinkypumpkin]
-   * e4a422b: removed unused cache fields [dinkypumpkin]
-   * ec4c650: attempt to parse series/episode numbers for S4C programmes
-     [dinkypumpkin]
-   * f4ecb17: edit --no-sanitise help text [dinkypumpkin]
-   * 7c2bf77: edit --listformat help text [dinkypumpkin]
-   * 5c23982: make it even more bleedin' obvious [dinkypumpkin]
-   * 6fe685e: restore eval-wrapped locale check [dinkypumpkin]
-   * 95be4a0: if no programmes parsed from schedule page, always treat as
-     error [dinkypumpkin]
-   * 50cd885: fixed potential error with JSON schedule indexing
-     [dinkypumpkin]
-   * 71c4123: fixed parsing of programme name for episode list with --pid
-     [dinkypumpkin]
 Checksums-Sha1:
- 743c144e0df9c223aaf5900e6bcca0f00c363a5e 1453 get-iplayer_3.16-ppa32~stable.dsc
- 95649bcb429298505cb63c722d2bec6ab9b03e97 17705441 get-iplayer_3.16.orig.tar.gz
- 01e29b07f27bb95f3fac501635f5f78c072e7c57 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
- e90807adc727cfc193cf2caf21185f26b265947f 140448 get-iplayer_3.16-ppa32~stable_all.deb
- a39f8b841f0f937923b41bd25dbc09b0e0c56274 5441 get-iplayer_3.16-ppa32~stable_armhf.buildinfo
+ b706e24c266dd82b952147818537b703d92e4c19 1453 get-iplayer_3.16-ppa32~stable.dsc
+ 63f2566a9e2022702052637dcc009e0abfda48bb 17705403 get-iplayer_3.16.orig.tar.gz
+ 0dd10b539e858369439f2c2ae1f82dd39a00c3f7 138228 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+ 4f58ac2a97eb29bd211495bad7c6e4e27c8025dd 140446 get-iplayer_3.16-ppa32~stable_all.deb
+ 742775cd52b93b47ab95ec315baf35c49c528dc6 5441 get-iplayer_3.16-ppa32~stable_armhf.buildinfo
 Checksums-Sha256:
- 07f39eaaee5ef4477646f82685d0c91b009e6a48eb680a299534f6037dc882c0 1453 get-iplayer_3.16-ppa32~stable.dsc
- 0f9aa1544073941ea6b20bcaa0442b11db7607215476eec14ab2ed1369cbaba0 17705441 get-iplayer_3.16.orig.tar.gz
- f2666a8ee3a54b82a64b459d580015390f4c74ca1ccb116994870e99137805cb 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
- 14751248f35fdfeeaf3d24459dbd61a856e2b937f3ec9d78159b97e9aa90ba2f 140448 get-iplayer_3.16-ppa32~stable_all.deb
- 045f2c4b1514b5e92acd761a08f6f7ca38ea40554fb77d14d1f8a45d875356ca 5441 get-iplayer_3.16-ppa32~stable_armhf.buildinfo
+ 50c62de2b7abcd6166893a34aeebb6e623555af0c77525a509743f36202d6b69 1453 get-iplayer_3.16-ppa32~stable.dsc
+ 27ea843d8b727bb7442ef6f57f9073673cd05b6a8f09aeca6b2fd14bc8a40c9a 17705403 get-iplayer_3.16.orig.tar.gz
+ 200a7046423419a8d6e5ea5dbbd78047bd181c6780a8ebd3b598f6af46fd23eb 138228 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+ d3f222fd9edef7fbd03045efa2d3e91a86afeda7ba3786d712fa0f08bdd3a34b 140446 get-iplayer_3.16-ppa32~stable_all.deb
+ 00bf13d5331f74f89fd3fb404b508d3348118b8196252e4670e5e260d88816c3 5441 get-iplayer_3.16-ppa32~stable_armhf.buildinfo
 Files:
- 9ad276162e326bf9caed03616d70c619 1453 video optional get-iplayer_3.16-ppa32~stable.dsc
- 62b65e4739f7ee6cc36d245c4207cc22 17705441 video optional get-iplayer_3.16.orig.tar.gz
- 70d633af9252723ae5effeaa58895d3d 138256 video optional get-iplayer_3.16-ppa32~stable.debian.tar.xz
- cf3d4fc31ed494e307297cc68636a622 140448 video optional get-iplayer_3.16-ppa32~stable_all.deb
- 03e028c94f8ecc1d154c7f42e8fbc73f 5441 video optional get-iplayer_3.16-ppa32~stable_armhf.buildinfo
+ 1dfc8f19bdfb98d65b4041ef971b4136 1453 video optional get-iplayer_3.16-ppa32~stable.dsc
+ e413a279dab34c6b4fcff7652c658046 17705403 video optional get-iplayer_3.16.orig.tar.gz
+ 38287160d6f7b87b35cbcb402ea6cab4 138228 video optional get-iplayer_3.16-ppa32~stable.debian.tar.xz
+ 75c805abbd2b8388e2af9b4735d03371 140446 video optional get-iplayer_3.16-ppa32~stable_all.deb
+ 62dd60acfb907e0b51bb079f4f37b26b 5441 video optional get-iplayer_3.16-ppa32~stable_armhf.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAls+an0ACgkQAxXLbBOS
-QzPA9wgAiIljufZ4QxDZcnlP4p8UBsPFZNQmtpI8DQ0kxkDYZ1IOVeQw3W6OvNfh
-0uv4spSpZPkR5X0VfwdSXsyYjKGkt1Wt112moTdV/M82jjy+Cy9nEJ68poNTPM7f
-4mJtDk0xvOUbyLjtbQZaPL9YIImcIzgzNGhd/ONi3vzKvMfhwqRUoUJz5zPmcNKE
-XKqge0afdw5FYHlwLXz0nSXcLVQ4crIWKdpMw1bbiGtZr65bj4UgmpyGrtX60Eu2
-5BcsgQ8zdYNQ3m29vIgGmh5b8c9IisD8Uh37nWojzhaXlDztF4Ery/dnVnlrqS63
-LFVBZCxQoUmGBqDRCMLg1lWwkfjkWw==
-=bGuF
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAltcvGAACgkQAxXLbBOS
+QzPRsgf9FnBdiszSIIwLS+NsnX5xXfamHNCOjl5Mg19eMsJ322c5pOpIt4yst2J1
+4W9QI2F4GNbIif7kI+lEabdA9lYTMT7i052/RryaFMb4uJo4Qklcacq1/H6OJUB7
+y29NNT5GnVFjBJjXYJtejExQ+OcSDMnPwa54kFR0JUeCCnlsMX1rS3mC6q+yQs3U
+m7xG2x8r6ox7GncaT5Kw2aMvhx+ajYTX1eoOMugozFW1qGYsO6KmkurfkHpHWPpD
+08puDEOE+rFUVQkjAcCPG9XhPfAovIVxr0hfE1AqN4FB4Wau3EwWLBeuK07FcV/T
+VqN3PkxNKrzQozxuhousng8wqUsbTw==
+=T9ip
 -----END PGP SIGNATURE-----

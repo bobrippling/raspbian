@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9), quilt
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 95649bcb429298505cb63c722d2bec6ab9b03e97 17705441 get-iplayer_3.16.orig.tar.gz
- 01e29b07f27bb95f3fac501635f5f78c072e7c57 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+ 63f2566a9e2022702052637dcc009e0abfda48bb 17705403 get-iplayer_3.16.orig.tar.gz
+ 0dd10b539e858369439f2c2ae1f82dd39a00c3f7 138228 get-iplayer_3.16-ppa32~stable.debian.tar.xz
 Checksums-Sha256:
- 0f9aa1544073941ea6b20bcaa0442b11db7607215476eec14ab2ed1369cbaba0 17705441 get-iplayer_3.16.orig.tar.gz
- f2666a8ee3a54b82a64b459d580015390f4c74ca1ccb116994870e99137805cb 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+ 27ea843d8b727bb7442ef6f57f9073673cd05b6a8f09aeca6b2fd14bc8a40c9a 17705403 get-iplayer_3.16.orig.tar.gz
+ 200a7046423419a8d6e5ea5dbbd78047bd181c6780a8ebd3b598f6af46fd23eb 138228 get-iplayer_3.16-ppa32~stable.debian.tar.xz
 Files:
- 62b65e4739f7ee6cc36d245c4207cc22 17705441 get-iplayer_3.16.orig.tar.gz
- 70d633af9252723ae5effeaa58895d3d 138256 get-iplayer_3.16-ppa32~stable.debian.tar.xz
+ e413a279dab34c6b4fcff7652c658046 17705403 get-iplayer_3.16.orig.tar.gz
+ 38287160d6f7b87b35cbcb402ea6cab4 138228 get-iplayer_3.16-ppa32~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAls+anwACgkQAxXLbBOS
-QzPkFAf/Y58K+eRbZjoyDJYuVNFO03U00/mu3CaZByvvdjWgWxf7PKVXDIkDt8mw
-AmwYwF+FdOdP61f8tbv/TbjApHrbbKErEexgh3qdhs3L3rQaHQCHoR/yQXT+zMcw
-9qg4/E5D9KXJ5SdLvoW0jXO8h1pzGkmgh7AmoFBr4AWUISRBwvcJDhnx7sQ69Rgy
-b3wn/uYIdIaoCvIgy/4CG/2r+RNqW+2jUCE8Pz+zDgYC1uiw9xnyPn0ThHDFuPrx
-TpWi4191HbwrZfPmoeYDzNdBX5C3n18AQalSaFRRVidCTb1/NSqJljXoMEYGEgqF
-8FTeovVqLEu/FLW5jx8e/pRKGYBe8A==
-=fg2Q
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAltcvF8ACgkQAxXLbBOS
+QzM9wwgAijkjOVTvjOexvYn3hyFDPkTlFVxobuve+T2W3WzavuAeYeTU4IIgyW7N
+wUqzWR27Za0bh3F/uvw5jWvR3KUdrczmkMVN5LALMBfPAFqeAqJQXvuDkN9IjgQv
+vAOuRyypck5Rl9KnS0N1YMQhk2pai97MHt1HbXdSoDZqglsf6kA9+AhzOInesasq
+RlQ13Nd9BeOeugcRW4zlRIMWwm8sUE4244AVxWv4LCGAviGoXjedUbfe8yu81qJ0
+YZCrg4LHVnP5rNIR9TRWa+hi4ki1fQFXvWhDel/wIasQE3JbpLs+JlkdBH4TNh7F
+oxlM58O2QdFcsgim9y4X5ERRHj3Ycg==
+=4gnQ
 -----END PGP SIGNATURE-----
