@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.16-ppa32~stable
 Checksums-Md5:
- 1dfc8f19bdfb98d65b4041ef971b4136 1453 get-iplayer_3.16-ppa32~stable.dsc
- 75c805abbd2b8388e2af9b4735d03371 140446 get-iplayer_3.16-ppa32~stable_all.deb
+ e2ff4e0e59205fbf19642f856d4d4b2c 1447 get-iplayer_3.16-ppa32~stable.dsc
+ e6b764672ca5301225ad88b9673c5c40 140460 get-iplayer_3.16-ppa32~stable_all.deb
 Checksums-Sha1:
- b706e24c266dd82b952147818537b703d92e4c19 1453 get-iplayer_3.16-ppa32~stable.dsc
- 4f58ac2a97eb29bd211495bad7c6e4e27c8025dd 140446 get-iplayer_3.16-ppa32~stable_all.deb
+ d3cad4284a9355b1365c1f5d1962409aa9ed58c9 1447 get-iplayer_3.16-ppa32~stable.dsc
+ 3993a7d462e9617d30f537cd4e4fc03c2da8242e 140460 get-iplayer_3.16-ppa32~stable_all.deb
 Checksums-Sha256:
- 50c62de2b7abcd6166893a34aeebb6e623555af0c77525a509743f36202d6b69 1453 get-iplayer_3.16-ppa32~stable.dsc
- d3f222fd9edef7fbd03045efa2d3e91a86afeda7ba3786d712fa0f08bdd3a34b 140446 get-iplayer_3.16-ppa32~stable_all.deb
+ 2de3058d9697bc8f184848390759dc54c74b2039138087b518a81b43de2795cd 1447 get-iplayer_3.16-ppa32~stable.dsc
+ 1a34439fba57349dc0ee46e87105d5f7189ae7586c407f8bc5fb477fd809ea3a 140460 get-iplayer_3.16-ppa32~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Sat, 28 Jul 2018 18:56:18 +0000
+Build-Date: Sat, 28 Jul 2018 19:10:52 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -161,16 +161,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1532804091"
+ SOURCE_DATE_EPOCH="1532804973"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAltcvGAACgkQAxXLbBOS
-QzPxmwf/c0k4tXyhj6EPz2VbUtTDmN2aR4og5gxnk7H2xMTOqpMJATJpYfFY16mQ
-2iEypqiduCGpipza+j95aF7HhSzmiTqw9OzibEuoCGRqCczSkESZDj6+xGceTU8T
-TrgFuq38DtVkNBWjsHIm6t3epW++RXsDYRMXz6GabNg5se0d6FJHkX+jC2P2Mo4Q
-xU8sPFKzP5shDtI3NBxlAcroQ3i0GGx4NM5PG47myUFGdognsb3ruLX22rXcghJ0
-VZwvkwf0ijNc5p54VdBxEwwkrUNB41ahj0DWZDl7hDiu7Ixs6SYD2htC45rL8r8A
-mrJhUE7pRoTvNtRrP66nbWAY9JeIRw==
-=mKy7
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAltcv8oACgkQAxXLbBOS
+QzMlygf+K6fz1zcfoIh1nLXE5/mVJabzQc4EULB+WylvFI6P7uuNnPEhHQ1Xtaut
+wHysoWnIdTvQBeIiePaxsHPVwnOYVeii+Ykg9FyrdfGoYNOKChHqp/hg7Na9Vs2f
+9ggDQYnLTM26SfgBBJgkpwThcSr5Jh47G2g4itHAD2Vez+i8sK3sjqZk9ENj6Zfj
+e9WmCB7VfbSiUas5JVDjUcg9eq7FfMlazSHsFqqjYHhdMDUv3FnYlfSZ3+GW0Nmi
+F0cORSuxGVx28Jehw58YeQz0fWd1+YOQ/6fNdw5A0b2A43XlCMzKoUaqOTW2lNzV
+/TlP2crd+4l3uiLoNMmbp0njJsypOQ==
+=IxAU
 -----END PGP SIGNATURE-----
