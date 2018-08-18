@@ -1,0 +1,76 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sat, 18 Aug 2018 00:55:11 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.17-ppa32~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.17-ppa32~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+   * 57ac0a5: Release 3.17 [notnac]
+   * 3378da1: Replace ellipsis with space unless at beginning of value
+     [notnac]
+   * 357c686: work around different transaction errors in obsolete
+     mojolicious [dinkypumpkin]
+   * 539f895: capture separate audio bitrate for HLS radio streams in
+     verbose output [dinkypumpkin]
+   * 8bcb763: remove BBC Radio Scotland Highlands and Islands from cache
+     update [dinkypumpkin]
+   * 4ce4ca4: Disallow --force and --overwrite in default options file
+     [notnac]
+   * c737284: Prioritise versions with subtitles when --subtitles
+     specified [notnac]
+   * a7f6bfa: Restored HLS streams for radio archives [notnac]
+   * ffb0e35: Added additional <firstbcast> substitution parameters
+     [dinkypumpkin]
+   * 84cac84: Remove existing metadata tags before writing new ones
+     [notnac]
+   * 8ac4c89: Allow release tag in ffmpeg version string [notnac]
+   * ad68f78: make it obvious that error can be ignored for successful
+     download [dinkypumpkin]
+   * a58bd38: Restored use of --history with --tag-only, --metadata-only,
+     etc. [notnac]
+   * b1cd60c: help text edit [dinkypumpkin]
+   * 2e92029: suppress unnecessary download error messages [dinkypumpkin]
+   * bb055f0: fixed obsolete warning message [dinkypumpkin]
+   * 3069466: Apply --sortreverse with --pid-recursive [notnac]
+Checksums-Sha1:
+ 46457015a9a089f9b7db0d9f7c7e81dec779f82e 1453 get-iplayer_3.17-ppa32~stable.dsc
+ 262016590fa6bcc3bb45a6e9707a7515d65ccceb 19717850 get-iplayer_3.17.orig.tar.gz
+ 6c19f3fa6a23e86e41af859fd76babc32be75eb1 139344 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 64f97ad25805cdb2938105217b7a0bfe83c2b1cb 141296 get-iplayer_3.17-ppa32~stable_all.deb
+ f9ec3e3054d1b472716ec862d0cc389098235689 5441 get-iplayer_3.17-ppa32~stable_armhf.buildinfo
+Checksums-Sha256:
+ 56194f096a978d3222d5abec23e9ec4a43e10e46b1902ee52697443af3a1c19f 1453 get-iplayer_3.17-ppa32~stable.dsc
+ d40cca24a6ffc36460dd3ec8b71232d873b038f39e30e4b858db8c5e897ee4b1 19717850 get-iplayer_3.17.orig.tar.gz
+ b3ac977cc56b4f7e40f6f65301330e940de61fea53de42911a37420586f5fca8 139344 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ cbb8ff3b5f8ee8c7d607a540c82e0c7f5cd2b0d9ca89b5b4ee7173aa2bd99b36 141296 get-iplayer_3.17-ppa32~stable_all.deb
+ fe0ce9f47128307546453a60bddbf8de14875ff5447815452af0940cc371f92c 5441 get-iplayer_3.17-ppa32~stable_armhf.buildinfo
+Files:
+ f758ae3d20ab5b95765ec12de92efb4d 1453 video optional get-iplayer_3.17-ppa32~stable.dsc
+ 0e5ad866c6a64ebc4463ac6f8c067e4d 19717850 video optional get-iplayer_3.17.orig.tar.gz
+ 78a383c0d8b17010381bcfd34e83add5 139344 video optional get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ aad8b79aa8766ff07dc4ccfd87d894b4 141296 video optional get-iplayer_3.17-ppa32~stable_all.deb
+ 32c274644dfecc9c8fad4fe1485fb58d 5441 video optional get-iplayer_3.17-ppa32~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlt3bwIACgkQAxXLbBOS
+QzP1dAf/eomYRpLV+123/PMboWFigItN3l/EklmMEmoJn5EJXiXHII1Jiab1aWh2
+DC2LC7K0M9Syt2eqQffQDMQhjd6Ijgwy9K/NU+L/F1fm5LOY0f4i8Or7JiMJp4y/
+QuleCmsofoUH1M7hlM9FWcYTeTIulXRdpLqPCOuOtDmC/ZriTnZCyytCKvan6hbd
+AyXIvyfjd4AOQHLU5Wk1F3WYMGPf9X3H1uUAzVMhfABbtT5KwJsxiBSSGsMWhNMC
+Lofj6bMqo76fj5S+XBDlokPKnCIzXTp0QXFAU6faJzseQ6/29YKczhrpq2QC61SZ
+2DWs1qvxPZNrg96Xn2wFaeIoyaEpbQ==
+=LSnY
+-----END PGP SIGNATURE-----
