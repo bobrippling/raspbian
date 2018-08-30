@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9), quilt
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 262016590fa6bcc3bb45a6e9707a7515d65ccceb 19717850 get-iplayer_3.17.orig.tar.gz
- 6c19f3fa6a23e86e41af859fd76babc32be75eb1 139344 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ decbde0df0b9808074febefe22a3e8542c7b5c09 19717715 get-iplayer_3.17.orig.tar.gz
+ 15a7e0a2257b1e560d2e3fa137b05e9bd461444b 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Checksums-Sha256:
- d40cca24a6ffc36460dd3ec8b71232d873b038f39e30e4b858db8c5e897ee4b1 19717850 get-iplayer_3.17.orig.tar.gz
- b3ac977cc56b4f7e40f6f65301330e940de61fea53de42911a37420586f5fca8 139344 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 9ceb94612573ba1741084bf3e4398dd91bc05b47ad3d047be680897d5e3ff31c 19717715 get-iplayer_3.17.orig.tar.gz
+ e1d21bb2510d35d32bb42c929d5af8ebca22c17f2ea9ddfe29991f89760770ac 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Files:
- 0e5ad866c6a64ebc4463ac6f8c067e4d 19717850 get-iplayer_3.17.orig.tar.gz
- 78a383c0d8b17010381bcfd34e83add5 139344 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 7817c75eaa9d6277aa4e8f94a786311f 19717715 get-iplayer_3.17.orig.tar.gz
+ 8555fe95a1db09f1ef016834016c64b2 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlt3bwEACgkQAxXLbBOS
-QzOiqgf/Q/ZazjazTyJ5BldPKe+3UNTJ6P8jr993rt0IVYobW7ROrcjGE2BLLe2M
-amUqNHaCcU3jmYnQ/0RastxfMBvwWUJoSYEUiP335aB1v4bfXfCDgMQu/Yq2LXHQ
-l1y/pg9LjD1Jq1j+tD6bf1MGm4rs0CJatMwCuoOWGv+Yu4W346A0u2LMXSNz9bKl
-G4VxJqVYjTWbrxv3l099UCUhpQbTvnT/bQnFB56uD9puDJPKuA47XzxAcuB0+4f9
-JIwT02kKkNCwQbSfRaY2RV/66Ul0QiG6EvCekx/87WGtGsoSBwUwZDalch+C6XBP
-snyD0KO933XTmjE/eQQGmvwniXvHzg==
-=riRT
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAluIPeAACgkQAxXLbBOS
+QzOL3gf/aXmaMV6cZqszzvZ7ii1dPs0hcauMzNwan0U5qCmd9rhsrJz5tKtXRV0B
+pwYM7pNT2WtTJk8+9tbYKoSG65ya+TYQZtYJhesIOGV4eXJasYKquQShSoAsbzpa
+/mMPNX4nEbUEUk6xgpTsFmqUWWbTeaDpFJWmY5KcueYkIDQiLFBCf6Lpzsd9Kd8O
+m4T56S5LcQrSY9zViNyubzfWNfSxOQr6tj3V0KBSPdczqgvul5dBca9euBRIMiXM
+z5QBZfAeRx6QjMcw3ujeVqId7ecSynQxGaeYxOy9B9i1rN3zupBzdkhz7bEjtAH/
+KhyhmHk7AOrBFPhYiT88pi91Nouk/g==
+=SziY
 -----END PGP SIGNATURE-----

@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.17-ppa32~stable
 Checksums-Md5:
- f758ae3d20ab5b95765ec12de92efb4d 1453 get-iplayer_3.17-ppa32~stable.dsc
- aad8b79aa8766ff07dc4ccfd87d894b4 141296 get-iplayer_3.17-ppa32~stable_all.deb
+ 9562d0d6e47af70d146e8931809f6e61 1453 get-iplayer_3.17-ppa32~stable.dsc
+ 2611bf6e2cdb2302079b84a405fb0267 141308 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha1:
- 46457015a9a089f9b7db0d9f7c7e81dec779f82e 1453 get-iplayer_3.17-ppa32~stable.dsc
- 64f97ad25805cdb2938105217b7a0bfe83c2b1cb 141296 get-iplayer_3.17-ppa32~stable_all.deb
+ d1850ecc34f5282f54a8bdfcf9545cceb2c53634 1453 get-iplayer_3.17-ppa32~stable.dsc
+ 744e2461ceb1b395501bbd30e143bdfd39bd5121 141308 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha256:
- 56194f096a978d3222d5abec23e9ec4a43e10e46b1902ee52697443af3a1c19f 1453 get-iplayer_3.17-ppa32~stable.dsc
- cbb8ff3b5f8ee8c7d607a540c82e0c7f5cd2b0d9ca89b5b4ee7173aa2bd99b36 141296 get-iplayer_3.17-ppa32~stable_all.deb
+ 4f552bc9405c53af9dc72a12f735237a51c5527d57e1581c50cff6674ee92214 1453 get-iplayer_3.17-ppa32~stable.dsc
+ e97cfe6be67922594ab2f17e68cdff4b712078fefa4e6f2628b15fcd91417942 141308 get-iplayer_3.17-ppa32~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Sat, 18 Aug 2018 00:57:23 +0000
+Build-Date: Thu, 30 Aug 2018 18:56:17 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -42,11 +42,11 @@ Installed-Build-Depends:
  dh-strip-nondeterminism (= 0.034-1),
  diffstat (= 1.61-1),
  diffutils (= 1:3.5-3),
- dpkg (= 1.18.24),
- dpkg-dev (= 1.18.24),
+ dpkg (= 1.18.25),
+ dpkg-dev (= 1.18.25),
  e2fslibs (= 1.43.4-2),
  e2fsprogs (= 1.43.4-2),
- file (= 1:5.30-1+deb9u1),
+ file (= 1:5.30-1+deb9u2),
  findutils (= 4.6.0+git+20161106-2),
  g++ (= 4:6.3.0-4),
  g++-6 (= 6.3.0-18+rpi1+deb9u1),
@@ -83,7 +83,7 @@ Installed-Build-Depends:
  libcroco3 (= 0.6.11-3),
  libdb5.3 (= 5.3.28-12+deb9u1),
  libdebconfclient0 (= 0.227),
- libdpkg-perl (= 1.18.24),
+ libdpkg-perl (= 1.18.25),
  libfdisk1 (= 2.29.2-1+deb9u1),
  libffi6 (= 3.2.1-6),
  libfile-stripnondeterminism-perl (= 0.034-1),
@@ -99,8 +99,8 @@ Installed-Build-Depends:
  libisl15 (= 0.18-1),
  liblz4-1 (= 0.0~r131-2),
  liblzma5 (= 5.2.2-1.2),
- libmagic-mgc (= 1:5.30-1+deb9u1),
- libmagic1 (= 1:5.30-1+deb9u1),
+ libmagic-mgc (= 1:5.30-1+deb9u2),
+ libmagic1 (= 1:5.30-1+deb9u2),
  libmount1 (= 2.29.2-1+deb9u1),
  libmpc3 (= 1.0.3-1),
  libmpfr4 (= 3.1.5-1),
@@ -123,12 +123,12 @@ Installed-Build-Depends:
  libss2 (= 1.43.4-2),
  libstdc++-6-dev (= 6.3.0-18+rpi1+deb9u1),
  libstdc++6 (= 6.3.0-18+rpi1+deb9u1),
- libsystemd0 (= 232-25+deb9u2),
+ libsystemd0 (= 232-25+deb9u4),
  libtimedate-perl (= 2.3000-2),
  libtinfo5 (= 6.0+20161126-1+deb9u2),
  libtool (= 2.4.6-2),
  libubsan0 (= 6.3.0-18+rpi1+deb9u1),
- libudev1 (= 232-25+deb9u2),
+ libudev1 (= 232-25+deb9u4),
  libunistring0 (= 0.9.6+really0.9.3-0.1),
  libustr-1.0-1 (= 1.0.4-6),
  libuuid1 (= 2.29.2-1+deb9u1),
@@ -144,7 +144,7 @@ Installed-Build-Depends:
  ncurses-base (= 6.0+20161126-1+deb9u2),
  ncurses-bin (= 6.0+20161126-1+deb9u2),
  passwd (= 1:4.4-4.1),
- patch (= 2.7.5-1),
+ patch (= 2.7.5-1+deb9u1),
  perl (= 5.24.1-3+deb9u4),
  perl-base (= 5.24.1-3+deb9u4),
  perl-modules-5.24 (= 5.24.1-3+deb9u4),
@@ -161,16 +161,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1534553711"
+ SOURCE_DATE_EPOCH="1535655299"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlt3bwEACgkQAxXLbBOS
-QzMD9wf6A61EDnL++5l3G9CmEOj7UoygtROXLhT4ctQ73e9aELqV/dhAWchApAXt
-HaZTtSp+Jste665+5BH0cDhdJlJ/rdLraXLxufxDxmTofB3roSnyEv7o/tJxJ7vS
-x+Jl5afw/h5l+rH8CAD9xs78rgyq7Kaw+ygfnBqmJ/Yx7s/7VAbNh2mQ3hbGM+tI
-IqPSnA6w/KbEZSJQVdLTuWRtQb0+jhuIzn65CmGGL4nAVCHUVo37Xcc9NpJR++zB
-StvPWhuU+/QpPC413mXsRd9sN9kklb42wslAvAv6LG/CeHsFTiVsQ4BmAsQgRU8l
-bEgZEyTV4Qo9Z2xVwQSJlMDHTZlqDQ==
-=bIja
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAluIPeEACgkQAxXLbBOS
+QzOWpwf/S5buef32hA86WenuedQDByGmuwUxOVLzmhUfzRPbetmcqrxfj2stZrgU
++Ojp1q2Eta7LDkjWFjBWJNmnabnvLTevNLdJdSmx5/nZ13urPsn2WVZfO1/s2CzU
+skO6q9B9jdw+RD7TM2ic8Z1Hv8IPez8NukrbxLJjXzSCkN0PvSNJFtc97I+Te1Bd
+Vq+EisB8DhGhYuw6dXk+jJ5RYFEnqguXa3tVSFu/HBSTnHN3OUzhEdA1K8LDw/vD
+WvkYCHnRN4epSvYmZwakLoqXE/YLlBkP5d4/E5HSbZXCDXs+LQSOe0ow7CVDMNa2
+Fs62K78NcV7YTtWHv6moXIJCPh6RtQ==
+=HK89
 -----END PGP SIGNATURE-----
