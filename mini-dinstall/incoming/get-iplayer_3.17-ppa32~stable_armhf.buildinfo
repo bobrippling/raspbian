@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.17-ppa32~stable
 Checksums-Md5:
- 9562d0d6e47af70d146e8931809f6e61 1453 get-iplayer_3.17-ppa32~stable.dsc
- 2611bf6e2cdb2302079b84a405fb0267 141308 get-iplayer_3.17-ppa32~stable_all.deb
+ 8ff2e3abe5713aebf80979e5f0baf06a 1453 get-iplayer_3.17-ppa32~stable.dsc
+ 881abbcc69d091eb78aa38199893625a 141290 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha1:
- d1850ecc34f5282f54a8bdfcf9545cceb2c53634 1453 get-iplayer_3.17-ppa32~stable.dsc
- 744e2461ceb1b395501bbd30e143bdfd39bd5121 141308 get-iplayer_3.17-ppa32~stable_all.deb
+ 4d734fdb290c8f83bc7477673f1d79e5f22f1043 1453 get-iplayer_3.17-ppa32~stable.dsc
+ 71d445bd246ac0c641ef6103ec9dd804f3b26e41 141290 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha256:
- 4f552bc9405c53af9dc72a12f735237a51c5527d57e1581c50cff6674ee92214 1453 get-iplayer_3.17-ppa32~stable.dsc
- e97cfe6be67922594ab2f17e68cdff4b712078fefa4e6f2628b15fcd91417942 141308 get-iplayer_3.17-ppa32~stable_all.deb
+ 292da6becee0e2199a4a9a6f937038752067876e23b4fabe21d9b054afb4567a 1453 get-iplayer_3.17-ppa32~stable.dsc
+ 633cedb96b65f4b6018128535e317587ebc4c91b10126ba0b21720be102de41c 141290 get-iplayer_3.17-ppa32~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Thu, 30 Aug 2018 18:56:17 +0000
+Build-Date: Fri, 14 Sep 2018 18:58:18 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -161,16 +161,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1535655299"
+ SOURCE_DATE_EPOCH="1536951416"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAluIPeEACgkQAxXLbBOS
-QzOWpwf/S5buef32hA86WenuedQDByGmuwUxOVLzmhUfzRPbetmcqrxfj2stZrgU
-+Ojp1q2Eta7LDkjWFjBWJNmnabnvLTevNLdJdSmx5/nZ13urPsn2WVZfO1/s2CzU
-skO6q9B9jdw+RD7TM2ic8Z1Hv8IPez8NukrbxLJjXzSCkN0PvSNJFtc97I+Te1Bd
-Vq+EisB8DhGhYuw6dXk+jJ5RYFEnqguXa3tVSFu/HBSTnHN3OUzhEdA1K8LDw/vD
-WvkYCHnRN4epSvYmZwakLoqXE/YLlBkP5d4/E5HSbZXCDXs+LQSOe0ow7CVDMNa2
-Fs62K78NcV7YTtWHv6moXIJCPh6RtQ==
-=HK89
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlucBNkACgkQAxXLbBOS
+QzOx/QgAhqbljpEgloayhBJpAD46Q4xaSo2SYb7qpTBCns6/+WFnPQ6VOuvYmEIs
+N2mb4sFi84KdKpEJhRoioNprl/5JTjZ0s26CFiGuWVSEkzKIVFKpsWTE7abPkBro
+EweVrsz2IfHeWIe8RGUn+8PPc7k32Hkn+UHNWW/GOgeCh+E2ttAp2MLdfW2b0rNW
+YbafL/gbOjvq/QF85s90nHrVq7SLzDv49sq76IbpI57ynfVLY/5FEx5Bv/FCP7Db
+GKQBM3oWn3Dlejt/udML7NdNTZaJTGAuhfz7rbX1Rc+j5ahVCYcCRJLmACnGCmXs
+HLe/hnCEDuHHEdQRih0/offSYWV7Kw==
+=9+ok
 -----END PGP SIGNATURE-----
