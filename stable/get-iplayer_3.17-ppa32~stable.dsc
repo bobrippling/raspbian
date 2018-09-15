@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9), quilt
 Package-List:
  get-iplayer deb video optional arch=all
 Checksums-Sha1:
- 1b7c38eebe2cc4bec8c51f9251c4c3faae334a77 19718268 get-iplayer_3.17.orig.tar.gz
- 3f1d02a2399a8475732ffe093623e5e34fe9fda2 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ ecd3b50fa06ac9a71fc6f4bc4e162cd288464f05 140062 get-iplayer_3.17.orig.tar.gz
+ 4103b33189affe305b46674198c087a7996b698b 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Checksums-Sha256:
- 961dca0b0c88480182e3b6f20b13eecb7785aface18b71e07234ae4264019f8f 19718268 get-iplayer_3.17.orig.tar.gz
- 20aa9b61abb19e3ea663fda40717114ab22db01dda7159aa6ee0156ce9781590 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ c922baa54f89598db681ac92017d388dd2e7a3edfebfd946e0d8f4ccef564832 140062 get-iplayer_3.17.orig.tar.gz
+ 6aa41dfc7510a8b213f3936ca8a67806fb1f27a65e8b2dfd8212f3aeaf3530ab 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Files:
- a0acb3550f515eb52636350fae10a689 19718268 get-iplayer_3.17.orig.tar.gz
- da0ed93c47b0c13162e743ff90659c13 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 965b3d60c5b72966587d3c4b34481583 140062 get-iplayer_3.17.orig.tar.gz
+ 8be6aecaead5200a868881206f8f6ede 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlucBNgACgkQAxXLbBOS
-QzN0uQf/WCp3T1RXgWxTytHXQwRUtFMIDTYdDp5o9A8UfWiquqVXbvVCRKL/OH7X
-R1QVSJLbzB54Y5gnxkMtdxvA4num+fczu4hIwWVfReyVZE+CsyMoCuxSIa81+g7A
-PcZYJJelVO/VhWNYo3i2Io/5tMNC9ibyf7rBgtnXH/RCRE+RyRfqzvE7XidhDWAU
-seTuxUPDVjtFQRkdqPtKpZHFmL14xr5EM6V1piEzdnH3y5dRlFgCINAU32Vc0F6f
-14uT6pWNz1jpoN6Im9QhMeJHtXvirHS+AqqQ1iiC6FrWdGnox82tuR7ijd6GV7EW
-62CIwSbcE77PRgRt3s29HbxWiKZylA==
-=Y8g6
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlucWLQACgkQAxXLbBOS
+QzO6Tgf/RjNpcTptvyFV/mPSh6hBmObA7y9lSFLqy0HlbXV64N83RkA6FDKfyiwf
+WoERZDPnPMIhzilNDJqsucG6WqOFMFGlky7eO7+c86A8omP5cvxCYF2zQIDZhQ8Y
+0/VZopP3CgZrQW/fJ+Cb7x9deWNK3DZ7YgDe5hrhtKiW6IsWkwtH6C9xHsPFg9Lk
+ZAydXoRe2jKNpDOF8zoBgTQQs9JsjWxG9d3noVxO50nO1EcLARLu7OMTBou9ORjF
+8Wx8WLkkJ+ncztvmgm0mrk4A1dPKmIlVAQ8F5tDEflKUMWszNgKYeIU8hkpSpSKI
+JHUeQ1DYrmO1qBDpYKEr40vdMfEj+Q==
+=YrLV
 -----END PGP SIGNATURE-----

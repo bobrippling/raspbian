@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.17-ppa32~stable
 Checksums-Md5:
- 8ff2e3abe5713aebf80979e5f0baf06a 1453 get-iplayer_3.17-ppa32~stable.dsc
- 881abbcc69d091eb78aa38199893625a 141290 get-iplayer_3.17-ppa32~stable_all.deb
+ 0c153246ce1fd08d8c42ab8098bac687 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 8e09bc72cd72170e3345c38a21e00674 141304 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha1:
- 4d734fdb290c8f83bc7477673f1d79e5f22f1043 1453 get-iplayer_3.17-ppa32~stable.dsc
- 71d445bd246ac0c641ef6103ec9dd804f3b26e41 141290 get-iplayer_3.17-ppa32~stable_all.deb
+ da54c4c275d64ad7b0d7759ca6d15f882eb19dae 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 9e07dd2f549e11f77371cd753f4efc77dfe03195 141304 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha256:
- 292da6becee0e2199a4a9a6f937038752067876e23b4fabe21d9b054afb4567a 1453 get-iplayer_3.17-ppa32~stable.dsc
- 633cedb96b65f4b6018128535e317587ebc4c91b10126ba0b21720be102de41c 141290 get-iplayer_3.17-ppa32~stable_all.deb
+ 65a375110f2de8e744113f96eb99acd075e1428fc1891d55dbaeccd3dfe6f020 1447 get-iplayer_3.17-ppa32~stable.dsc
+ af96182f28d5bab40f5b1f61055675b30d85b8bea5b38f75886cad208e999aeb 141304 get-iplayer_3.17-ppa32~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Fri, 14 Sep 2018 18:58:18 +0000
+Build-Date: Sat, 15 Sep 2018 00:56:08 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -161,16 +161,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1536951416"
+ SOURCE_DATE_EPOCH="1536972890"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlucBNkACgkQAxXLbBOS
-QzOx/QgAhqbljpEgloayhBJpAD46Q4xaSo2SYb7qpTBCns6/+WFnPQ6VOuvYmEIs
-N2mb4sFi84KdKpEJhRoioNprl/5JTjZ0s26CFiGuWVSEkzKIVFKpsWTE7abPkBro
-EweVrsz2IfHeWIe8RGUn+8PPc7k32Hkn+UHNWW/GOgeCh+E2ttAp2MLdfW2b0rNW
-YbafL/gbOjvq/QF85s90nHrVq7SLzDv49sq76IbpI57ynfVLY/5FEx5Bv/FCP7Db
-GKQBM3oWn3Dlejt/udML7NdNTZaJTGAuhfz7rbX1Rc+j5ahVCYcCRJLmACnGCmXs
-HLe/hnCEDuHHEdQRih0/offSYWV7Kw==
-=9+ok
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlucWLQACgkQAxXLbBOS
+QzMr1Qf/SlFFsyx9GaqF4YpZfHMg+v9sgoDX1K/cqJL3m7Kg3nOgJzbIliIiJlNb
+44wpomSQ+tx6UnzqyocN2fG2maHktv7LY5ZKNjRep3cB6OvVQkPrIBa/dRTthnOP
+WKEs7/+nRPsPPHPoYsFc7HgtTCegGfGx8tFthQWzl+YqgSMZSjEsgA2Z1ZbFwiFR
+qCQeL+8WdzRcmJEgf1TVDKNDFgRxKNqX74bGisL6oyHhAUps4w0BUwdzryUZ7PNr
+QHa/DnnKhKAHPw61NI2loVEWzKB4/evclAY6TPzKXIfcRKG4772EjRnkvfKUFF6d
+3D+pbmAMwrXoNTkUkE3FGtKQTAxeXg==
+=BgCk
 -----END PGP SIGNATURE-----
