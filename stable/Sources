@@ -11,21 +11,21 @@ Directory: stable
 Package-List:
  get-iplayer deb video optional arch=all
 Files:
- 0c153246ce1fd08d8c42ab8098bac687 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 002546cf2d454d041c982b425ab51073 1447 get-iplayer_3.17-ppa32~stable.dsc
  965b3d60c5b72966587d3c4b34481583 140062 get-iplayer_3.17.orig.tar.gz
- 8be6aecaead5200a868881206f8f6ede 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 5d90670eb43ec53c2122c43999e68b3a 139400 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Checksums-Sha1:
- da54c4c275d64ad7b0d7759ca6d15f882eb19dae 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 2511fcbda155988bcf58ac5421951baf72e3749e 1447 get-iplayer_3.17-ppa32~stable.dsc
  ecd3b50fa06ac9a71fc6f4bc4e162cd288464f05 140062 get-iplayer_3.17.orig.tar.gz
- 4103b33189affe305b46674198c087a7996b698b 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ b1a99ae6fc0934987d2dab77ad3e7c3bfc7f71f9 139400 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Checksums-Sha256:
- 65a375110f2de8e744113f96eb99acd075e1428fc1891d55dbaeccd3dfe6f020 1447 get-iplayer_3.17-ppa32~stable.dsc
+ bacfe4f19b2d9ff2e9c6c8b0e8ca989ce340dbfdf999b7f82f53887c92ace56e 1447 get-iplayer_3.17-ppa32~stable.dsc
  c922baa54f89598db681ac92017d388dd2e7a3edfebfd946e0d8f4ccef564832 140062 get-iplayer_3.17.orig.tar.gz
- 6aa41dfc7510a8b213f3936ca8a67806fb1f27a65e8b2dfd8212f3aeaf3530ab 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ e705177f94cfd023df7eef956e760ede3babeadd1db6acad34863f5d812a706a 139400 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 Checksums-Sha512:
- 2962a1f7b02be0c6930566be891bd06ed46b18f6b7ca06dd1b3d839e4fb9b5c58b1e1078471cfa90425487145a9a643c28f88bde7e9da6c6df0e35fc2347c03f 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 8cecedc67d0db5db287a775d2fa0d2a0c6cb5ecaf57ebf4470bb12217b8535cc7175cf9c284773485c3010b4347b94caef06f9aa526d2f75c859cd9b17d885da 1447 get-iplayer_3.17-ppa32~stable.dsc
  2fc553b8960c881705c70d2593a4d90514e4a3d7fdb615e1d59fd8d6248164a98437e07b5d08f7d7650c22f907af39213647ae613f52c142f59783202300d94a 140062 get-iplayer_3.17.orig.tar.gz
- 9ec4dde8f9cece5336d8a2f7fcdea9df8f8e398fa6dbf68fc9228fed424806e02747180686e1f7d60d9d6bf2d6fa7ef1291865b434c88da8ebfc970e84f76511 139396 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ f887a14e87f97fe51fd065f308037dac87c3b952e92cc882a02d731b5ae3822bd228ab33219be4e7001d3528a814663c2dc7d44431c4420279de61da209e9c27 139400 get-iplayer_3.17-ppa32~stable.debian.tar.xz
 
 Package: ffmpeg
 Format: 3.0 (quilt)

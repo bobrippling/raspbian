@@ -7,17 +7,17 @@ Binary: get-iplayer
 Architecture: all source
 Version: 3.17-ppa32~stable
 Checksums-Md5:
- 0c153246ce1fd08d8c42ab8098bac687 1447 get-iplayer_3.17-ppa32~stable.dsc
- 8e09bc72cd72170e3345c38a21e00674 141304 get-iplayer_3.17-ppa32~stable_all.deb
+ 002546cf2d454d041c982b425ab51073 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 10a70544794e0252be32a3b6636d1544 141312 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha1:
- da54c4c275d64ad7b0d7759ca6d15f882eb19dae 1447 get-iplayer_3.17-ppa32~stable.dsc
- 9e07dd2f549e11f77371cd753f4efc77dfe03195 141304 get-iplayer_3.17-ppa32~stable_all.deb
+ 2511fcbda155988bcf58ac5421951baf72e3749e 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 0ad79c7529d6136d2afe3a0d258d2bdb057bbacf 141312 get-iplayer_3.17-ppa32~stable_all.deb
 Checksums-Sha256:
- 65a375110f2de8e744113f96eb99acd075e1428fc1891d55dbaeccd3dfe6f020 1447 get-iplayer_3.17-ppa32~stable.dsc
- af96182f28d5bab40f5b1f61055675b30d85b8bea5b38f75886cad208e999aeb 141304 get-iplayer_3.17-ppa32~stable_all.deb
+ bacfe4f19b2d9ff2e9c6c8b0e8ca989ce340dbfdf999b7f82f53887c92ace56e 1447 get-iplayer_3.17-ppa32~stable.dsc
+ 0c1fc8491b5ee60e32814c9e01719a09f6b0f2b772acd4141d7f7d21ab6054ad 141312 get-iplayer_3.17-ppa32~stable_all.deb
 Build-Origin: Raspbian
 Build-Architecture: armhf
-Build-Date: Sat, 15 Sep 2018 00:56:08 +0000
+Build-Date: Fri, 23 Nov 2018 12:56:13 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -64,7 +64,7 @@ Installed-Build-Depends:
  install-info (= 6.3.0.dfsg.1-1+b1),
  intltool-debian (= 0.35.0+20060710.4),
  libacl1 (= 2.2.52-3),
- libarchive-zip-perl (= 1.59-1),
+ libarchive-zip-perl (= 1.59-1+deb9u1),
  libasan3 (= 6.3.0-18+rpi1+deb9u1),
  libatomic1 (= 6.3.0-18+rpi1+deb9u1),
  libattr1 (= 1:2.4.47-2),
@@ -161,16 +161,16 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_GB.UTF-8"
- SOURCE_DATE_EPOCH="1536972890"
+ SOURCE_DATE_EPOCH="1542977694"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlucWLQACgkQAxXLbBOS
-QzMr1Qf/SlFFsyx9GaqF4YpZfHMg+v9sgoDX1K/cqJL3m7Kg3nOgJzbIliIiJlNb
-44wpomSQ+tx6UnzqyocN2fG2maHktv7LY5ZKNjRep3cB6OvVQkPrIBa/dRTthnOP
-WKEs7/+nRPsPPHPoYsFc7HgtTCegGfGx8tFthQWzl+YqgSMZSjEsgA2Z1ZbFwiFR
-qCQeL+8WdzRcmJEgf1TVDKNDFgRxKNqX74bGisL6oyHhAUps4w0BUwdzryUZ7PNr
-QHa/DnnKhKAHPw61NI2loVEWzKB4/evclAY6TPzKXIfcRKG4772EjRnkvfKUFF6d
-3D+pbmAMwrXoNTkUkE3FGtKQTAxeXg==
-=BgCk
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlv3+PoACgkQAxXLbBOS
+QzMStgf9GvVPUfrg4U9KXngl7AkGZAQOEtYMaBtxUv2JE/jlxAZqasHbDCt5M/iM
+1ditrs5U3KctBkeVc2vI6wNlUuQ7VUKZyYpetbIJKVg8+B7fa1oCe9cFTao66VSj
+E6bJHYIUP3gRw0DfN+lTTj6yeW2+NLN/w0Jej52e+vUvBM+ORlwUVxnhDFeo5218
+xGLOT1vsdyszDgUAuFJFV6a9XWBLwy+gLnTkB50PSraTn5kxWR1kcHiGbwnKdmtr
+gMaV5bZ2P628fHG0mGEoAZhY1TGOS1sPwGCO6BjN8mdy6ScV7OoxVaqa0NEO7Giy
+Yog2mAwf6BSWfbulbrt2qBA6DHAmIw==
+=F8lJ
 -----END PGP SIGNATURE-----
