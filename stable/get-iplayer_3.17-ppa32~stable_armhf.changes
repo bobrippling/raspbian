@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Fri, 23 Nov 2018 12:54:54 +0000
+Date: Sat, 08 Dec 2018 18:55:05 +0000
 Source: get-iplayer
 Binary: get-iplayer
 Architecture: source all
@@ -18,32 +18,32 @@ Changes:
  .
    * New upstream snapshot
 Checksums-Sha1:
- 2511fcbda155988bcf58ac5421951baf72e3749e 1447 get-iplayer_3.17-ppa32~stable.dsc
- ecd3b50fa06ac9a71fc6f4bc4e162cd288464f05 140062 get-iplayer_3.17.orig.tar.gz
- b1a99ae6fc0934987d2dab77ad3e7c3bfc7f71f9 139400 get-iplayer_3.17-ppa32~stable.debian.tar.xz
- 0ad79c7529d6136d2afe3a0d258d2bdb057bbacf 141312 get-iplayer_3.17-ppa32~stable_all.deb
- f3291032afa766ae03779fed45db9665e7a9e440 5455 get-iplayer_3.17-ppa32~stable_armhf.buildinfo
+ 53b897e90993d8e5bc11ad15779b362291810e96 1453 get-iplayer_3.17-ppa32~stable.dsc
+ fd8512ccf6f7288aed24957a94edb084b09406f3 19718247 get-iplayer_3.17.orig.tar.gz
+ b11a973e4839818cba427fec4959a00e4db9972d 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 387dc1eba3d662c21143e06ad4bf097d9f641c94 141304 get-iplayer_3.17-ppa32~stable_all.deb
+ 1a956d09ad6a6de8420cd8f89d21a0dcecfc53fb 5455 get-iplayer_3.17-ppa32~stable_armhf.buildinfo
 Checksums-Sha256:
- bacfe4f19b2d9ff2e9c6c8b0e8ca989ce340dbfdf999b7f82f53887c92ace56e 1447 get-iplayer_3.17-ppa32~stable.dsc
- c922baa54f89598db681ac92017d388dd2e7a3edfebfd946e0d8f4ccef564832 140062 get-iplayer_3.17.orig.tar.gz
- e705177f94cfd023df7eef956e760ede3babeadd1db6acad34863f5d812a706a 139400 get-iplayer_3.17-ppa32~stable.debian.tar.xz
- 0c1fc8491b5ee60e32814c9e01719a09f6b0f2b772acd4141d7f7d21ab6054ad 141312 get-iplayer_3.17-ppa32~stable_all.deb
- fc35cc330e63f59276784cafd5a2b80aae9e4a9a532e23e8548941c42e083cdc 5455 get-iplayer_3.17-ppa32~stable_armhf.buildinfo
+ 7d5049fed91782e0c7767ccd441947c50f035131f1148244ecad88c610957b11 1453 get-iplayer_3.17-ppa32~stable.dsc
+ ed2e55af2df7a3a4d462191ab363a0e80a8019c8e1902e03c1e463ca8695cbbe 19718247 get-iplayer_3.17.orig.tar.gz
+ 64d7242e72a8119041ab0a5826f67fcb0e3ee40538d6e4cc6fd0177a42838c30 139412 get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ dd7d1b5bb3692c18e202777dda491aa194c48930e99f8f13c358514fa8d51ffa 141304 get-iplayer_3.17-ppa32~stable_all.deb
+ 4486e4922b93c3f023666980c1d2fc6a6c7bace34fa9b8f94a8877bc36eb0bd3 5455 get-iplayer_3.17-ppa32~stable_armhf.buildinfo
 Files:
- 002546cf2d454d041c982b425ab51073 1447 video optional get-iplayer_3.17-ppa32~stable.dsc
- 965b3d60c5b72966587d3c4b34481583 140062 video optional get-iplayer_3.17.orig.tar.gz
- 5d90670eb43ec53c2122c43999e68b3a 139400 video optional get-iplayer_3.17-ppa32~stable.debian.tar.xz
- 10a70544794e0252be32a3b6636d1544 141312 video optional get-iplayer_3.17-ppa32~stable_all.deb
- 834a8813ec19f96a412d8619d344abaa 5455 video optional get-iplayer_3.17-ppa32~stable_armhf.buildinfo
+ 58091d53c3f908ac0c9b600ac93ce630 1453 video optional get-iplayer_3.17-ppa32~stable.dsc
+ 9229419bbbfec1bcc9b90d997f156572 19718247 video optional get-iplayer_3.17.orig.tar.gz
+ 0a69b3a721823877667e237e9ba501d9 139412 video optional get-iplayer_3.17-ppa32~stable.debian.tar.xz
+ 85c88dc8352eebb7e600608259562ee8 141304 video optional get-iplayer_3.17-ppa32~stable_all.deb
+ 9b1f5d8d9fbb6aa3bd245eac774c9443 5455 video optional get-iplayer_3.17-ppa32~stable_armhf.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlv3+PoACgkQAxXLbBOS
-QzPdOgf/cPNd7CQQbWI/+TlbULXtIVgYF+J9E3sVPoPMT52Svmt5JB9CYvy68t/K
-kfXBxJbzMbT5wT8gGqN6BHUuQC1fr3Onzlz6QYzCnVmVmZ5aUjEltBY3jCaf05Af
-NawX++rGbjM4XkUcozGxZuXm0ILS4RHCk86odwiGcVjcsjsMB0JlF2DheNqoxsor
-N+1qRybkUK9xe/Pq/cu8HLAEklNOOT7ECIIzsy4trTcwQrtUs1hi3Qfse6zpmjzn
-uBPNWJlhqkOLF+9CZc6W9SD9OatXDjJG7cREXK27oe96on+hgoHWJ8ZbnnRut7EY
-vx6S4oriQH8OZz+MyYYgqU019P9w0w==
-=Awt7
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlwME+cACgkQAxXLbBOS
+QzPyswf/SzP5/v97qyYU8iSEQOYdA9XvzzJ8VZGoKbvhyI5VxagQvVbV7OVYleWl
+HWHUvOsavuk5v9VqlWCwJ3gqv0j+72Kp0ZqxZ+oeek8Q8O2mFifNJsnfXODQ5wL/
+C9nJNeTyFC2atLveo7JPFP4tT2qbQkmdCRihr4yEQXTADnaKrpsjgLCIvLXCfOOc
+RBVJc8dSEN6tRmn1xZWdzgP/+Q6RJV+8ikudyud3R0rfe6RqPBpQZooCa1tV6vSj
+Cd6BxHSl0BRjjwMMMuTyljf7D2wRBZ+H5oTcT1fOhYtsNhOtO1RdJcejK8kqhrHp
+auvVfiH3AdY8/VLjbxD3w7AapLRhLA==
+=c2Cl
 -----END PGP SIGNATURE-----
