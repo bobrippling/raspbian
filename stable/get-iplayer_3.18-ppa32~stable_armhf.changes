@@ -1,0 +1,88 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 28 Dec 2018 15:02:57 +0000
+Source: get-iplayer
+Binary: get-iplayer
+Architecture: source all
+Version: 3.18-ppa32~stable
+Distribution: stable
+Urgency: medium
+Maintainer: Jon Davies <jon@hedgerows.org.uk>
+Changed-By: Jon Davies - Build Bot <jon@hedgerows.org.uk>
+Description:
+ get-iplayer - get_iplayer: BBC iPlayer Indexing Tool and PVR
+Changes:
+ get-iplayer (3.18-ppa32~stable) stable; urgency=medium
+ .
+   * New upstream snapshot
+   * 756ad12: Release 3.18 [notnac]
+   * 361bb01: don't look for local options file [dinkypumpkin]
+   * 2e205b0: Only show episode list with --pid-recursive and --test
+     [notnac]
+   * 5b1b385: help text edit [dinkypumpkin]
+   * 810f252: Only show search results for PVR runs with --test [notnac]
+   * aa40706: changed warning message re: options disallowed in default
+     options file [dinkypumpkin]
+   * 5ea62ef: Ensure stale cache is updated on first PVR search
+     [dinkypumpkin]
+   * e085c17: Updated man page and options dump [notnac]
+   * 503a2c3: ensure podcast version has lowest priority in default
+     version list [dinkypumpkin]
+   * 03e8b8b: Allow CRLF line endings when reading text files on all
+     platforms [notnac]
+   * a71bdff: ignore audiodescribed/signed for radio programmes
+     [dinkypumpkin]
+   * 4b2d362: Updated HLS stream data for old radio programmes [notnac]
+   * 23fd5d7: added substitution params <sebcast> <sebcastdate>
+     <sebcasttime> <sesort> [dinkypumpkin]
+   * ecf280a: require <episodenum> for <senum> [dinkypumpkin]
+   * f4273c8: pad leading episode number in <episode> to two digits
+     [dinkypumpkin]
+   * 1da2c53: support conditional separator suffix for substitution
+     parameters [dinkypumpkin]
+   * 830ff61: --subs-{embed,mono,raw,required) no longer imply --
+     subtitles [dinkypumpkin]
+   * 4e4963e: man page edits [notnac]
+   * 2cd582a: restore removed options (but ignore them) [dinkypumpkin]
+   * 94cf77c: added --available-before option [dinkypumpkin]
+   * 023cdeb: removed --no-dash-remux option [dinkypumpkin]
+   * de5bd0d: added --hls-lq-audio option [dinkypumpkin]
+   * 853883a: removed --hls-hq-audio option [dinkypumpkin]
+   * 3283efb: prevent unnecessary cache updates with --refresh-future
+     [dinkypumpkin]
+   * 1e5784a: Automatically look for http streams if https not found
+     [notnac]
+   * d2cd460: Try a bit harder to capture unique series name [notnac]
+   * f691c71: Updated warnings when no streams/modes found [notnac]
+Checksums-Sha1:
+ 5a0d9c82bde90d713d958cf737a1e5b5167eeac9 1453 get-iplayer_3.18-ppa32~stable.dsc
+ aa010c501ed55e0a35991d2fafb1224376e98e80 22802405 get-iplayer_3.18.orig.tar.gz
+ 15888834f1ec46003d47b0f686ece9c80295ac8c 141484 get-iplayer_3.18-ppa32~stable.debian.tar.xz
+ 68f8606a3350ddda3dd74fca92eb375fc97d5009 142124 get-iplayer_3.18-ppa32~stable_all.deb
+ 6f5d582c976980c71697cda0175ead2da233134f 5455 get-iplayer_3.18-ppa32~stable_armhf.buildinfo
+Checksums-Sha256:
+ 236a7639123828de1961766f783071dd23b47f50cfb52dc982f82323199f7e73 1453 get-iplayer_3.18-ppa32~stable.dsc
+ ef240bac3c1deb15a51d59e99f68687d42a2f550f3383e7dd180e98caa6179f6 22802405 get-iplayer_3.18.orig.tar.gz
+ 8e3983f57607c28d4e31e0ffde3f30a54e4a2d1743d9da4e97baded27ed5d1b5 141484 get-iplayer_3.18-ppa32~stable.debian.tar.xz
+ 28b2fd7d3f620825126003635e80df34c46e35358d3c6ab65ad945e10f98f515 142124 get-iplayer_3.18-ppa32~stable_all.deb
+ 6b23ce84c5d7edd53755268423bb6e86f241871f403c8a38ec8d5577f7c896ee 5455 get-iplayer_3.18-ppa32~stable_armhf.buildinfo
+Files:
+ 2a09dad7bba29a672197585aeda49af9 1453 video optional get-iplayer_3.18-ppa32~stable.dsc
+ 9fbedd7274871f02a87df82b6650154a 22802405 video optional get-iplayer_3.18.orig.tar.gz
+ 3584ae1e62f0c716cd593fa8080507cb 141484 video optional get-iplayer_3.18-ppa32~stable.debian.tar.xz
+ 9c78c7ff9ae73136efad65fc7f9ffe9a 142124 video optional get-iplayer_3.18-ppa32~stable_all.deb
+ 6b2fde00d3e5a6696da8a08de8276ed6 5455 video optional get-iplayer_3.18-ppa32~stable_armhf.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVpDaEW3ipmKYIxvKAxXLbBOSQzMFAlwmPCEACgkQAxXLbBOS
+QzM20Af+OL9NT2skHM9ikf2J3g5Nr32fLnYVKROslqy6MVBVMx+UsRWTtZSVuW5H
+Rmkwr3B3iUuO5kHZMZG8SY03p9N2WphcBhLfPTvMeG8XPZKGB9DmZA2nO6DRtUKw
+xvTc+L1naqYmprZqzTwvXMBya74YxOv6NDT4pyQtPUiypzaM+XnkoCD4X7FJAYWS
+5FT2nCdFJ86a1V7baM/sVI3/KGmZHswY6r5hSQo0AbAb2ZATiDw2kldlZZZaFs5f
+8QFtx/IREtWriATDTKKltkxuOy1Ib3wiikAqhgMRHl+/R4mQewTrisnyGjykhrpQ
+uR7X0Uvhltzp6xRnQAAsGSMLylC7tQ==
+=NqE5
+-----END PGP SIGNATURE-----
